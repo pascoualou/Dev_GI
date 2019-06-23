@@ -1,0 +1,20 @@
+ADD FIELD "cDeviseReference" OF "magiToken" AS character 
+  FORMAT "x(3)"
+  INITIAL ""
+  LABEL "Code devise de référence"
+  MAX-WIDTH 6
+  COLUMN-LABEL "Code devise de référence"
+  ORDER 180
+
+ADD FIELD "cDeviseSession" OF "magiToken" AS character 
+  FORMAT "x(3)"
+  INITIAL ""
+  LABEL "Code devise de session"
+  MAX-WIDTH 6
+  COLUMN-LABEL "Code devise de session"
+  ORDER 190
+.
+PSC
+cpstream=ISO8859-1
+.
+0000003540

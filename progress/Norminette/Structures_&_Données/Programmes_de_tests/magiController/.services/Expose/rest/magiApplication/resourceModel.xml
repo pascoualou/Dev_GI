@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_labelLadb" path="/labelLadb" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/libelle/beLabelLadb.pidl::com.progress.openedge.pdt.bpmbindings" name="application.libelle.beLabelLadb..ReadbeLabelLadb" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/libelle/beLabelLadb.pidl::com.progress.openedge.pdt.bpmbindings" name="application.libelle.beLabelLadb..DeletebeLabelLadb" produces="application/json" verb="DELETE"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_autoCompleteGeneric" path="/autoCompleteGeneric" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/autoComplete/beAutoComplete.pidl::com.progress.openedge.pdt.bpmbindings" name="application.autoComplete.beAutoComplete..ReadbeAutoComplete" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_menu" path="/menu" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/menu/beMenu.pidl::com.progress.openedge.pdt.bpmbindings" name="menu.beMenu..ReadbeMenu" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_hello" path="/hello" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/hello.pidl::com.progress.openedge.pdt.bpmbindings" name="application.hello..Readhello" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_header" path="/header" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/beHeaderFooter.pidl::com.progress.openedge.pdt.bpmbindings" name="application.beHeaderFooter..ReadHeader" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_footer" path="/footer" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/beHeaderFooter.pidl::com.progress.openedge.pdt.bpmbindings" name="application.beHeaderFooter..ReadFooter" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_parametre" path="/parametre" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/param/beParam.pidl::com.progress.openedge.pdt.bpmbindings" name="application.param.beParam..ReadbeParam" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_transfertFichier" path="/transfertFichier" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/outils/outilFileTransfert.pidl::com.progress.openedge.pdt.bpmbindings" name="outils.outilFileTransfert..postFile" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_getUserLog" path="/getUserLog" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/outils/beLog.pidl::com.progress.openedge.pdt.bpmbindings" name="outils.beLog..ReadbeLog" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_reference" path="/reference" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/application/beReference.pidl::com.progress.openedge.pdt.bpmbindings" name="application.beReference..readBeReference" produces="application/json" verb="GET"/>
+  </prgs:resource>
+</prgs:model>

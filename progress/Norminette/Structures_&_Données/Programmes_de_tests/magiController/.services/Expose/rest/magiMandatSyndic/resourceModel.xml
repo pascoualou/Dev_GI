@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_mandat" path="/mandat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/syndic/beMandatSyndic.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.syndic.beMandatSyndic..createbeMandatSyndic" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/syndic/beMandatSyndic.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.syndic.beMandatSyndic..updatebeMandatSyndic" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/syndic/beMandatSyndic.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.syndic.beMandatSyndic..readbeMandatSyndic" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeTache" path="/listeTache" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/syndic/beMandatSyndic.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.syndic.beMandatSyndic..readbeListeTache" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

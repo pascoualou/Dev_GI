@@ -1,0 +1,7 @@
+Environnement :
+---------------
+    VERSION = 065
+    DEVUSR = Nathalie
+    TEMP = C:\Users\devnp\AppData\Local\Temp
+    TMP = C:\Users\devnp\AppData\Local\Temp
+    DISQUE = d:\

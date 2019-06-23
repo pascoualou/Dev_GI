@@ -1,0 +1,16 @@
+ 
+#Fichier de connexion généré par menudev2 
+ 
+-db e:\bases\00002\sadb 
+-db e:\bases\00002\cadb 
+-db e:\bases\00002\compta 
+-db e:\bases\00002\inter 
+-db e:\bases\00002\transfer 
+#-db e:\bases\00002\dwh 
+ 
+-db d:\gi_SPE\gi\baselib\lcompta 
+-db d:\gi_SPE\gi\baselib\ltrans 
+-db d:\gi_SPE\gi\baselib\ladb 
+-db d:\gi_SPE\gi\baselib\wadb 
+ 
+-h 12 

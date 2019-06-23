@@ -1,0 +1,53 @@
+/*------------------------------------------------------------------------
+File        : iempl.i
+Purpose     : Fichier employe
+Author(s)   : generation automatique le 01/31/18
+Notes       :
+------------------------------------------------------------------------*/
+&if defined(nomTable)   = 0 &then &scoped-define nomTable ttIempl
+&endif
+&if defined(serialName) = 0 &then &scoped-define serialName {&nomTable}
+&endif
+define temp-table {&nomTable} no-undo serialize-name '{&serialName}'
+    field adr        as character  initial ? extent 3
+    field ana1-cd    as character  initial ? 
+    field ana2-cd    as character  initial ? 
+    field ana3-cd    as character  initial ? 
+    field ana4-cd    as character  initial ? 
+    field bic        as character  initial ? 
+    field bque       as character  initial ? 
+    field bque-nom   as character  initial ? 
+    field coll-cle   as character  initial ? 
+    field cp         as character  initial ? 
+    field cpt        as character  initial ? 
+    field cpt-cd     as character  initial ? 
+    field dacrea     as date       initial ? 
+    field dacreat    as date       initial ? 
+    field daentree   as date       initial ? 
+    field damod      as date       initial ? 
+    field damodif    as date       initial ? 
+    field domicil    as character  initial ? extent 2
+    field email      as character  initial ? 
+    field empl-cle   as character  initial ? 
+    field etab-cd    as integer    initial ? 
+    field etr        as logical    initial ? 
+    field guichet    as character  initial ? 
+    field iban       as character  initial ? 
+    field ihcrea     as integer    initial ? 
+    field ihmod      as integer    initial ? 
+    field librais-cd as integer    initial ? 
+    field nom        as character  initial ? 
+    field prenom     as character  initial ? 
+    field regl-cd    as integer    initial ? 
+    field rib        as character  initial ? 
+    field soc-cd     as integer    initial ? 
+    field status-cd  as integer    initial ? 
+    field tel        as character  initial ? 
+    field tpmod      as character  initial ? 
+    field usrid      as character  initial ? 
+    field usridmod   as character  initial ? 
+    field ville      as character  initial ? 
+    field dtTimestamp as datetime  initial ?
+    field CRUD        as character initial ?
+    field rRowid      as rowid
+.

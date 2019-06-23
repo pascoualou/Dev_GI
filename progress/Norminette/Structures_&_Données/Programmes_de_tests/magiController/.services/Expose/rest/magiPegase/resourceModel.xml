@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_montantDeclareOrganismesSociaux" path="/montantDeclareOrganismesSociaux" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/adb/paie/beMontantDeclareOrgSociaux.pidl::com.progress.openedge.pdt.bpmbindings" name="adb.paie.beMontantDeclareOrgSociaux..readbeMontantDeclareOrgSociaux" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_salariePegase" path="/salariePegase" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/adb/paie/beGestionSalariePegase.pidl::com.progress.openedge.pdt.bpmbindings" name="adb.paie.beGestionSalariePegase..readbeGestionSalariePegase" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

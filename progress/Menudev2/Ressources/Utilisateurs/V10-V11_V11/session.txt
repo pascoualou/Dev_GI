@@ -1,0 +1,16 @@
+Environnement :
+---------------
+    VERSION = 099
+    DEVUSR = V10-V11_V11
+    TEMP = C:\Users\assistgi\AppData\Local\Temp
+    TMP = C:\Users\assistgi\AppData\Local\Temp
+    DISQUE = c:\
+    DISQUE-WEB = c:/
+    RESEAU = h:\
+    RESEAUBIS = 
+    PROVERSION = 11.7
+    DLC = c:\progress117\dlc
+    DLC_V10 = C:\progress\DLC
+    DLC_V11 = c:\progress117\dlc
+    PROWIN = prowin.exe  
+    PROPATH = .,h:\dev\outils\progress

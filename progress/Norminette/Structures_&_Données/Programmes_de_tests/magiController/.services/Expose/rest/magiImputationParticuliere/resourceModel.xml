@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_listeImputationParticuliere" path="/listeImputationParticuliere" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beImputationParticuliere.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beImputationParticuliere..ReadbeListeImputationParticuliere" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_ImputationParticuliere" path="/ImputationParticuliere" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beImputationParticuliere.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beImputationParticuliere..ReadbeImputationParticuliere" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beImputationParticuliere.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beImputationParticuliere..UpdatebeImputationParticuliere" produces="application/json" verb="POST"/>
+  </prgs:resource>
+</prgs:model>

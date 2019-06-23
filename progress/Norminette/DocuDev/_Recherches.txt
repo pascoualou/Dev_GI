@@ -1,0 +1,8 @@
+C:\dlc\oe117\oeide\eclipse\eclipsec.exe -vm "C:\dlc\oe117\jre\bin\javaw.exe" -name Eclipse --launcher.openFile C:\MAGI\workspace\magiModele\src\AppServer\commercialisation\commercialisation.p:50
+--> Ouvre toujours un nouveau eclipse
+
+
+
+C:\dlc\oe117\oeide\eclipse\eclipsec.exe -vm "C:\dlc\oe117\jre\bin\javaw.exe" --launcher.openFile C:\MAGI\workspace\magiModele\src\AppServer\commercialisation\commercialisation.p:50
+--> dit qu'il ne trouve pas le fichier ....p:50
+

@@ -1,0 +1,61 @@
+ADD TABLE "Prefs"
+  AREA "Schema Area"
+  LABEL "Table des préférences"
+  DUMP-NAME "prefs"
+
+ADD FIELD "cUtilisateur" OF "Prefs" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "cCode" OF "Prefs" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  LABEL "Code de la définition"
+  POSITION 3
+  MAX-WIDTH 64
+  COLUMN-LABEL "Code"
+  ORDER 20
+
+ADD FIELD "cValeur" OF "Prefs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "Valeur de la définition"
+  POSITION 4
+  MAX-WIDTH 100
+  COLUMN-LABEL "Valeur"
+  ORDER 30
+
+ADD FIELD "filler" OF "Prefs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "iOrdre" OF "Prefs" AS integer 
+  FORMAT "999"
+  INITIAL "0"
+  LABEL "Ordre"
+  POSITION 6
+  MAX-WIDTH 4
+  COLUMN-LABEL "Ordre"
+  ORDER 50
+
+ADD INDEX "ixPrefs01" ON "Prefs" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "cCode" ASCENDING 
+  INDEX-FIELD "iOrdre" ASCENDING 
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000001122

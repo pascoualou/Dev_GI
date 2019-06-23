@@ -1,0 +1,38 @@
+ADD FIELD "id-fichori" OF "igeddoc" AS int64
+  DESCRIPTION "Id du document multi tiers d'origine"
+  FORMAT "->,>>>,>>9"
+  POSITION 77
+  INITIAL ?
+  ORDER 670
+  MAX-WIDTH 8
+
+ADD FIELD "tpidt" OF "igeddoc" AS character
+  FORMAT "x(5)"
+  POSITION 78
+  INITIAL ""
+  LABEL "tpidt"
+  ORDER 680
+  MAX-WIDTH 10
+
+ADD FIELD "noidt" OF "igeddoc" AS int64
+  FORMAT ">>>>>>>>>>9"
+  POSITION 79
+  INITIAL "0"
+  LABEL "noidt"
+  ORDER 690
+  MAX-WIDTH 8
+
+ADD INDEX "doc-idfichori" ON "igeddoc"
+
+  INDEX-FIELD "id-fichori" ASCENDING
+
+ADD INDEX "doc-tpidt" ON "igeddoc"
+
+  INDEX-FIELD "tpidt" ASCENDING
+  INDEX-FIELD "noidt" ASCENDING
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000000691

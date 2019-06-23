@@ -1,0 +1,12 @@
+ADD SEQUENCE "sq_AlarmeSuivante"
+  INITIAL 0
+  INCREMENT 1
+  CYCLE-ON-LIMIT yes
+  MIN-VAL 0
+  MAX-VAL 999999
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000000120

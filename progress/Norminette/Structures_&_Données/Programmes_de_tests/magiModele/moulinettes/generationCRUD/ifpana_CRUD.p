@@ -1,0 +1,223 @@
+/*------------------------------------------------------------------------
+File        : ifpana_CRUD.p
+Purpose     : Librairie contenant les procedures liées à la mise à jour de la table ifpana
+Author(s)   : generation automatique le 01/31/18
+Notes       : permet de travailler sur un sous ensemble de colonnes de la table à condition
+              que les champs de l'index unique soient tous présents.
+------------------------------------------------------------------------*/
+
+{oerealm/include/instanciateTokenOnModel.i}      // Doit être positionnée juste après using
+//{include/ifpana.i}
+{application/include/error.i}
+define variable ghttifpana as handle no-undo.      // le handle de la temp table à mettre à jour
+
+
+function getIndexField returns logical private(phBuffer as handle, output phSoc-cd as handle, output phEtab-cd as handle, output phType-cle as handle, output phCdgen-cle as handle):
+    /*------------------------------------------------------------------------------
+    Purpose: récupère les handles des n champs de l'index unique
+    Notes: si la temp-table contient un mapping de label sur soc-cd/etab-cd/type-cle/cdgen-cle, 
+           il faut mapper les champs dynamiques
+    ------------------------------------------------------------------------------*/
+    define variable vi as integer no-undo.
+    do vi = 1 to phBuffer:num-fields:
+        case phBuffer:buffer-field(vi):label:
+            when 'soc-cd' then phSoc-cd = phBuffer:buffer-field(vi).
+            when 'etab-cd' then phEtab-cd = phBuffer:buffer-field(vi).
+            when 'type-cle' then phType-cle = phBuffer:buffer-field(vi).
+            when 'cdgen-cle' then phCdgen-cle = phBuffer:buffer-field(vi).
+       end case.
+    end.
+end function.
+
+procedure crudIfpana private:
+    /*------------------------------------------------------------------------------
+    Purpose:
+    Notes  :
+    ------------------------------------------------------------------------------*/
+    run deleteIfpana.
+    run updateIfpana.
+    run createIfpana.
+end procedure.
+
+procedure setIfpana:
+    /*------------------------------------------------------------------------------
+    Purpose:
+    Notes  : service externe
+    ------------------------------------------------------------------------------*/
+    define input parameter table-handle phttIfpana.
+    ghttIfpana = phttIfpana.
+    run crudIfpana.
+    delete object phttIfpana.
+end procedure.
+
+procedure readIfpana:
+    /*------------------------------------------------------------------------------
+    Purpose: Lecture d'un enregistrement de la table ifpana Table de correspondance des codes analytiques
+    Notes  : service externe
+    ------------------------------------------------------------------------------*/
+    define input parameter piSoc-cd    as integer    no-undo.
+    define input parameter piEtab-cd   as integer    no-undo.
+    define input parameter pcType-cle  as character  no-undo.
+    define input parameter pcCdgen-cle as character  no-undo.
+    define input parameter table-handle phttIfpana.
+    define variable vhttBuffer as handle no-undo.
+    define buffer ifpana for ifpana.
+
+    vhttBuffer = phttIfpana:default-buffer-handle.
+    for first ifpana no-lock
+        where ifpana.soc-cd = piSoc-cd
+          and ifpana.etab-cd = piEtab-cd
+          and ifpana.type-cle = pcType-cle
+          and ifpana.cdgen-cle = pcCdgen-cle:
+        vhttBuffer:buffer-create().
+        outils:copyValidField(buffer ifpana:handle, vhttBuffer).  // copy table physique vers temp-table
+    end.
+    delete object phttIfpana no-error.
+    assign error-status:error = false no-error.   // reset error-status
+    return.                                       // reset return-value
+end procedure.
+
+procedure getIfpana:
+    /*------------------------------------------------------------------------------
+    Purpose: Lecture des enregistrements de la table ifpana Table de correspondance des codes analytiques
+    Notes  : service externe. Critère pcType-cle = ? si pas à prendre en compte
+    ------------------------------------------------------------------------------*/
+    define input parameter piSoc-cd    as integer    no-undo.
+    define input parameter piEtab-cd   as integer    no-undo.
+    define input parameter pcType-cle  as character  no-undo.
+    define input parameter table-handle phttIfpana.
+    define variable vhttBuffer as handle  no-undo.
+    define buffer ifpana for ifpana.
+
+    vhttBuffer = phttIfpana:default-buffer-handle.
+    if pcType-cle = ?
+    then for each ifpana no-lock
+        where ifpana.soc-cd = piSoc-cd
+          and ifpana.etab-cd = piEtab-cd:
+        vhttBuffer:buffer-create().
+        outils:copyValidField(buffer ifpana:handle, vhttBuffer).  // copy table physique vers temp-table
+    end.
+    else for each ifpana no-lock
+        where ifpana.soc-cd = piSoc-cd
+          and ifpana.etab-cd = piEtab-cd
+          and ifpana.type-cle = pcType-cle:
+        vhttBuffer:buffer-create().
+        outils:copyValidField(buffer ifpana:handle, vhttBuffer).  // copy table physique vers temp-table
+    end.
+    delete object phttIfpana no-error.
+    error-status:error = false no-error.   // reset error-status
+    return.                                // reset return-value
+end procedure.
+
+procedure updateIfpana private:
+    /*------------------------------------------------------------------------------
+    Purpose:
+    Notes  :
+    ------------------------------------------------------------------------------*/
+    define variable vhttquery  as handle   no-undo.
+    define variable vhttBuffer as handle   no-undo.
+    define variable vhSoc-cd    as handle  no-undo.
+    define variable vhEtab-cd    as handle  no-undo.
+    define variable vhType-cle    as handle  no-undo.
+    define variable vhCdgen-cle    as handle  no-undo.
+    define buffer ifpana for ifpana.
+
+    create query vhttquery.
+    vhttBuffer = ghttIfpana:default-buffer-handle.
+    vhttquery:set-buffers(vhttBuffer).
+    vhttquery:query-prepare(substitute("for each &1 where &1.crud = 'U'", ghttIfpana:name)).
+    vhttquery:query-open().
+    getIndexField(vhttBuffer, output vhSoc-cd, output vhEtab-cd, output vhType-cle, output vhCdgen-cle).
+blocTrans:
+    do transaction:
+        repeat:
+            vhttquery:get-next().
+            if vhttquery:query-off-end then leave blocTrans.
+
+            find first ifpana exclusive-lock
+                where rowid(ifpana) = vhttBuffer::rRowid no-wait no-error.
+            if outils:isUpdated(buffer ifpana:handle, 'soc-cd/etab-cd/type-cle/cdgen-cle: ', substitute('&1/&2/&3/&4', vhSoc-cd:buffer-value(), vhEtab-cd:buffer-value(), vhType-cle:buffer-value(), vhCdgen-cle:buffer-value()), vhttBuffer::dtTimestamp)
+            or not outils:copyValidField(buffer ifpana:handle, vhttBuffer, "U", mtoken:cUser)
+            then undo blocTrans, leave blocTrans.
+        end.
+    end.
+    vhttquery:query-close().
+    delete object vhttQuery no-error.
+    error-status:error = false no-error.   // reset error-status
+    return.                                // reset return-value
+end procedure.
+
+procedure createIfpana private:
+    /*------------------------------------------------------------------------------
+    Purpose:
+    Notes  :
+    ------------------------------------------------------------------------------*/
+    define variable vhttquery  as handle   no-undo.
+    define variable vhttBuffer as handle   no-undo.
+    define buffer ifpana for ifpana.
+
+    create query vhttquery.
+    vhttBuffer = ghttIfpana:default-buffer-handle.
+    vhttquery:set-buffers(vhttBuffer).
+    vhttquery:query-prepare(substitute("for each &1 where &1.crud = 'C'", ghttIfpana:name)).
+    vhttquery:query-open().
+blocTrans:
+    do transaction:
+        repeat:
+            vhttquery:get-next().
+            if vhttquery:query-off-end then leave blocTrans.
+
+            create ifpana.
+            if not outils:copyValidField(buffer ifpana:handle, vhttBuffer, "C", mtoken:cUser)
+            then undo blocTrans, leave blocTrans.
+        end.
+    end.
+    vhttquery:query-close().
+    delete object vhttQuery no-error.
+    error-status:error = false no-error.   // reset error-status
+    return.                                // reset return-value
+end procedure.
+
+procedure deleteIfpana private:
+    /*------------------------------------------------------------------------------
+    Purpose:
+    Notes  :
+    ------------------------------------------------------------------------------*/
+    define variable vhttquery  as handle   no-undo.
+    define variable vhttBuffer as handle   no-undo.
+    define variable vhSoc-cd    as handle  no-undo.
+    define variable vhEtab-cd    as handle  no-undo.
+    define variable vhType-cle    as handle  no-undo.
+    define variable vhCdgen-cle    as handle  no-undo.
+    define buffer ifpana for ifpana.
+
+    create query vhttquery.
+    vhttBuffer = ghttIfpana:default-buffer-handle.
+    vhttquery:set-buffers(vhttBuffer).
+    vhttquery:query-prepare(substitute("for each &1 where &1.crud = 'D'", ghttIfpana:name)).
+    vhttquery:query-open().
+    getIndexField(vhttBuffer, output vhSoc-cd, output vhEtab-cd, output vhType-cle, output vhCdgen-cle).
+blocTrans:
+    do transaction:
+        repeat:
+            vhttquery:get-next().
+            if vhttquery:query-off-end then leave blocTrans.
+
+            find first ifpana exclusive-lock
+                where rowid(Ifpana) = vhttBuffer::rRowid no-wait no-error.
+            if outils:isUpdated(buffer ifpana:handle, 'soc-cd/etab-cd/type-cle/cdgen-cle: ', substitute('&1/&2/&3/&4', vhSoc-cd:buffer-value(), vhEtab-cd:buffer-value(), vhType-cle:buffer-value(), vhCdgen-cle:buffer-value()), vhttBuffer::dtTimestamp)
+            then undo blocTrans, leave blocTrans.
+
+            delete ifpana no-error.
+            if error-status:error then do:
+                mError:createError({&error}, error-status:get-message(1)).
+                undo blocTrans, leave blocTrans.
+            end.
+        end.
+    end.
+    vhttquery:query-close().
+    delete object vhttQuery no-error.
+    error-status:error = false no-error.   // reset error-status
+    return.                                // reset return-value
+end procedure.
+

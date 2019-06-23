@@ -1,0 +1,16 @@
+Environnement :
+---------------
+    VERSION = 057
+    DEVUSR = PJPM_Tests
+    DISQUE = d:\
+    RESEAU = h:\
+    RESEAUBIS = 
+    PROVERSION = 11.7
+    DLC = c:\progress\dlc
+    PROPATH = .,h:\dev\outils\progress
+    REPGI = gidev
+    PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\Sys
+    tem32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\Administrateur.WIN-5EQKF5G023U\AppData\Local\
+    Microsoft\WindowsApps;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;C:\Users\XPMUser\AppData\Local\Microsoft\WindowsApp
+    s;h:\dev\outils
+    PROFILE_BLAT = PJPM_Tests

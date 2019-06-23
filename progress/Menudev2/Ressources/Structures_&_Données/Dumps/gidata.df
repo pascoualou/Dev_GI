@@ -1,0 +1,2304 @@
+ADD SEQUENCE "sq_AlarmeSuivante"
+  INITIAL 0
+  INCREMENT 1
+  CYCLE-ON-LIMIT yes
+  MIN-VAL 0
+  MAX-VAL 999999
+
+ADD TABLE "Absences"
+  AREA "Schema Area"
+  DESCRIPTION "Congés des utilisateurs"
+  DUMP-NAME "absences"
+
+ADD FIELD "cUtilisateur" OF "Absences" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "dDate" OF "Absences" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date"
+  POSITION 3
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date"
+  ORDER 20
+
+ADD FIELD "cTypeAbsence" OF "Absences" AS character 
+  DESCRIPTION "Type de congés : RTT, CP, Client, Autre"
+  FORMAT "x(8)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 16
+  ORDER 30
+
+ADD FIELD "cCommentaire" OF "Absences" AS character 
+  DESCRIPTION "Commentaire utilisateur"
+  FORMAT "x(78)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 156
+  ORDER 40
+
+ADD FIELD "cfiller" OF "Absences" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 6
+  MAX-WIDTH 100
+  ORDER 50
+
+ADD FIELD "lMatin" OF "Absences" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 7
+  MAX-WIDTH 1
+  ORDER 60
+
+ADD FIELD "lApresMidi" OF "Absences" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 8
+  MAX-WIDTH 1
+  ORDER 70
+
+ADD TABLE "Activite"
+  AREA "Schema Area"
+  LABEL "Suivi des activités"
+  DUMP-NAME "activite"
+
+ADD FIELD "cUtilisateur" OF "Activite" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "dDate" OF "Activite" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date"
+  POSITION 3
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date"
+  ORDER 20
+
+ADD FIELD "cTypeActivite" OF "Activite" AS character 
+  DESCRIPTION "Type d'activité (DEV,HL,WEB, etc)"
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 64
+  ORDER 30
+
+ADD FIELD "cLibelleActivite" OF "Activite" AS character 
+  DESCRIPTION "Libellé de l'activité"
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 510
+  COLUMN-LABEL ""
+  ORDER 40
+
+ADD FIELD "iHeureDebut" OF "Activite" AS int64 
+  DESCRIPTION "Heure de début de l'activité"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 6
+  MAX-WIDTH 8
+  ORDER 50
+
+ADD FIELD "cCommentaire" OF "Activite" AS character 
+  DESCRIPTION "Commentaire de l'activité"
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 510
+  ORDER 60
+
+ADD FIELD "cFiller1" OF "Activite" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 100
+  ORDER 70
+
+ADD FIELD "cFiller2" OF "Activite" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 100
+  ORDER 80
+
+ADD FIELD "cFiller3" OF "Activite" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 10
+  MAX-WIDTH 100
+  ORDER 90
+
+ADD FIELD "idActivite" OF "Activite" AS int64 
+  FORMAT "->>>>>>>>>>9"
+  INITIAL "0"
+  POSITION 11
+  MAX-WIDTH 8
+  ORDER 100
+
+ADD FIELD "cCodeActivite" OF "Activite" AS character 
+  DESCRIPTION "numero de ticket, de regroupement, code de développement, etc"
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 12
+  MAX-WIDTH 64
+  ORDER 110
+
+ADD FIELD "iDureeActivite" OF "Activite" AS int64 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 13
+  MAX-WIDTH 8
+  ORDER 120
+
+ADD FIELD "cSousCodeActivite" OF "Activite" AS character 
+  DESCRIPTION "numero de ticket, de regroupement, code de développement, etc"
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 14
+  MAX-WIDTH 64
+  ORDER 130
+
+ADD INDEX "ix_Activite01" ON "Activite" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "dDate" ASCENDING 
+  INDEX-FIELD "iHeureDebut" ASCENDING 
+
+ADD INDEX "ix_activite02" ON "Activite" 
+  AREA "Schema Area"
+  UNIQUE
+  INDEX-FIELD "idActivite" ASCENDING 
+
+ADD TABLE "AFaire_Action"
+  AREA "Schema Area"
+  DESCRIPTION "Actions à faire"
+  DUMP-NAME "afaire_action"
+
+ADD FIELD "cUtilisateur" OF "AFaire_Action" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "iNumeroAction" OF "AFaire_Action" AS integer 
+  DESCRIPTION "Numéro de l'action"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "cLibelleAction" OF "AFaire_Action" AS character 
+  DESCRIPTION "Nom de l'action"
+  FORMAT "x(200)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 400
+  ORDER 30
+
+ADD FIELD "cEtatAction" OF "AFaire_Action" AS character 
+  DESCRIPTION "Etat de l'action (Encours,Fait...) ou codé (001,002,...)"
+  FORMAT "x(5)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 10
+  ORDER 40
+
+ADD FIELD "lRappelHoraire" OF "AFaire_Action" AS logical 
+  DESCRIPTION "Avertissement horaire pour cette action"
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 6
+  MAX-WIDTH 1
+  ORDER 50
+
+ADD FIELD "cFiller1" OF "AFaire_Action" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD FIELD "cFiller2" OF "AFaire_Action" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 100
+  ORDER 70
+
+ADD FIELD "cFiller3" OF "AFaire_Action" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 100
+  ORDER 80
+
+ADD INDEX "AFaire_Action_01" ON "AFaire_Action" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "iNumeroAction" ASCENDING 
+
+ADD TABLE "AFaire_Lien"
+  AREA "Schema Area"
+  DESCRIPTION "Liens entre les listes et les actions"
+  DUMP-NAME "afaire_lien"
+
+ADD FIELD "cUtilisateur" OF "AFaire_Lien" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "iNumeroListe" OF "AFaire_Lien" AS integer 
+  DESCRIPTION "Numero de la liste"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "iNumeroAction" OF "AFaire_Lien" AS integer 
+  DESCRIPTION "Numéro de l'action"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 4
+  MAX-WIDTH 4
+  ORDER 30
+
+ADD FIELD "iOrdreLien" OF "AFaire_Lien" AS integer 
+  DESCRIPTION "Classement de l'action dans la liste"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 5
+  MAX-WIDTH 4
+  ORDER 40
+
+ADD FIELD "cFiller1" OF "AFaire_Lien" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 100
+  ORDER 50
+
+ADD FIELD "cFiller2" OF "AFaire_Lien" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD FIELD "cFiller3" OF "AFaire_Lien" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 100
+  ORDER 70
+
+ADD INDEX "AFaire_Lien_01" ON "AFaire_Lien" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "iNumeroListe" ASCENDING 
+  INDEX-FIELD "iNumeroAction" ASCENDING 
+  INDEX-FIELD "iOrdreLien" ASCENDING 
+
+ADD TABLE "AFaire_Liste"
+  AREA "Schema Area"
+  DESCRIPTION "Listes à faire"
+  DUMP-NAME "afaire_liste"
+
+ADD FIELD "cUtilisateur" OF "AFaire_Liste" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "iNumeroListe" OF "AFaire_Liste" AS integer 
+  DESCRIPTION "Numero de la liste"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "iOrdreListe" OF "AFaire_Liste" AS integer 
+  DESCRIPTION "Position de la liste"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 4
+  MAX-WIDTH 4
+  ORDER 30
+
+ADD FIELD "cLibelleListe" OF "AFaire_Liste" AS character 
+  DESCRIPTION "Nom de la liste"
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "iAvancementListe" OF "AFaire_Liste" AS integer 
+  DESCRIPTION "Etat d'avancement de la liste 0-100%"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 6
+  MAX-WIDTH 4
+  ORDER 50
+
+ADD FIELD "lEcrireJournal" OF "AFaire_Liste" AS logical 
+  DESCRIPTION "Ecriture des modifications de la liste dans le journal"
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 7
+  MAX-WIDTH 1
+  ORDER 60
+
+ADD FIELD "cFiller1" OF "AFaire_Liste" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 100
+  ORDER 70
+
+ADD FIELD "cFiller2" OF "AFaire_Liste" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 100
+  ORDER 80
+
+ADD FIELD "cFiller3" OF "AFaire_Liste" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 10
+  MAX-WIDTH 100
+  ORDER 90
+
+ADD INDEX "AFaire_Liste_01" ON "AFaire_Liste" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "iNumeroListe" ASCENDING 
+
+ADD INDEX "AFaire_Liste_02" ON "AFaire_Liste" 
+  AREA "Schema Area"
+  UNIQUE
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "iOrdreListe" ASCENDING 
+  INDEX-FIELD "iNumeroListe" ASCENDING 
+
+ADD TABLE "AFaire_PJ"
+  AREA "Schema Area"
+  DESCRIPTION "Pièces jointes pour une action"
+  DUMP-NAME "afaire_pj"
+
+ADD FIELD "cUtilisateur" OF "AFaire_PJ" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "iNumeroAction" OF "AFaire_PJ" AS integer 
+  DESCRIPTION "Numéro de l'action"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "lRepertoire" OF "AFaire_PJ" AS logical 
+  DESCRIPTION "Flag indiquant qu'il s'agit d'un répertoire"
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 4
+  MAX-WIDTH 1
+  ORDER 30
+
+ADD FIELD "cNomPJ" OF "AFaire_PJ" AS character 
+  DESCRIPTION "Nom complet de la PJ (avec répertoire)"
+  FORMAT "x(200)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 400
+  ORDER 40
+
+ADD FIELD "lCommentaireAction" OF "AFaire_PJ" AS logical 
+  DESCRIPTION "Flag indiquant que la PJ est le commentaire de l'action"
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 6
+  MAX-WIDTH 1
+  ORDER 50
+
+ADD FIELD "cFiller1" OF "AFaire_PJ" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD FIELD "cFiller2" OF "AFaire_PJ" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 100
+  ORDER 70
+
+ADD FIELD "cFiller3" OF "AFaire_PJ" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 100
+  ORDER 80
+
+ADD INDEX "AFaire_PJ_01" ON "AFaire_PJ" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "iNumeroAction" ASCENDING 
+  INDEX-FIELD "cNomPJ" ASCENDING 
+
+ADD TABLE "AFaire_Projet"
+  AREA "Schema Area"
+  DESCRIPTION "Projet(s) lié(s) à une liste"
+  DUMP-NAME "afaire_projet"
+
+ADD FIELD "cUtilisateur" OF "AFaire_Projet" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "iNumeroListe" OF "AFaire_Projet" AS integer 
+  DESCRIPTION "Numero de la liste"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "cNomProjet" OF "AFaire_Projet" AS character 
+  DESCRIPTION "Nom complet du projet (avec répertoire)"
+  FORMAT "x(200)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 400
+  ORDER 30
+
+ADD FIELD "cFiller1" OF "AFaire_Projet" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "cFiller2" OF "AFaire_Projet" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 100
+  ORDER 50
+
+ADD FIELD "cFiller3" OF "AFaire_Projet" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD INDEX "AFaire_Projet_01" ON "AFaire_Projet" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "iNumeroListe" ASCENDING 
+  INDEX-FIELD "cNomProjet" ASCENDING 
+
+ADD TABLE "Agenda"
+  AREA "Schema Area"
+  LABEL "Table de l'agenda"
+  DUMP-NAME "agenda"
+
+ADD FIELD "cUtilisateur" OF "Agenda" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "filler" OF "Agenda" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 3
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "dDate" OF "Agenda" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date"
+  POSITION 4
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date"
+  ORDER 50
+
+ADD FIELD "iHeureDebut" OF "Agenda" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Heure début"
+  POSITION 5
+  MAX-WIDTH 4
+  COLUMN-LABEL "Heuredébut"
+  ORDER 60
+
+ADD FIELD "cLibelle" OF "Agenda" AS character 
+  FORMAT "X(70)"
+  INITIAL ""
+  LABEL "Libellé"
+  POSITION 7
+  MAX-WIDTH 140
+  COLUMN-LABEL "Libellé"
+  ORDER 80
+
+ADD FIELD "cTexte" OF "Agenda" AS character 
+  FORMAT "X(70)"
+  INITIAL ""
+  LABEL "Texte"
+  POSITION 8
+  MAX-WIDTH 140
+  COLUMN-LABEL "Texte"
+  ORDER 90
+
+ADD FIELD "cSon" OF "Agenda" AS character 
+  FORMAT "X(70)"
+  INITIAL ""
+  LABEL "Son"
+  POSITION 9
+  MAX-WIDTH 140
+  COLUMN-LABEL "Son"
+  ORDER 100
+
+ADD FIELD "lAction" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Action"
+  POSITION 10
+  MAX-WIDTH 1
+  COLUMN-LABEL "Action"
+  ORDER 110
+
+ADD FIELD "lTraite" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Traité"
+  POSITION 12
+  MAX-WIDTH 1
+  COLUMN-LABEL "Traité"
+  ORDER 130
+
+ADD FIELD "lConserve" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Effacé"
+  POSITION 13
+  MAX-WIDTH 1
+  COLUMN-LABEL "Effacé"
+  ORDER 140
+
+ADD FIELD "iHeureInitiale" OF "Agenda" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Heure initiale"
+  POSITION 15
+  MAX-WIDTH 4
+  COLUMN-LABEL "Heure Initiale"
+  ORDER 160
+
+ADD FIELD "cAction" OF "Agenda" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  POSITION 18
+  MAX-WIDTH 100
+  ORDER 190
+
+ADD FIELD "lPeriodique" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Périodique"
+  POSITION 19
+  MAX-WIDTH 1
+  ORDER 200
+
+ADD FIELD "iNbPeriode" OF "Agenda" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Nombre de périodes"
+  POSITION 20
+  MAX-WIDTH 4
+  ORDER 210
+
+ADD FIELD "cUnitePeriode" OF "Agenda" AS character 
+  FORMAT "X"
+  INITIAL ""
+  LABEL "Unité de la periode"
+  POSITION 21
+  MAX-WIDTH 2
+  ORDER 220
+
+ADD FIELD "lDelai" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Avertir"
+  POSITION 22
+  MAX-WIDTH 1
+  ORDER 230
+
+ADD FIELD "iNbDelai" OF "Agenda" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Nombre de perdiode de delai"
+  POSITION 23
+  MAX-WIDTH 4
+  ORDER 240
+
+ADD FIELD "cUniteDelai" OF "Agenda" AS character 
+  FORMAT "X"
+  INITIAL ""
+  POSITION 24
+  MAX-WIDTH 2
+  ORDER 250
+
+ADD FIELD "lActivation" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 25
+  MAX-WIDTH 1
+  ORDER 260
+
+ADD FIELD "cIdent" OF "Agenda" AS character 
+  FORMAT "X(30)"
+  INITIAL ""
+  POSITION 26
+  MAX-WIDTH 60
+  ORDER 20
+
+ADD FIELD "lWeekEnd" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 27
+  MAX-WIDTH 1
+  ORDER 270
+
+ADD FIELD "lLundi" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 28
+  MAX-WIDTH 1
+  ORDER 280
+
+ADD FIELD "lMardi" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 29
+  MAX-WIDTH 1
+  ORDER 290
+
+ADD FIELD "lMercredi" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 30
+  MAX-WIDTH 1
+  ORDER 300
+
+ADD FIELD "lJeudi" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 31
+  MAX-WIDTH 1
+  ORDER 310
+
+ADD FIELD "lVendredi" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 32
+  MAX-WIDTH 1
+  ORDER 320
+
+ADD FIELD "lSamedi" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 33
+  MAX-WIDTH 1
+  ORDER 330
+
+ADD FIELD "lDimanche" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 34
+  MAX-WIDTH 1
+  ORDER 340
+
+ADD FIELD "lJours" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 35
+  MAX-WIDTH 1
+  ORDER 275
+
+ADD FIELD "lPartage" OF "Agenda" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 36
+  MAX-WIDTH 1
+  ORDER 350
+
+ADD FIELD "filler2" OF "Agenda" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 37
+  MAX-WIDTH 510
+  ORDER 360
+
+ADD INDEX "ixAgenda" ON "Agenda" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "dDate" ASCENDING 
+  INDEX-FIELD "iHeureDebut" ASCENDING 
+
+ADD TABLE "Alarmes"
+  AREA "Schema Area"
+  DUMP-NAME "alarmes"
+
+ADD FIELD "ddate" OF "Alarmes" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date de l'alarme"
+  POSITION 2
+  MAX-WIDTH 4
+  ORDER 10
+
+ADD FIELD "iheure" OF "Alarmes" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Heure de l'alarme format hhmm"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "cident" OF "Alarmes" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  LABEL "Identification de l'agenda correspondant"
+  POSITION 4
+  MAX-WIDTH 64
+  ORDER 30
+
+ADD FIELD "lRappel" OF "Alarmes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Cette alarme est un rappel"
+  POSITION 5
+  MAX-WIDTH 1
+  ORDER 40
+
+ADD FIELD "lTraitee" OF "Alarmes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "cette alarme a été traitée"
+  POSITION 6
+  MAX-WIDTH 1
+  ORDER 50
+
+ADD FIELD "cUtilisateur" OF "Alarmes" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 7
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 5
+
+ADD FIELD "cIdentAlarme" OF "Alarmes" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 64
+  ORDER 1
+
+ADD FIELD "lEncours" OF "Alarmes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 9
+  MAX-WIDTH 1
+  ORDER 60
+
+ADD INDEX "ix_Alarmes" ON "Alarmes" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "ddate" ASCENDING 
+  INDEX-FIELD "iheure" ASCENDING 
+
+ADD INDEX "ix_alarmes02" ON "Alarmes" 
+  AREA "Schema Area"
+  INDEX-FIELD "cIdentAlarme" ASCENDING 
+
+ADD TABLE "Connaissances"
+  AREA "Schema Area"
+  LABEL "Base de connaissances"
+  DUMP-NAME "connais"
+
+ADD FIELD "cTypeArticle" OF "Connaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 2
+  MAX-WIDTH 64
+  COLUMN-LABEL "Type article"
+  ORDER 10
+
+ADD FIELD "cIdentArticle" OF "Connaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 64
+  COLUMN-LABEL "Ident article"
+  ORDER 20
+
+ADD FIELD "cCreateur" OF "Connaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 64
+  COLUMN-LABEL "Créateur"
+  ORDER 30
+
+ADD FIELD "cModifieur" OF "Connaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 64
+  COLUMN-LABEL "Modifieur"
+  ORDER 40
+
+ADD FIELD "dCreation" OF "Connaissances" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 6
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date création"
+  ORDER 50
+
+ADD FIELD "dModification" OF "Connaissances" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 7
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date modification"
+  ORDER 60
+
+ADD FIELD "cTitreArticle" OF "Connaissances" AS character 
+  FORMAT "x(78)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 156
+  COLUMN-LABEL "Titre article"
+  ORDER 70
+
+ADD FIELD "cDetailArticle" OF "Connaissances" AS character 
+  FORMAT "x(78)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 156
+  COLUMN-LABEL "Détail article"
+  ORDER 80
+
+ADD INDEX "ix_c01" ON "Connaissances" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cTypeArticle" ASCENDING 
+  INDEX-FIELD "cIdentArticle" ASCENDING 
+
+ADD INDEX "ix_c02" ON "Connaissances" 
+  AREA "Schema Area"
+  WORD
+  INDEX-FIELD "cTitreArticle" ASCENDING 
+
+ADD INDEX "ix_c03" ON "Connaissances" 
+  AREA "Schema Area"
+  WORD
+  INDEX-FIELD "cDetailArticle" ASCENDING 
+
+ADD TABLE "Defs"
+  AREA "Schema Area"
+  LABEL "Tables des définitions"
+  DUMP-NAME "defs"
+
+ADD FIELD "cCle" OF "Defs" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  LABEL "Clé de la définition"
+  POSITION 2
+  MAX-WIDTH 64
+  COLUMN-LABEL "Clé"
+  ORDER 10
+
+ADD FIELD "cCode" OF "Defs" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  LABEL "Code de la définition"
+  POSITION 3
+  MAX-WIDTH 64
+  COLUMN-LABEL "Code"
+  ORDER 20
+
+ADD FIELD "cValeur" OF "Defs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "Valeur de la définition"
+  POSITION 4
+  MAX-WIDTH 100
+  COLUMN-LABEL "Valeur"
+  ORDER 30
+
+ADD FIELD "filler" OF "Defs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "lLancer" OF "Defs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Lancement automatique"
+  POSITION 6
+  MAX-WIDTH 1
+  COLUMN-LABEL "Lancement automatique"
+  ORDER 50
+
+ADD FIELD "cParametres" OF "Defs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD FIELD "cProgramme" OF "Defs" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 64
+  ORDER 70
+
+ADD FIELD "lAdmin" OF "Defs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 9
+  MAX-WIDTH 1
+  ORDER 80
+
+ADD FIELD "lVisible" OF "Defs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "yes"
+  POSITION 10
+  MAX-WIDTH 1
+  ORDER 90
+
+ADD FIELD "lbases" OF "Defs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 11
+  MAX-WIDTH 1
+  ORDER 100
+
+ADD TABLE "details"
+  AREA "Schema Area"
+  DUMP-NAME "details"
+
+ADD FIELD "iddet1" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 2
+  MAX-WIDTH 100
+  ORDER 10
+
+ADD FIELD "iddet2" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 100
+  ORDER 20
+
+ADD FIELD "iddet3" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 100
+  ORDER 30
+
+ADD FIELD "iddet4" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "vldet1" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 100
+  ORDER 50
+
+ADD FIELD "vldet2" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD FIELD "vldet3" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 100
+  ORDER 70
+
+ADD FIELD "vldet4" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 100
+  ORDER 80
+
+ADD FIELD "idxdet" OF "details" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 10
+  MAX-WIDTH 100
+  ORDER 90
+
+ADD INDEX "ix_details1" ON "details" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "idxdet" ASCENDING 
+
+ADD TABLE "exclusion"
+  AREA "Schema Area"
+  LABEL "fichiers en exclusion compile"
+  DUMP-NAME "exclusio"
+
+ADD FIELD "nom" OF "exclusion" AS character 
+  FORMAT "X(256)"
+  INITIAL ""
+  LABEL "Nom du fichier en exclusion"
+  POSITION 2
+  MAX-WIDTH 512
+  ORDER 10
+
+ADD FIELD "motif" OF "exclusion" AS character 
+  FORMAT "X(256)"
+  INITIAL ""
+  LABEL "motif de l'exclusion"
+  POSITION 3
+  MAX-WIDTH 512
+  ORDER 20
+
+ADD TABLE "fichiers"
+  AREA "Schema Area"
+  DUMP-NAME "fichiers"
+
+ADD FIELD "cUtilisateur" OF "fichiers" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "texte" OF "fichiers" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 510
+  ORDER 50
+
+ADD FIELD "filler1" OF "fichiers" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 510
+  ORDER 60
+
+ADD FIELD "filler2" OF "fichiers" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 510
+  ORDER 70
+
+ADD FIELD "ctypefichier" OF "fichiers" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 64
+  ORDER 80
+
+ADD FIELD "cIdentfichier" OF "fichiers" AS character 
+  FORMAT "x(78)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 156
+  ORDER 90
+
+ADD FIELD "ladmin" OF "fichiers" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 8
+  MAX-WIDTH 1
+  ORDER 100
+
+ADD FIELD "cCreateur" OF "fichiers" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 9
+  MAX-WIDTH 64
+  COLUMN-LABEL "Créateur"
+  ORDER 110
+
+ADD FIELD "cModifieur" OF "fichiers" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 10
+  MAX-WIDTH 64
+  COLUMN-LABEL "Modifieur"
+  ORDER 120
+
+ADD FIELD "idSauvegarde" OF "fichiers" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 14
+  MAX-WIDTH 64
+  ORDER 150
+
+ADD FIELD "idModification" OF "fichiers" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 15
+  MAX-WIDTH 64
+  ORDER 160
+
+ADD FIELD "idCreation" OF "fichiers" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 16
+  MAX-WIDTH 64
+  ORDER 170
+
+ADD INDEX "ix_fichiers01" ON "fichiers" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "ctypefichier" ASCENDING 
+  INDEX-FIELD "cIdentfichier" ASCENDING 
+
+ADD TABLE "journal"
+  AREA "Schema Area"
+  DUMP-NAME "journal"
+
+ADD FIELD "cUtilisateur" OF "journal" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "date-journal" OF "journal" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "date-svg" OF "journal" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 4
+  MAX-WIDTH 4
+  ORDER 30
+
+ADD FIELD "heure-svg" OF "journal" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 5
+  MAX-WIDTH 4
+  ORDER 40
+
+ADD FIELD "texte" OF "journal" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 510
+  ORDER 50
+
+ADD FIELD "filler1" OF "journal" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 510
+  ORDER 60
+
+ADD FIELD "filler2" OF "journal" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 510
+  ORDER 70
+
+ADD INDEX "ix_journal" ON "journal" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "date-journal" ASCENDING 
+
+ADD TABLE "LiensConnaissances"
+  AREA "Schema Area"
+  DUMP-NAME "liensconnaissances"
+
+ADD FIELD "cTypeArticle" OF "LiensConnaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 2
+  MAX-WIDTH 64
+  COLUMN-LABEL "Type article"
+  ORDER 10
+
+ADD FIELD "cIdentArticle" OF "LiensConnaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 64
+  COLUMN-LABEL "Ident article"
+  ORDER 20
+
+ADD FIELD "cUrl" OF "LiensConnaissances" AS character 
+  FORMAT "x(78)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 156
+  COLUMN-LABEL "URL Lien"
+  ORDER 30
+
+ADD FIELD "FichierJoint" OF "LiensConnaissances" AS blob 
+  FORMAT "x(8)"
+  INITIAL ?
+  POSITION 5
+  LOB-AREA "Schema Area"
+  LOB-BYTES 104857600
+  LOB-SIZE 100M
+  ORDER 40
+
+ADD FIELD "cCreateur" OF "LiensConnaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 64
+  COLUMN-LABEL "Créateur"
+  ORDER 50
+
+ADD FIELD "cModifieur" OF "LiensConnaissances" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  POSITION 7
+  MAX-WIDTH 64
+  COLUMN-LABEL "Modifieur"
+  ORDER 60
+
+ADD FIELD "dCreation" OF "LiensConnaissances" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 8
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date création"
+  ORDER 70
+
+ADD FIELD "dModification" OF "LiensConnaissances" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 9
+  MAX-WIDTH 4
+  COLUMN-LABEL "Date modification"
+  ORDER 80
+
+ADD INDEX "ix-lc01" ON "LiensConnaissances" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cTypeArticle" ASCENDING 
+  INDEX-FIELD "cIdentArticle" ASCENDING 
+
+ADD TABLE "Memo"
+  AREA "Schema Area"
+  LABEL "Table des mémo"
+  DUMP-NAME "memo"
+
+ADD FIELD "cUtilisateur" OF "Memo" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "filler" OF "Memo" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 4
+  MAX-WIDTH 100
+  ORDER 30
+
+ADD FIELD "cValeur" OF "Memo" AS character 
+  FORMAT "X(70)"
+  INITIAL ""
+  LABEL "Memo"
+  POSITION 5
+  MAX-WIDTH 140
+  COLUMN-LABEL "Memo"
+  ORDER 40
+
+ADD FIELD "cType" OF "Memo" AS character 
+  FORMAT "X(8)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 16
+  ORDER 50
+
+ADD FIELD "lAlerte" OF "Memo" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 7
+  MAX-WIDTH 1
+  ORDER 60
+
+ADD FIELD "lbdiv" OF "Memo" AS character 
+  FORMAT "x(256)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 512
+  ORDER 70
+
+ADD FIELD "iOrdre" OF "Memo" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 9
+  MAX-WIDTH 4
+  ORDER 80
+
+ADD FIELD "cEtat" OF "Memo" AS character 
+  FORMAT "x(8)"
+  INITIAL ""
+  POSITION 10
+  MAX-WIDTH 16
+  ORDER 90
+
+ADD INDEX "ixmemo01" ON "Memo" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "iOrdre" ASCENDING 
+
+ADD TABLE "Moulinettes"
+  AREA "Schema Area"
+  DUMP-NAME "moulinettes"
+
+ADD FIELD "cNomMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  LABEL "Nom Moulinette"
+  POSITION 2
+  MAX-WIDTH 64
+  ORDER 10
+
+ADD FIELD "cLibelleMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(80)"
+  INITIAL ""
+  LABEL "Libelle Moulinette"
+  POSITION 3
+  MAX-WIDTH 160
+  ORDER 20
+
+ADD FIELD "cRepertoireMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(70)"
+  INITIAL ""
+  LABEL "Répertoire moulinette"
+  POSITION 4
+  MAX-WIDTH 140
+  ORDER 30
+
+ADD FIELD "cNumeroVersion" OF "Moulinettes" AS character 
+  FORMAT "x(10)"
+  INITIAL ""
+  LABEL "Numéro version"
+  POSITION 5
+  MAX-WIDTH 20
+  ORDER 40
+
+ADD FIELD "lURef" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "URef"
+  POSITION 6
+  MAX-WIDTH 1
+  ORDER 50
+
+ADD FIELD "lUVid" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "UVid"
+  POSITION 7
+  MAX-WIDTH 1
+  ORDER 60
+
+ADD FIELD "lHREF" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "HRef"
+  POSITION 8
+  MAX-WIDTH 1
+  ORDER 70
+
+ADD FIELD "lHVid" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 9
+  MAX-WIDTH 1
+  ORDER 80
+
+ADD FIELD "cAuteurMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  LABEL "Auteur de la moulinette"
+  POSITION 10
+  MAX-WIDTH 64
+  ORDER 90
+
+ADD FIELD "iNumero" OF "Moulinettes" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Numero"
+  POSITION 11
+  MAX-WIDTH 4
+  ORDER 100
+
+ADD FIELD "lPME" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "PME"
+  POSITION 12
+  MAX-WIDTH 1
+  ORDER 110
+
+ADD FIELD "lGestion" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Gestion"
+  POSITION 13
+  MAX-WIDTH 1
+  ORDER 120
+
+ADD FIELD "lDernier" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "En dernier"
+  POSITION 14
+  MAX-WIDTH 1
+  ORDER 130
+
+ADD FIELD "cFiller1" OF "Moulinettes" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 1"
+  POSITION 15
+  MAX-WIDTH 100
+  ORDER 140
+
+ADD FIELD "cFiller2" OF "Moulinettes" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 2"
+  POSITION 16
+  MAX-WIDTH 100
+  ORDER 150
+
+ADD FIELD "iOrdre" OF "Moulinettes" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Ordre"
+  POSITION 17
+  MAX-WIDTH 4
+  ORDER 160
+
+ADD INDEX "ix_moulinettes" ON "Moulinettes" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "iOrdre" DESCENDING 
+  INDEX-FIELD "cNomMoulinette" ASCENDING 
+
+ADD TABLE "Ordres"
+  AREA "Schema Area"
+  DUMP-NAME "ordres"
+
+ADD FIELD "cUtilisateur" OF "Ordres" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "cAction" OF "Ordres" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 510
+  ORDER 20
+
+ADD FIELD "iOrdre" OF "Ordres" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 4
+  MAX-WIDTH 4
+  ORDER 30
+
+ADD FIELD "filler" OF "Ordres" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "cmessage" OF "Ordres" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 510
+  ORDER 50
+
+ADD FIELD "ddate" OF "Ordres" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  POSITION 7
+  MAX-WIDTH 4
+  ORDER 60
+
+ADD FIELD "lPrioritaire" OF "Ordres" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 8
+  MAX-WIDTH 1
+  ORDER 70
+
+ADD FIELD "lDistribue" OF "Ordres" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 9
+  MAX-WIDTH 1
+  ORDER 80
+
+ADD FIELD "lErreur" OF "Ordres" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 10
+  MAX-WIDTH 1
+  ORDER 90
+
+ADD FIELD "cMessageDistribue" OF "Ordres" AS character 
+  FORMAT "x(255)"
+  INITIAL ""
+  POSITION 11
+  MAX-WIDTH 510
+  ORDER 100
+
+ADD FIELD "lCollegue" OF "Ordres" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 12
+  MAX-WIDTH 1
+  ORDER 110
+
+ADD FIELD "lLu" OF "Ordres" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 13
+  MAX-WIDTH 1
+  ORDER 120
+
+ADD FIELD "cSens" OF "Ordres" AS character 
+  DESCRIPTION """R"" = reçu, ""E"" = envoyé"
+  FORMAT "x(1)"
+  INITIAL ""
+  POSITION 14
+  MAX-WIDTH 2
+  ORDER 130
+
+ADD INDEX "ix_ordres01" ON "Ordres" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "cAction" ASCENDING 
+  INDEX-FIELD "ddate" ASCENDING 
+
+ADD INDEX "ix_ordres02" ON "Ordres" 
+  AREA "Schema Area"
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "ddate" ASCENDING 
+  INDEX-FIELD "iOrdre" ASCENDING 
+
+ADD TABLE "Prefs"
+  AREA "Schema Area"
+  LABEL "Table des préférences"
+  DUMP-NAME "prefs"
+
+ADD FIELD "cUtilisateur" OF "Prefs" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "cCode" OF "Prefs" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  LABEL "Code de la définition"
+  POSITION 3
+  MAX-WIDTH 64
+  COLUMN-LABEL "Code"
+  ORDER 20
+
+ADD FIELD "cValeur" OF "Prefs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "Valeur de la définition"
+  POSITION 4
+  MAX-WIDTH 100
+  COLUMN-LABEL "Valeur"
+  ORDER 30
+
+ADD FIELD "filler" OF "Prefs" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 5
+  MAX-WIDTH 100
+  ORDER 40
+
+ADD FIELD "iOrdre" OF "Prefs" AS integer 
+  FORMAT "999"
+  INITIAL "0"
+  LABEL "Ordre"
+  POSITION 6
+  MAX-WIDTH 4
+  COLUMN-LABEL "Ordre"
+  ORDER 50
+
+ADD INDEX "ixPrefs01" ON "Prefs" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+  INDEX-FIELD "cCode" ASCENDING 
+  INDEX-FIELD "iOrdre" ASCENDING 
+
+ADD TABLE "repertoires"
+  AREA "Schema Area"
+  DUMP-NAME "repertoi"
+
+ADD FIELD "Nom" OF "repertoires" AS character 
+  FORMAT "X(32)"
+  INITIAL ""
+  POSITION 2
+  MAX-WIDTH 64
+  ORDER 10
+
+ADD FIELD "type" OF "repertoires" AS character 
+  FORMAT "X(1)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 2
+  ORDER 20
+
+ADD FIELD "env" OF "repertoires" AS character 
+  FORMAT "X(1)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 2
+  ORDER 30
+
+ADD FIELD "comp" OF "repertoires" AS character 
+  FORMAT "X(5)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 10
+  ORDER 40
+
+ADD FIELD "acompiler" OF "repertoires" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Trt.."
+  POSITION 6
+  MAX-WIDTH 1
+  ORDER 50
+
+ADD FIELD "commande" OF "repertoires" AS character 
+  FORMAT "X(12)"
+  INITIAL ""
+  LABEL "Commande"
+  POSITION 7
+  MAX-WIDTH 24
+  ORDER 60
+
+ADD FIELD "specif" OF "repertoires" AS character 
+  FORMAT "X(5)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 10
+  ORDER 70
+
+ADD INDEX "ix_compile01" ON "repertoires" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "comp" ASCENDING 
+  INDEX-FIELD "Nom" ASCENDING 
+
+ADD TABLE "Saints"
+  AREA "Schema Area"
+  LABEL "Tables des fêtes"
+  DUMP-NAME "saints"
+
+ADD FIELD "iMois" OF "Saints" AS integer 
+  FORMAT "99"
+  INITIAL "0"
+  LABEL "Mois"
+  POSITION 2
+  MAX-WIDTH 4
+  COLUMN-LABEL "Mois"
+  ORDER 10
+
+ADD FIELD "iJour" OF "Saints" AS integer 
+  FORMAT "99"
+  INITIAL "0"
+  LABEL "Jour"
+  POSITION 3
+  MAX-WIDTH 4
+  COLUMN-LABEL "Jour"
+  ORDER 20
+
+ADD FIELD "filler" OF "Saints" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "filler"
+  POSITION 4
+  MAX-WIDTH 100
+  ORDER 30
+
+ADD FIELD "cNom" OF "Saints" AS character 
+  FORMAT "X(50)"
+  INITIAL ""
+  LABEL "Saint"
+  POSITION 5
+  MAX-WIDTH 100
+  COLUMN-LABEL "Saint"
+  ORDER 40
+
+ADD INDEX "ixSaint01" ON "Saints" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "iJour" ASCENDING 
+  INDEX-FIELD "iMois" ASCENDING 
+
+ADD TABLE "statsgi"
+  AREA "Schema Area"
+  LABEL "Statistiques utilsation GI"
+  DUMP-NAME "statsgi"
+
+ADD FIELD "iReference" OF "statsgi" AS integer 
+  FORMAT "99999"
+  INITIAL "0"
+  LABEL "Référence"
+  POSITION 11
+  MAX-WIDTH 4
+  ORDER 70
+
+ADD FIELD "cNomProgramme" OF "statsgi" AS character 
+  DESCRIPTION "Nom du programme"
+  FORMAT "x(70)"
+  INITIAL ""
+  LABEL "Nom du programme"
+  POSITION 12
+  MAX-WIDTH 140
+  ORDER 80
+
+ADD FIELD "cCheminement" OF "statsgi" AS character 
+  DESCRIPTION "Liste des programmes pour arriver à ce programme"
+  FORMAT "x(78)"
+  INITIAL ""
+  LABEL "Cheminement"
+  POSITION 13
+  MAX-WIDTH 156
+  ORDER 90
+
+ADD FIELD "cUtilisateurs" OF "statsgi" AS character 
+  DESCRIPTION "Liste des utilisateurs ayant utilisé ce programme"
+  FORMAT "x(78)"
+  INITIAL ""
+  LABEL "Utilisateurs"
+  POSITION 14
+  MAX-WIDTH 156
+  ORDER 100
+
+ADD FIELD "iCompteur" OF "statsgi" AS integer 
+  DESCRIPTION "Compteur d'utilisation du programme depuis la dernière initialisation"
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Compteur"
+  POSITION 15
+  MAX-WIDTH 4
+  ORDER 110
+
+ADD FIELD "lbdiv" OF "statsgi" AS character 
+  FORMAT "X(60)"
+  INITIAL ""
+  LABEL "Libellé divers"
+  POSITION 16
+  MAX-WIDTH 120
+  LENGTH 0
+  ORDER 280
+
+ADD FIELD "dInitialisation" OF "statsgi" AS date 
+  DESCRIPTION "Date d'initialisation du compteur à 0"
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Initialisation"
+  POSITION 17
+  MAX-WIDTH 4
+  ORDER 130
+
+ADD FIELD "dtcsy" OF "statsgi" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date de generation du record"
+  POSITION 18
+  MAX-WIDTH 4
+  ORDER 10
+
+ADD FIELD "hecsy" OF "statsgi" AS integer 
+  FORMAT ">>>>>9"
+  INITIAL "0"
+  LABEL "Heure de generation du record"
+  POSITION 19
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "cdcsy" OF "statsgi" AS character 
+  FORMAT "X(5)"
+  INITIAL ""
+  LABEL "Code utilisateur de generation du record"
+  POSITION 20
+  MAX-WIDTH 10
+  LENGTH 0
+  ORDER 30
+
+ADD FIELD "dtmsy" OF "statsgi" AS date 
+  DESCRIPTION """"
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date de modification "
+  POSITION 35
+  MAX-WIDTH 4
+  ORDER 40
+
+ADD FIELD "hemsy" OF "statsgi" AS integer 
+  DESCRIPTION """"
+  FORMAT ">>>>>9"
+  INITIAL "0"
+  LABEL "Heure de modification "
+  POSITION 36
+  MAX-WIDTH 4
+  ORDER 50
+
+ADD FIELD "cdmsy" OF "statsgi" AS character 
+  DESCRIPTION """"
+  FORMAT "X(5)"
+  INITIAL ""
+  LABEL "User de modification "
+  POSITION 37
+  MAX-WIDTH 10
+  ORDER 60
+
+ADD FIELD "lbdiv2" OF "statsgi" AS character 
+  DESCRIPTION """"
+  FORMAT "X(60)"
+  INITIAL ""
+  LABEL "Filler "
+  POSITION 39
+  MAX-WIDTH 120
+  ORDER 380
+
+ADD FIELD "lbdiv3" OF "statsgi" AS character 
+  DESCRIPTION """"
+  FORMAT "X(60)"
+  INITIAL ""
+  LABEL "Filler "
+  POSITION 40
+  MAX-WIDTH 120
+  ORDER 390
+
+ADD FIELD "dDerniereUtilisation" OF "statsgi" AS date 
+  DESCRIPTION "Date de la dernière utilisation du programme"
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Dernière utilisation"
+  POSITION 41
+  MAX-WIDTH 4
+  ORDER 120
+
+ADD FIELD "dFichier" OF "statsgi" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date du fichier d'export"
+  POSITION 42
+  MAX-WIDTH 4
+  ORDER 400
+
+ADD FIELD "cFichier" OF "statsgi" AS character 
+  FORMAT "x(100)"
+  INITIAL ""
+  LABEL "Nom du fichier d'export"
+  POSITION 43
+  MAX-WIDTH 200
+  ORDER 410
+
+ADD TABLE "Utilisateurs"
+  AREA "Schema Area"
+  DUMP-NAME "utilisat"
+
+ADD FIELD "cUtilisateur" OF "Utilisateurs" AS character 
+  FORMAT "X(20)"
+  INITIAL ""
+  LABEL "Code utilisateur"
+  POSITION 2
+  MAX-WIDTH 40
+  COLUMN-LABEL "Utilisateur"
+  ORDER 10
+
+ADD FIELD "lConnecte" OF "Utilisateurs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 3
+  MAX-WIDTH 1
+  ORDER 20
+
+ADD FIELD "lAdmin" OF "Utilisateurs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 4
+  MAX-WIDTH 1
+  ORDER 30
+
+ADD FIELD "iNiveau" OF "Utilisateurs" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 5
+  MAX-WIDTH 4
+  ORDER 40
+
+ADD FIELD "cGroupe" OF "Utilisateurs" AS character 
+  FORMAT "x(8)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 16
+  ORDER 50
+
+ADD FIELD "iVersion" OF "Utilisateurs" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Version du menudev"
+  POSITION 7
+  MAX-WIDTH 4
+  ORDER 60
+
+ADD FIELD "cFiller" OF "Utilisateurs" AS character 
+  FORMAT "x(80)"
+  INITIAL ""
+  POSITION 8
+  MAX-WIDTH 160
+  ORDER 70
+
+ADD FIELD "lDesactive" OF "Utilisateurs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 9
+  MAX-WIDTH 1
+  ORDER 80
+
+ADD FIELD "lNonPhysique" OF "Utilisateurs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 10
+  MAX-WIDTH 1
+  ORDER 90
+
+ADD FIELD "lDivers1" OF "Utilisateurs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 11
+  MAX-WIDTH 1
+  ORDER 100
+
+ADD FIELD "lDivers2" OF "Utilisateurs" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 12
+  MAX-WIDTH 1
+  ORDER 110
+
+ADD FIELD "cVraiNom" OF "Utilisateurs" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  POSITION 13
+  MAX-WIDTH 100
+  ORDER 120
+
+ADD INDEX "ix_utilisateurs" ON "Utilisateurs" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cUtilisateur" ASCENDING 
+
+ADD TABLE "Versions"
+  AREA "Schema Area"
+  LABEL "Versions des bases"
+  DUMP-NAME "versions"
+
+ADD FIELD "cNumeroVersion" OF "Versions" AS character 
+  FORMAT "x(10)"
+  INITIAL ""
+  LABEL "Numéro version"
+  POSITION 2
+  MAX-WIDTH 20
+  ORDER 10
+
+ADD FIELD "dDateVersion" OF "Versions" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date de la version"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "iCrcSadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Sadb"
+  POSITION 4
+  MAX-WIDTH 4
+  ORDER 30
+
+ADD FIELD "iCrcInter" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Inter"
+  POSITION 5
+  MAX-WIDTH 4
+  ORDER 40
+
+ADD FIELD "iCrcCompta" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de compta"
+  POSITION 6
+  MAX-WIDTH 4
+  ORDER 50
+
+ADD FIELD "iCrcTransfert" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Transfert"
+  POSITION 7
+  MAX-WIDTH 4
+  ORDER 60
+
+ADD FIELD "iCrcCadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Cadb"
+  POSITION 8
+  MAX-WIDTH 4
+  ORDER 70
+
+ADD FIELD "iCrcLadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Ladb"
+  POSITION 9
+  MAX-WIDTH 4
+  ORDER 80
+
+ADD FIELD "iCrcWadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Wadb"
+  POSITION 10
+  MAX-WIDTH 4
+  ORDER 90
+
+ADD FIELD "iCrcLcompta" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Lcompta"
+  POSITION 11
+  MAX-WIDTH 4
+  ORDER 100
+
+ADD FIELD "iCrcLtrans" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Ltrans"
+  POSITION 12
+  MAX-WIDTH 4
+  ORDER 110
+
+ADD FIELD "lGidev" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Version gidev"
+  POSITION 13
+  MAX-WIDTH 1
+  ORDER 120
+
+ADD FIELD "lGi" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Version GI"
+  POSITION 14
+  MAX-WIDTH 1
+  ORDER 130
+
+ADD FIELD "lGicli" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Version GICLI"
+  POSITION 15
+  MAX-WIDTH 1
+  ORDER 140
+
+ADD FIELD "iOrdre" OF "Versions" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Ordre"
+  POSITION 16
+  MAX-WIDTH 4
+  ORDER 150
+
+ADD FIELD "cRepertoireVersion" OF "Versions" AS character 
+  FORMAT "x(70)"
+  INITIAL ""
+  LABEL "Repertoire de la version"
+  POSITION 17
+  MAX-WIDTH 140
+  ORDER 160
+
+ADD FIELD "iCrcDwh" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Dwh"
+  POSITION 18
+  MAX-WIDTH 4
+  ORDER 115
+
+ADD FIELD "cFiller1" OF "Versions" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 1"
+  POSITION 19
+  MAX-WIDTH 100
+  ORDER 170
+
+ADD FIELD "cFiller2" OF "Versions" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 2"
+  POSITION 20
+  MAX-WIDTH 100
+  ORDER 180
+
+ADD FIELD "lExclusion" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Exclusion de la liste des versions"
+  POSITION 21
+  MAX-WIDTH 1
+  ORDER 190
+
+ADD INDEX "ixVersions01" ON "Versions" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cNumeroVersion" ASCENDING 
+
+ADD INDEX "ixVersions02" ON "Versions" 
+  AREA "Schema Area"
+  INDEX-FIELD "iOrdre" ASCENDING 
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000046158

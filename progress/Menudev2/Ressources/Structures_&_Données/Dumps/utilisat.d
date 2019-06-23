@@ -1,0 +1,65 @@
+"" no yes 99 "DEV" 56 "" no no no no ""
+"ADMIN" no yes 10 "ADMIN" 1 "" no yes no no ""
+"ASelmet" yes no 2 "UTIL" 32 "" no no no no ""
+"Catherine" no no 2 "UTIL" 58 "" no no no no ""
+"COMPIL" yes yes 5 "DEV" 58 "" no yes no no ""
+"COMPIL-SECOURS" no no 5 "DEV" 14 "" no yes no no ""
+"COMPILV11" no yes 5 "DEV" 58 "" no yes no no ""
+"COMPILV117" yes yes 5 "DEV" 58 "" no yes no no ""
+"Daniel" no no 2 "UTIL" 58 "" no no no no ""
+"DEMO1" no no 2 "UTIL" 47 "" no yes no no ""
+"DEMO2" no no 2 "UTIL" 23 "" no yes no no ""
+"devgg" yes yes 5 "DEV" 58 "" no no no no ""
+"devmf" yes yes 5 "DEV" 58 "" no no no no ""
+"DEVNL" no yes 5 "DEV" 58 "" no no no no ""
+"Dina" yes no 2 "UTIL" 51 "" no no no no ""
+"Eric" yes no 2 "UTIL" 58 "" yes no no no ""
+"Faical" yes no 2 "UTIL" 58 "" no no no no ""
+"Format" no no 10 "UTIL" 43 "" no yes no no ""
+"HL-TEST-V11" yes no 2 "HL" 58 "" no no no no "Machine tests HL V11"
+"HLDEV1" no yes 20 "DEV" 39 "" no yes no no ""
+"Justine" yes no 2 "UTIL" 58 "" no no no no ""
+"Nathalie" yes yes 5 "DEV" 58 "" no no no no ""
+"Ouahmed" no no 2 "UTIL" 54 "" no no no no ""
+"PCCA" yes yes 10 "DEV" 58 "" no no no no ""
+"PDM" yes yes 5 "DEV" 58 "" no no no no ""
+"PJPM" yes yes 5 "DEV" 58 "" no no no no ""
+"PJPM_Tests" yes no 5 "DEV" 57 "" no no no no "Tests CERGIC"
+"POF" yes yes 10 "DEV" 58 "" no no no no ""
+"PPL" no yes 99 "DEV" 58 "lundi" no no no no ""
+"PPL.DEV" no yes 99 "DEV" 60 "lundi" no yes no no ""
+"PPL_11" no yes 99 "DEV" 56 "" no no no no ""
+"PPL_V11" no yes 99 "DEV" 56 "" no no no no ""
+"PRF" yes yes 5 "DEV" 58 "" no no no no ""
+"PSP" yes yes 5 "DEV" 58 "" no no no no ""
+"Sabrys" yes no 2 "UTIL" 58 "" no no no no ""
+"SCOMPP3" no no 2 "UTIL" 36 "" no yes no no ""
+"SDEVWEB-R" no no 5 "DEV" 51 "" no yes no no "Recet. Web"
+"SDEVWEB-T" yes yes 5 "DEV" 58 "" no yes no no "Intég. Web"
+"svrmigration" yes no 5 "DEV" 52 "" no yes no no ""
+"SVRMIGRATION2" yes yes 5 "DEV" 53 "" no yes no no ""
+"Virginie" yes no 2 "UTIL" 53 "" no no no no ""
+"VMdevcca" no yes 10 "DEV" 53 "" no no no no ""
+"VMdevdm" no yes 10 "DEV" 56 "" no no no no ""
+"VMdevgg" no no 10 "DEV" 53 "" no no no no ""
+"VMdevjpma" no yes 10 "DEV" 53 "" no no no no ""
+"VMdevmf" no no 10 "DEV" 53 "" no no no no ""
+"VMdevnl" no no 10 "DEV" 53 "" no no no no ""
+"VMdevnp" no yes 10 "DEV" 57 "" no no no no ""
+"VMdevof" no yes 10 "DEV" 53 "" no no no no ""
+"VMdevpl" yes yes 10 "DEV" 56 "" no no no no ""
+"VMdevrf" no yes 10 "DEV" 53 "" no no no no ""
+"VMdevsp" no yes 10 "DEV" 53 "" no no no no ""
+"Xavier" yes no 2 "UTIL" 58 "" no no no no ""
+.
+PSC
+filename=Utilisateurs
+records=0000000000053
+ldbname=gidata
+timestamp=2018/11/28-17:53:53
+numformat=46,44
+dateformat=dmy-1950
+map=NO-MAP
+cpstream=ISO8859-1
+.
+0000002592

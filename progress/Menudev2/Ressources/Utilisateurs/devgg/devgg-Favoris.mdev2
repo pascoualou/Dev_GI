@@ -1,0 +1,1 @@
+FAV,1,Bases locales (UNIX > DOS),%dlc%\bin\prowin32.exe -p %reseau%dev\outils\_dmpload.w -ininame %windir%\outilsgi.ini -T %disque%tmp,,O,

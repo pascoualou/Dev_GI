@@ -1,0 +1,24 @@
+ADD FIELD "sfscu" OF "local" AS decimal
+  FORMAT "->>,>>9.99"
+  POSITION 130
+  INITIAL "0"
+  LABEL "Surface commerciale utile"
+  COLUMN-LABEL "sfscu"
+  DECIMALS 2
+  ORDER 1220
+  MAX-WIDTH 17
+
+ADD FIELD "usscu" OF "local" AS character
+  FORMAT "X(5)"
+  POSITION 131
+  INITIAL ""
+  LABEL "Unite de surface commerciale utile"
+  COLUMN-LABEL "usscu"
+  ORDER 1230
+  MAX-WIDTH 10
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000004015

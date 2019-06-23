@@ -1,0 +1,266 @@
+{
+    "version": "1.2",
+    "lastModified": "Wed Feb 24 14:01:28 CET 2016",
+    "services": [{
+        "name": "magiTravaux",
+        "address": "\/rest\/magiTravaux",
+        "useRequest": true,
+        "resources": [{
+            "name": "beIntervention",
+            "path": "\/interventions",
+            "autoSave": false,
+            "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {"dsbeIntervention": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"ttIntervention": {
+                        "type": "array",
+                        "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "_id": {"type": "string"},
+                                "_errorString": {"type": "string"},
+                                "iNumeroInterne": {
+                                    "type": "integer",
+                                    "ablType": "INT64",
+                                    "default": 0,
+                                    "title": "iNumeroInterne"
+                                },
+                                "cCodeTraitement": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cCodeTraitement"
+                                },
+                                "iNumeroTraitement": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "iNumeroTraitement"
+                                },
+                                "iNumeroIntervention": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "iNumeroIntervention"
+                                },
+                                "lSelected": {
+                                    "type": "boolean",
+                                    "ablType": "LOGICAL",
+                                    "default": false,
+                                    "title": "lSelected"
+                                },
+                                "iNumeroImmeuble": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "iNumeroImmeuble"
+                                },
+                                "cLibelleImmeuble": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cLibelleImmeuble"
+                                },
+                                "cTypeContrat": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cTypeContrat"
+                                },
+                                "iNumeroContrat": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "iNumeroContrat"
+                                },
+                                "cLibelleTraitement": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cLibelleTraitement"
+                                },
+                                "daCreation": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "daCreation",
+                                    "format": "date"
+                                },
+                                "cLibelle": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cLibelle"
+                                },
+                                "daRealisation": {
+                                    "type": "string",
+                                    "ablType": "DATE",
+                                    "default": null,
+                                    "title": "daRealisation",
+                                    "format": "date"
+                                },
+                                "cCodeStatut": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cCodeStatut"
+                                },
+                                "cLibelleStatut": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cLibelleStatut"
+                                },
+                                "iNumeroFournisseur": {
+                                    "type": "integer",
+                                    "ablType": "INTEGER",
+                                    "default": 0,
+                                    "title": "iNumeroFournisseur"
+                                },
+                                "cLibelleFournisseur": {
+                                    "type": "string",
+                                    "ablType": "CHARACTER",
+                                    "default": "",
+                                    "title": "cLibelleFournisseur"
+                                },
+                                "lFacture": {
+                                    "type": "boolean",
+                                    "ablType": "LOGICAL",
+                                    "default": false,
+                                    "title": "lFacture"
+                                },
+                                "lBAP": {
+                                    "type": "boolean",
+                                    "ablType": "LOGICAL",
+                                    "default": false,
+                                    "title": "lBAP"
+                                },
+                                "lPJ": {
+                                    "type": "boolean",
+                                    "ablType": "LOGICAL",
+                                    "default": false,
+                                    "title": "lPJ"
+                                }
+                            }
+                        }},
+                        "ttSearchCriteria": {
+                            "type": "array",
+                            "items": {
+                                "additionalProperties": false,
+                                "properties": {
+                                    "_id": {"type": "string"},
+                                    "_errorString": {"type": "string"},
+                                    "cCriteria": {
+                                        "type": "string",
+                                        "ablType": "CHARACTER",
+                                        "default": "",
+                                        "title": "cCriteria"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "cCriteres": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {}
+            }}  
+            },
+            "operations": [
+                {
+                    "path": "",
+                    "useBeforeImage": true,
+                    "type": "update",
+                    "verb": "put",
+                    "params": [{
+                        "name": "dsbeIntervention",
+                        "type": "REQUEST_BODY"
+                    }]
+                },
+                {
+                    "name": "GetttError",
+                    "path": "\/GetttError",
+                    "useBeforeImage": false,
+                    "type": "invoke",
+                    "verb": "put",
+                    "params": [{
+                        "name": "filter",
+                        "type": "REQUEST_BODY"
+                    }]
+                },
+                {
+                    "path": "?filter={filter}",
+                    "useBeforeImage": false,
+                    "type": "read",
+                    "verb": "get",
+                    "params": [
+                        {
+                            "name": "CdLngSes",
+                            "type": "REQUEST_BODY"
+                        },
+                        {
+                            "name": "CdLngRef",
+                            "type": "REQUEST_BODY"
+                        }
+                    ]
+                },
+                {
+                    "name": "GetttIntervention",
+                    "path": "\/GetttIntervention",
+                    "useBeforeImage": false,
+                    "type": "invoke",
+                    "verb": "put",
+                    "params": [{
+                        "name": "filter",
+                        "type": "REQUEST_BODY"
+                    }]
+                },
+                {
+                    "path": "",
+                    "useBeforeImage": false,
+                    "type": "delete",
+                    "verb": "delete",
+                    "params": [
+                        {
+                            "name": "CdLngSes",
+                            "type": "REQUEST_BODY"
+                        },
+                        {
+                            "name": "CdLngRef",
+                            "type": "REQUEST_BODY"
+                        },
+                        {
+                            "name": "dsbeIntervention",
+                            "type": "REQUEST_BODY"
+                        }
+                    ]
+                },
+                {
+                    "path": "",
+                    "useBeforeImage": false,
+                    "type": "create",
+                    "verb": "post",
+                    "params": [{
+                        "name": "dsbeIntervention",
+                        "type": "REQUEST_BODY"
+                    }]
+                },
+                {
+                    "name": "SubmitbeIntervention",
+                    "path": "\/SubmitbeIntervention",
+                    "useBeforeImage": false,
+                    "type": "submit",
+                    "verb": "put",
+                    "params": [{
+                        "name": "dsbeIntervention",
+                        "type": "REQUEST_BODY"
+                    }]
+                }
+            ]
+        }]
+    }]
+}

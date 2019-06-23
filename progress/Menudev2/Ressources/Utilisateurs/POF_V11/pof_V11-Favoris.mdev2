@@ -1,0 +1,1 @@
+FAV,1,PCL Viewer + autres,%dlc%\bin\%prowin% -ininame %windir%\outilsgi%suffixe%.ini -pf %reseau%dev\outils\connex.pf -param %reseau%dev\outils\pclviewer2.w -T %disque%tmp,,,,

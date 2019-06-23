@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pidl:description targetNamespace="urn:schemas-progress-com:bpm:appserverbinding:0001" serviceType="wsad:OEAppServerInvoke" xmlns:pidl="http://www.progress.com/caf/idl1.0" xmlns:java="http://www.progress.com/adapters/idl1.0/javatype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsad="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<pidl:types>
+</pidl:types>
+  <pidl:interface name="com.progress.openedge.pdt.bpminterfaces">
+    <pidl:operation name="outils.outilFileTransfert..deleteFile" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcFile" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="ttPieceJointe" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="outils.outilFileTransfert..getFile" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcFileName" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="ttFile" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="outils.outilFileTransfert..getFileList" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcURI" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="ttPieceJointe" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="outils.outilFileTransfert..postFile" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="ttFile" req="false" type="java:Object">
+    </pidl:input>
+    </pidl:operation>
+  </pidl:interface>
+  <pidl:binding name="com.progress.openedge.pdt.bpmbindings" interface="wsad:com.progress.openedge.pdt.bpminterfaces" type="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<wsad:Operation isPersistent="false" useFullName="false" executionMode="11">
+  <wsad:Name>outils.outilFileTransfert</wsad:Name>
+  <wsad:ProcPath/>
+  <wsad:ProPath/>
+  <wsad:ProcExt>cls</wsad:ProcExt>
+  <wsad:ProcDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="true" IsMappedToSubmit="false">
+    <wsad:Name>outils.outilFileTransfert</wsad:Name>
+    <wsad:HelpString></wsad:HelpString>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>deleteFile</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>deleteFile</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcFile</wsad:Name>
+          <wsad:OrigName>pcFile</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>ttPieceJointe</wsad:Name>
+          <wsad:OrigName>ttPieceJointe</wsad:OrigName>
+          <wsad:Type>15</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+          <wsad:NamespaceUri xsi:nil="true"/>
+          <wsad:MetaData>
+            <wsad:FieldName>iNumeroPiece</wsad:FieldName>
+            <wsad:Type>4</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>INTEGER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>nomFichier</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>urlFichier</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>iOrder</wsad:FieldName>
+            <wsad:Type>4</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>INTEGER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>getFile</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>getFile</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcFileName</wsad:Name>
+          <wsad:OrigName>pcFileName</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>ttFile</wsad:Name>
+          <wsad:OrigName>ttFile</wsad:OrigName>
+          <wsad:Type>15</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+          <wsad:NamespaceUri xsi:nil="true"/>
+          <wsad:MetaData>
+            <wsad:FieldName>cFilename</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>clbPayload</wsad:FieldName>
+            <wsad:Type>19</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CLOB</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>cLibelleTraitement</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>iNumeroTraitement</wsad:FieldName>
+            <wsad:Type>4</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>INTEGER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>getFileList</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>getFileList</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcURI</wsad:Name>
+          <wsad:OrigName>pcURI</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>ttPieceJointe</wsad:Name>
+          <wsad:OrigName>ttPieceJointe</wsad:OrigName>
+          <wsad:Type>15</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+          <wsad:NamespaceUri xsi:nil="true"/>
+          <wsad:MetaData>
+            <wsad:FieldName>iNumeroPiece</wsad:FieldName>
+            <wsad:Type>4</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>INTEGER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>nomFichier</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>urlFichier</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>iOrder</wsad:FieldName>
+            <wsad:Type>4</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>INTEGER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>postFile</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>postFile</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>ttFile</wsad:Name>
+          <wsad:OrigName>ttFile</wsad:OrigName>
+          <wsad:Type>15</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+          <wsad:NamespaceUri xsi:nil="true"/>
+          <wsad:MetaData>
+            <wsad:FieldName>cFilename</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>clbPayload</wsad:FieldName>
+            <wsad:Type>19</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CLOB</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>cLibelleTraitement</wsad:FieldName>
+            <wsad:Type>1</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>CHARACTER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+          <wsad:MetaData>
+            <wsad:FieldName>iNumeroTraitement</wsad:FieldName>
+            <wsad:Type>4</wsad:Type>
+            <wsad:Extent>0</wsad:Extent>
+            <wsad:TypeName>INTEGER</wsad:TypeName>
+            <wsad:XmlNodeType>0</wsad:XmlNodeType>
+          </wsad:MetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+  </wsad:ProcDetail>
+</wsad:Operation>
+  </pidl:binding>
+</pidl:description>

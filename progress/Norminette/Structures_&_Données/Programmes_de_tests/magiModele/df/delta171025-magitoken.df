@@ -1,0 +1,21 @@
+ADD FIELD "daDateFinRespCopro" OF "magiToken" AS date
+  FORMAT "99/99/99"
+  POSITION 18
+  INITIAL ?
+  LABEL "daDateFinRespCopro"
+  ORDER 151
+  MAX-WIDTH 4
+
+ADD FIELD "daDateFinRespGerance" OF "magiToken" AS date
+  FORMAT "99/99/99"
+  POSITION 19
+  INITIAL ?
+  LABEL "daDateFinRespGerance"
+  ORDER 141
+  MAX-WIDTH 4
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000019055

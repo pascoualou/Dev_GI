@@ -1,0 +1,2 @@
+FAV,1,Gestion versions (Nouvelle),%DLC%\bin\%prowin% -pf %reseau%Dev\outils\progress\versions\Connexion.pf -p %reseau%dev\outils\progress\versions\sources\versions.w  -ininame %reseau%dev\outils\progress\developpementGI.ini,,,,
+FAV,2,Truncate/Repair de bases,%reseau%dev\outils\repair.exe,,,

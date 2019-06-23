@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_listeImmeuble" path="/immeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/convocAG/beConvocAG.pidl::com.progress.openedge.pdt.bpmbindings" name="convocAG.beConvocAG..readbeImmeuble" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_cabinet" path="/cabinet" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/convocAG/beConvocAG.pidl::com.progress.openedge.pdt.bpmbindings" name="convocAG.beConvocAG..readbeCabinet" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_annuaire" path="/annuaire" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/convocAG/beConvocAG.pidl::com.progress.openedge.pdt.bpmbindings" name="convocAG.beConvocAG..readbeAnnuaire" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

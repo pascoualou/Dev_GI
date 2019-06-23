@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_tiersReloc" path="/tiersCommercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tiers/commercialisation/beTiersCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="tiers.commercialisation.beTiersCommercialisation..ReadbeTiersCommercialisation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_tiers" path="/tiers" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tiers/beTiers.pidl::com.progress.openedge.pdt.bpmbindings" name="tiers.beTiers..ReadbeTiers" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_fournisseurs" path="/listeFournisseur" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tiers/beFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="tiers.beFournisseur..readbeListeFournisseur" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeUtilisateur" path="/utilisateur" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/oerealm/beUtilisateur.pidl::com.progress.openedge.pdt.bpmbindings" name="oerealm.beUtilisateur..readbeUtilisateur" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_fournisseurSimple" path="/fournisseurSimple" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tiers/beFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="tiers.beFournisseur..readbeFournisseurSimple" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tiers/beFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="tiers.beFournisseur..createbeFournisseurSimple" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+</prgs:model>

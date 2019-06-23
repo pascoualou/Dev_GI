@@ -1,0 +1,2 @@
+Base SOCERM du 10/09/2012
+Version 10.38.02 patch 11

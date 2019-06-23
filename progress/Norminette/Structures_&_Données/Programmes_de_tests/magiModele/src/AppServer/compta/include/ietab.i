@@ -1,0 +1,181 @@
+/*------------------------------------------------------------------------
+File        : ietab.i
+Purpose     : Informations relatives a un etablissement pour une societe.
+Author(s)   : generation automatique le 01/31/18
+Notes       :
+------------------------------------------------------------------------*/
+&if defined(nomTable)   = 0 &then &scoped-define nomTable ttIetab
+&endif
+&if defined(serialName) = 0 &then &scoped-define serialName {&nomTable}
+&endif
+define temp-table {&nomTable} no-undo serialize-name '{&serialName}'
+    field activite-cd     as integer    initial ? 
+    field adr             as character  initial ? 
+    field affachs         as logical    initial ? 
+    field ana-ach         as integer    initial ? 
+    field ana-sto         as integer    initial ? 
+    field ana-ven         as integer    initial ? 
+    field analytique      as logical    initial ? 
+    field ape             as character  initial ? 
+    field auto-affect     as integer    initial ? 
+    field base-conso      as integer    initial ? 
+    field bqjou-cd        as character  initial ? 
+    field bqprofil-cd     as integer    initial ? 
+    field budget1a5       as logical    initial ? 
+    field budget6a9       as logical    initial ? 
+    field budgetaire      as logical    initial ? 
+    field calcdaper       as logical    initial ? 
+    field chrono          as logical    initial ? 
+    field cli-fax         as logical    initial ? 
+    field coeff-freinte   as decimal    initial ?  decimals 2
+    field comcli          as logical    initial ? 
+    field comfou          as logical    initial ? 
+    field comment         as character  initial ? 
+    field commercial      as logical    initial ? 
+    field commrep         as character  initial ? 
+    field comptabilite    as logical    initial ? 
+    field conso-ana       as logical    initial ? 
+    field cours-dev-euro  as decimal    initial ?  decimals 8
+    field cp              as character  initial ? 
+    field cpt-arrondi-cd  as character  initial ? 
+    field cpt-perte-cd    as character  initial ? 
+    field cpt-profit-cd   as character  initial ? 
+    field creation-art    as logical    initial ? 
+    field crefou          as logical    initial ? 
+    field daapur          as date       initial ? 
+    field dacrea          as date       initial ? 
+    field dadebex1        as date       initial ? 
+    field dadebex2        as date       initial ? 
+    field dadebrecep      as date       initial ? 
+    field dafinex1        as date       initial ? 
+    field dafinex2        as date       initial ? 
+    field damod           as date       initial ? 
+    field dev-cd          as character  initial ? 
+    field dev-euro        as character  initial ? 
+    field eca-jou-cd      as character  initial ? 
+    field eca-type-cle    as character  initial ? 
+    field eclat-ach       as integer    initial ? 
+    field eclat-sto       as integer    initial ? 
+    field eclat-ven       as integer    initial ? 
+    field edaffair        as character  initial ? 
+    field edbpnmc         as logical    initial ? 
+    field editrt          as logical    initial ? 
+    field empla           as logical    initial ? 
+    field entcli          as logical    initial ? 
+    field entfac          as logical    initial ? 
+    field entfou          as logical    initial ? 
+    field entfrn          as logical    initial ? 
+    field etab-cd         as integer    initial ? 
+    field etq             as logical    initial ? 
+    field exercice        as logical    initial ? 
+    field fab-auto        as logical    initial ? 
+    field fax             as character  initial ? 
+    field fg-cptim        as logical    initial ? 
+    field fg-rgl1l        as logical    initial ? 
+    field flag-all-ligbl  as logical    initial ? 
+    field flag-esc        as logical    initial ? 
+    field flag-nb-pieces  as logical    initial ? 
+    field flag-remex      as logical    initial ? 
+    field flag-rs-relan   as logical    initial ? 
+    field flag-rs-releve  as logical    initial ? 
+    field flag-visa-dest  as logical    initial ? 
+    field flaginv         as logical    initial ? 
+    field fonction        as character  initial ? 
+    field formu           as integer    initial ? 
+    field four-fax        as logical    initial ? 
+    field general         as logical    initial ? 
+    field gest-cle        as character  initial ? 
+    field gest-empla      as character  initial ? 
+    field gest-old        as character  initial ? 
+    field gestra          as logical    initial ? 
+    field ihcrea          as integer    initial ? 
+    field ihmod           as integer    initial ? 
+    field inv             as logical    initial ? 
+    field invest          as logical    initial ? 
+    field lbrech          as character  initial ? 
+    field lgaffaire       as integer    initial ? 
+    field lgbudget        as integer    initial ? 
+    field lgcpt           as integer    initial ? 
+    field lgcum           as integer    initial ? 
+    field lgniv1          as integer    initial ? 
+    field lgniv2          as integer    initial ? 
+    field lgniv3          as integer    initial ? 
+    field lgniv4          as integer    initial ? 
+    field lib-sold        as character  initial ? 
+    field liblang-cd      as integer    initial ? 
+    field libniv1         as character  initial ? 
+    field libniv2         as character  initial ? 
+    field libniv3         as character  initial ? 
+    field libniv4         as character  initial ? 
+    field lot             as logical    initial ? 
+    field lst-sscoll      as character  initial ? 
+    field mail-corps      as character  initial ? 
+    field mail-objet      as character  initial ? 
+    field maj-batch       as integer    initial ? 
+    field mtdiff-ach      as decimal    initial ?  decimals 2
+    field mtdiff-ach-EURO as decimal    initial ?  decimals 2
+    field mthsto          as integer    initial ? 
+    field nbbl            as integer    initial ? 
+    field nbex            as integer    initial ? 
+    field nbfac           as integer    initial ? 
+    field nbprd           as integer    initial ? 
+    field nbsemcli        as integer    initial ? 
+    field nbsemfou        as integer    initial ? 
+    field nom             as character  initial ? 
+    field nomcertif       as character  initial ? 
+    field numsep          as logical    initial ? 
+    field old-ape         as integer    initial ? 
+    field ordaff          as logical    initial ? 
+    field pass-pxvte      as character  initial ? 
+    field passmodpv       as character  initial ? 
+    field pays            as character  initial ? 
+    field period          as integer    initial ? 
+    field plancpt2        as logical    initial ? 
+    field prd-cd-1        as integer    initial ? 
+    field prd-cd-2        as integer    initial ? 
+    field profil-cd       as integer    initial ? 
+    field rappro-dsq      as logical    initial ? 
+    field reference       as character  initial ? 
+    field risque          as logical    initial ? 
+    field sav             as logical    initial ? 
+    field secu-daper      as integer    initial ? 
+    field serie-ach       as logical    initial ? 
+    field serie-ven       as logical    initial ? 
+    field siren           as character  initial ? 
+    field siret           as character  initial ? 
+    field soc-cd          as integer    initial ? 
+    field souscol         as logical    initial ? 
+    field statcde         as logical    initial ? 
+    field stneg           as logical    initial ? 
+    field tarcli          as integer    initial ? 
+    field tarif-oblig     as logical    initial ? 
+    field tel             as character  initial ? 
+    field telex           as character  initial ? 
+    field tiers-declar    as character  initial ? 
+    field tplcr-cle       as character  initial ? 
+    field tpprl-cle       as character  initial ? 
+    field tptip-cle       as character  initial ? 
+    field tpvrec-cle      as character  initial ? 
+    field tpvrej-cle      as character  initial ? 
+    field tresorerie      as logical    initial ? 
+    field tribp           as character  initial ? 
+    field tricomm         as character  initial ? 
+    field trifac          as integer    initial ? 
+    field tva-cdi         as integer    initial ? 
+    field tva-cdsie       as character  initial ? 
+    field tva-cle         as integer    initial ? 
+    field tva-nodoss      as integer    initial ? 
+    field tva-sie         as integer    initial ? 
+    field tva-srv         as integer    initial ? 
+    field tvacee-cle      as character  initial ? 
+    field tx-euro         as decimal    initial ?  decimals 5
+    field usrid           as character  initial ? 
+    field usridmod        as character  initial ? 
+    field valbr           as logical    initial ? 
+    field valecr          as logical    initial ? 
+    field valid           as logical    initial ? 
+    field ville           as character  initial ? 
+    field dtTimestamp as datetime  initial ?
+    field CRUD        as character initial ?
+    field rRowid      as rowid
+.

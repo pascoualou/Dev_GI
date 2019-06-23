@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_tva" path="/tva" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/compta/beTVA.pidl::com.progress.openedge.pdt.bpmbindings" name="compta.beTVA..ReadbeTVA" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_ListeCompte" path="/listeCompte" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/compta/beCompte.pidl::com.progress.openedge.pdt.bpmbindings" name="compta.beCompte..readbeListeCompte" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_facture" path="/facture" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/compta/beFacture.pidl::com.progress.openedge.pdt.bpmbindings" name="compta.beFacture..ReadbeFacture" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_soldeCompte" path="/soldeCompte" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/compta/beSoldeCompte.pidl::com.progress.openedge.pdt.bpmbindings" name="compta.beSoldeCompte..ReadSoldeCompte" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_consultationCompte" path="/consultationCompte" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/compta/beConsultationCompte.pidl::com.progress.openedge.pdt.bpmbindings" name="compta.beConsultationCompte..ReadbeConsultationCompte" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_positionComptable" path="/positionComptable" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/compta/beConsultationCompte.pidl::com.progress.openedge.pdt.bpmbindings" name="compta.beConsultationCompte..readbePositionComptable" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

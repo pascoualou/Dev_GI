@@ -1,0 +1,61 @@
+## Intercept URLs imported from C:\MAGI\workspace\magiController\PASOEContent\WEB-INF\web.xml
+## Imported at 2017-10-06T13:33:51.315+02:00
+##
+## PASOE Configuration file C:\MAGI\workspace\magiController\PASOEContent\WEB-INF\oeablSecurity-form-oerealm.xml
+
+## Properties from http space /apsv/**
+## Transport: apsv
+## "url-pattern","method","spring-access-expression"
+
+       
+
+## Properties from http space /soap/**
+## Transport: soap
+## "url-pattern","method","spring-access-expression"
+
+       
+
+## Properties from http space /rest/**
+## Transport: rest
+## "url-pattern","method","spring-access-expression"
+"/rest/magiApplication/hello","*","permitAll()"
+"/rest/**","*","isAuthenticated()"
+
+       
+
+## Properties from http space /web/**
+## Transport: web
+## "url-pattern","method","spring-access-expression"
+"/web/**","*","hasAnyRole('ROLE_PSCUser')"
+
+       
+
+## Properties from http space /app/**
+## Transport: app
+## "url-pattern","method","spring-access-expression"
+"/app/**","*","isAuthenticated()"
+
+       
+
+## Properties from http space /**
+## Transport: all
+## "url-pattern","method","spring-access-expression"
+"/magi.html","*","isAuthenticated()"
+"/server/**","GET","isAuthenticated()"
+"/static/*","*","permitAll()"
+"/static/auth/*","*","permitAll()"
+"/static/bootstrap/*","*","permitAll()"
+"/static/catalog/*","*","permitAll()"
+"/static/error/*","*","permitAll()"
+"/static/fonts/*","*","permitAll()"
+"/static/html/*","*","permitAll()"
+"/static/images/*","*","permitAll()"
+"/static/KendoUI/*","*","permitAll()"
+"/static/magi/*","*","permitAll()"
+"/static/magi/**","*","permitAll()"
+"/static/bootstrap/**","*","permitAll()"
+"/static/**","*","isAuthenticated()"
+"/*","GET","isAuthenticated()"
+"/**","*","permitAll()"
+
+       

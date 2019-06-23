@@ -1,0 +1,28 @@
+Environnement :
+---------------
+    VERSION = 058
+    DEVUSR = COMPILV117
+    DISQUE = c:\
+    RESEAU = h:\
+    RESEAUBIS = 
+    PROVERSION = 11.7
+    DLC = C:\Progress\OpenEdge
+    PROPATH = .,h:\dev\outils\progress
+    REPGI = gidev
+    PATH = ;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Pr
+    ogram Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Pro
+    gram Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\Win
+    dowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\
+    Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\
+    DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Liv
+    e\Shared;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;C:\PROGRESS\DLC;C:\PROGRESS\
+    DLC\bin;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common File
+    s\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program 
+    Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\
+    System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine C
+    omponents\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\I
+    ntel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\I
+    PT;C:\Program Files (x86)\Windows Live\Shared;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;C:\PROGRESS\DLC;C:\PROGRESS
+    \DLC\bin;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;h:\dev\outils;C:\Progress\Op
+    enEdge\bin
+    PROFILE_BLAT = COMPILV117

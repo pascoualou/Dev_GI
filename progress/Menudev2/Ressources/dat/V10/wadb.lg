@@ -1,0 +1,2038 @@
+
+                Mon Dec 01 18:20:48 2014
+[2014/12/01@18:20:48.073+0100] P-5700       T-4464  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/01@18:20:48.163+0100] P-5700       T-4464  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/01@18:20:51.029+0100] P-5700       T-4464  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Dec 02 18:20:50 2014
+[2014/12/02@18:20:50.648+0100] P-4512       T-5820  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/02@18:20:53.022+0100] P-4512       T-5820  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/02@18:22:20.162+0100] P-4512       T-5820  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Dec 03 12:50:39 2014
+[2014/12/03@12:50:39.213+0100] P-5872       T-6328  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2014/12/03@12:50:39.386+0100] P-5872       T-6328  I ABL      : (12699) Base de données wadb Options:  
+
+                Wed Dec 03 18:20:46 2014
+[2014/12/03@18:20:46.695+0100] P-1376       T-3724  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/03@18:20:46.764+0100] P-1376       T-3724  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/03@18:20:50.760+0100] P-1376       T-3724  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Dec 04 12:37:49 2014
+[2014/12/04@12:37:49.859+0100] P-5872       T-6328  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Dec 04 12:37:52 2014
+[2014/12/04@12:37:52.240+0100] P-5872       T-6328  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2014/12/04@12:37:52.296+0100] P-5872       T-6328  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/04@12:37:58.705+0100] P-5872       T-6328  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Dec 04 18:21:00 2014
+[2014/12/04@18:21:00.354+0100] P-5452       T-5972  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/04@18:21:00.444+0100] P-5452       T-5972  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/04@18:21:03.309+0100] P-5452       T-5972  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Dec 05 18:20:24 2014
+[2014/12/05@18:20:24.269+0100] P-5280       T-5588  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/05@18:20:24.355+0100] P-5280       T-5588  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/05@18:20:27.150+0100] P-5280       T-5588  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Dec 08 18:20:26 2014
+[2014/12/08@18:20:26.723+0100] P-1108       T-5096  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/08@18:20:26.824+0100] P-1108       T-5096  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/08@18:20:29.431+0100] P-1108       T-5096  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Dec 09 18:20:17 2014
+[2014/12/09@18:20:17.973+0100] P-5876       T-5840  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/09@18:20:18.059+0100] P-5876       T-5840  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/09@18:20:20.878+0100] P-5876       T-5840  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Dec 10 18:20:03 2014
+[2014/12/10@18:20:03.451+0100] P-6092       T-5544  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/10@18:20:03.611+0100] P-6092       T-5544  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/10@18:20:07.194+0100] P-6092       T-5544  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Dec 11 18:20:31 2014
+[2014/12/11@18:20:31.014+0100] P-2912       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/11@18:20:31.101+0100] P-2912       T-4440  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/11@18:20:33.851+0100] P-2912       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Dec 12 18:06:22 2014
+[2014/12/12@18:06:22.046+0100] P-5008       T-3080  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2014/12/12@18:06:22.127+0100] P-5008       T-3080  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/12@18:09:09.443+0100] P-5008       T-3080  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Dec 12 18:20:50 2014
+[2014/12/12@18:20:50.838+0100] P-4276       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/12@18:20:50.904+0100] P-4276       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/12@18:20:52.787+0100] P-4276       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Dec 15 18:20:44 2014
+[2014/12/15@18:20:44.498+0100] P-5836       T-4496  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/15@18:20:44.598+0100] P-5836       T-4496  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/15@18:20:47.400+0100] P-5836       T-4496  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Dec 16 18:20:58 2014
+[2014/12/16@18:20:58.903+0100] P-4908       T-5632  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/16@18:20:59.002+0100] P-4908       T-5632  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/16@18:21:01.800+0100] P-4908       T-5632  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Dec 16 19:29:42 2014
+[2014/12/16@19:29:42.612+0100] P-9248       T-5920  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2014/12/16@19:29:42.666+0100] P-9248       T-5920  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/16@20:07:02.151+0100] P-9248       T-5920  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Dec 17 18:20:42 2014
+[2014/12/17@18:20:42.948+0100] P-1000       T-4240  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/17@18:20:43.041+0100] P-1000       T-4240  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/17@18:20:45.712+0100] P-1000       T-4240  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Dec 18 18:20:03 2014
+[2014/12/18@18:20:03.518+0100] P-1820       T-5312  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/18@18:20:03.650+0100] P-1820       T-5312  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/18@18:20:07.348+0100] P-1820       T-5312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Dec 19 18:20:50 2014
+[2014/12/19@18:20:50.945+0100] P-4312       T-5704  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/19@18:20:51.040+0100] P-4312       T-5704  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/19@18:20:53.755+0100] P-4312       T-5704  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Dec 22 18:20:36 2014
+[2014/12/22@18:20:36.777+0100] P-5140       T-3180  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/22@18:20:36.865+0100] P-5140       T-3180  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/22@18:20:39.589+0100] P-5140       T-3180  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Dec 23 18:20:23 2014
+[2014/12/23@18:20:23.986+0100] P-460        T-680   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/23@18:20:24.092+0100] P-460        T-680   I ABL      : (12699) Base de données wadb Options:  
+[2014/12/23@18:20:27.352+0100] P-460        T-680   I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Dec 24 18:20:22 2014
+[2014/12/24@18:20:22.894+0100] P-5676       T-5312  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/24@18:20:23.036+0100] P-5676       T-5312  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/24@18:20:26.609+0100] P-5676       T-5312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Dec 25 18:20:27 2014
+[2014/12/25@18:20:27.175+0100] P-5176       T-5948  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/25@18:20:27.262+0100] P-5176       T-5948  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/25@18:20:29.948+0100] P-5176       T-5948  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Dec 26 18:20:03 2014
+[2014/12/26@18:20:03.238+0100] P-2500       T-4284  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/26@18:20:03.329+0100] P-2500       T-4284  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/26@18:20:05.972+0100] P-2500       T-4284  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Dec 29 18:20:42 2014
+[2014/12/29@18:20:42.602+0100] P-2888       T-6396  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/29@18:20:42.693+0100] P-2888       T-6396  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/29@18:20:45.419+0100] P-2888       T-6396  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Dec 30 18:20:13 2014
+[2014/12/30@18:20:13.736+0100] P-6960       T-5912  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/30@18:20:13.835+0100] P-6960       T-5912  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/30@18:20:16.504+0100] P-6960       T-5912  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Dec 31 18:20:23 2014
+[2014/12/31@18:20:23.109+0100] P-6256       T-8016  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2014/12/31@18:20:23.303+0100] P-6256       T-8016  I ABL      : (12699) Base de données wadb Options:  
+[2014/12/31@18:20:26.998+0100] P-6256       T-8016  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jan 01 18:20:03 2015
+[2015/01/01@18:20:03.696+0100] P-4272       T-4220  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/01@18:20:03.799+0100] P-4272       T-4220  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/01@18:20:06.840+0100] P-4272       T-4220  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jan 02 18:20:49 2015
+[2015/01/02@18:20:49.771+0100] P-8148       T-5312  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/02@18:20:49.862+0100] P-8148       T-5312  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/02@18:20:52.620+0100] P-8148       T-5312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jan 05 18:20:40 2015
+[2015/01/05@18:20:40.708+0100] P-2208       T-7584  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/05@18:20:40.798+0100] P-2208       T-7584  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/05@18:20:43.524+0100] P-2208       T-7584  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 07 18:20:38 2015
+[2015/01/07@18:20:38.427+0100] P-4824       T-5680  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/07@18:20:38.525+0100] P-4824       T-5680  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/07@18:20:41.247+0100] P-4824       T-5680  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jan 08 18:20:02 2015
+[2015/01/08@18:20:02.151+0100] P-4340       T-6444  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/08@18:20:02.238+0100] P-4340       T-6444  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/08@18:20:05.094+0100] P-4340       T-6444  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jan 09 18:20:46 2015
+[2015/01/09@18:20:46.785+0100] P-5692       T-6788  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/09@18:20:46.903+0100] P-5692       T-6788  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/09@18:20:49.624+0100] P-5692       T-6788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jan 12 11:25:33 2015
+[2015/01/12@11:25:33.046+0100] P-5868       T-7860  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/01/12@11:25:33.120+0100] P-5868       T-7860  I ABL      : (12699) Base de données wadb Options:  
+
+                Mon Jan 12 18:21:11 2015
+[2015/01/12@18:21:11.109+0100] P-5948       T-7356  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/12@18:21:12.665+0100] P-5948       T-7356  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/12@18:22:47.905+0100] P-5948       T-7356  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jan 13 18:20:38 2015
+[2015/01/13@18:20:38.187+0100] P-7664       T-2428  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/13@18:20:38.255+0100] P-7664       T-2428  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/13@18:20:42.203+0100] P-7664       T-2428  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 14 10:56:54 2015
+[2015/01/14@10:56:54.938+0100] P-5868       T-7860  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 14 10:56:57 2015
+[2015/01/14@10:56:57.541+0100] P-5868       T-7860  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/01/14@10:56:57.597+0100] P-5868       T-7860  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/14@10:57:20.869+0100] P-5868       T-7860  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 14 10:57:21 2015
+[2015/01/14@10:57:21.067+0100] P-5868       T-7860  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/01/14@10:57:21.071+0100] P-5868       T-7860  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/14@11:09:04.439+0100] P-5868       T-7860  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 14 18:21:00 2015
+[2015/01/14@18:21:00.812+0100] P-7316       T-2060  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/14@18:21:00.909+0100] P-7316       T-2060  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/14@18:21:03.594+0100] P-7316       T-2060  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jan 15 18:20:28 2015
+[2015/01/15@18:20:28.860+0100] P-1864       T-6408  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/15@18:20:29.124+0100] P-1864       T-6408  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/15@18:20:33.868+0100] P-1864       T-6408  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jan 16 18:20:21 2015
+[2015/01/16@18:20:21.188+0100] P-988        T-6860  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/16@18:20:21.302+0100] P-988        T-6860  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/16@18:20:24.021+0100] P-988        T-6860  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jan 19 18:20:16 2015
+[2015/01/19@18:20:16.213+0100] P-1916       T-6836  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/19@18:20:16.305+0100] P-1916       T-6836  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/19@18:20:19.067+0100] P-1916       T-6836  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jan 20 18:20:21 2015
+[2015/01/20@18:20:21.381+0100] P-6292       T-7552  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/20@18:20:21.480+0100] P-6292       T-7552  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/20@18:20:24.269+0100] P-6292       T-7552  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 21 18:20:11 2015
+[2015/01/21@18:20:11.899+0100] P-5212       T-6768  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/21@18:20:11.997+0100] P-5212       T-6768  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/21@18:20:14.753+0100] P-5212       T-6768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jan 22 18:20:49 2015
+[2015/01/22@18:20:49.133+0100] P-1412       T-7108  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/22@18:20:49.236+0100] P-1412       T-7108  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/22@18:20:51.921+0100] P-1412       T-7108  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jan 23 18:20:12 2015
+[2015/01/23@18:20:12.083+0100] P-6940       T-4800  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/23@18:20:12.187+0100] P-6940       T-4800  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/23@18:20:14.924+0100] P-6940       T-4800  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jan 26 18:20:11 2015
+[2015/01/26@18:20:11.321+0100] P-6684       T-2456  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/26@18:20:11.420+0100] P-6684       T-2456  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/26@18:20:14.225+0100] P-6684       T-2456  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jan 27 18:20:17 2015
+[2015/01/27@18:20:17.199+0100] P-4484       T-8100  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/27@18:20:17.290+0100] P-4484       T-8100  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/27@18:20:20.023+0100] P-4484       T-8100  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 28 09:39:57 2015
+[2015/01/28@09:39:57.355+0100] P-7240       T-3288  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/01/28@09:39:57.434+0100] P-7240       T-3288  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/28@14:05:17.922+0100] P-7240       T-3288  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jan 28 16:28:00 2015
+[2015/01/28@16:28:00.115+0100] P-1216       T-5072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/01/28@16:28:00.236+0100] P-1216       T-5072  I ABL      : (12699) Base de données wadb Options:  
+
+                Wed Jan 28 18:20:09 2015
+[2015/01/28@18:20:09.399+0100] P-6632       T-1908  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/28@18:20:09.455+0100] P-6632       T-1908  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/28@18:20:13.314+0100] P-6632       T-1908  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jan 29 15:57:40 2015
+[2015/01/29@15:57:40.235+0100] P-1216       T-5072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jan 29 18:20:16 2015
+[2015/01/29@18:20:16.297+0100] P-5188       T-7552  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/29@18:20:16.382+0100] P-5188       T-7552  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/29@18:20:19.658+0100] P-5188       T-7552  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jan 30 18:20:02 2015
+[2015/01/30@18:20:02.795+0100] P-3140       T-7356  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/01/30@18:20:02.893+0100] P-3140       T-7356  I ABL      : (12699) Base de données wadb Options:  
+[2015/01/30@18:20:05.664+0100] P-3140       T-7356  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 02 18:20:26 2015
+[2015/02/02@18:20:26.304+0100] P-7816       T-7476  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/02@18:20:26.403+0100] P-7816       T-7476  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/02@18:20:29.136+0100] P-7816       T-7476  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Feb 03 18:20:32 2015
+[2015/02/03@18:20:32.321+0100] P-7196       T-7468  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/03@18:20:32.420+0100] P-7196       T-7468  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/03@18:20:35.292+0100] P-7196       T-7468  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 04 18:20:40 2015
+[2015/02/04@18:20:40.564+0100] P-3120       T-2292  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/04@18:20:40.687+0100] P-3120       T-2292  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/04@18:20:43.563+0100] P-3120       T-2292  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 05 18:20:49 2015
+[2015/02/05@18:20:49.643+0100] P-7292       T-5468  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/05@18:20:49.734+0100] P-7292       T-5468  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/05@18:20:52.460+0100] P-7292       T-5468  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 06 18:20:44 2015
+[2015/02/06@18:20:44.595+0100] P-7624       T-7776  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/06@18:20:44.728+0100] P-7624       T-7776  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/06@18:20:47.346+0100] P-7624       T-7776  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 09 18:20:49 2015
+[2015/02/09@18:20:49.747+0100] P-2572       T-5336  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/09@18:20:49.843+0100] P-2572       T-5336  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/09@18:20:52.394+0100] P-2572       T-5336  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Feb 10 18:20:50 2015
+[2015/02/10@18:20:50.741+0100] P-6640       T-2164  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/10@18:20:50.868+0100] P-6640       T-2164  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/10@18:20:53.408+0100] P-6640       T-2164  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 11 18:20:54 2015
+[2015/02/11@18:20:54.707+0100] P-7892       T-4604  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/11@18:20:54.801+0100] P-7892       T-4604  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/11@18:20:59.352+0100] P-7892       T-4604  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 12 18:20:05 2015
+[2015/02/12@18:20:05.453+0100] P-5932       T-6276  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/12@18:20:05.569+0100] P-5932       T-6276  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/12@18:20:08.880+0100] P-5932       T-6276  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 13 18:20:53 2015
+[2015/02/13@18:20:53.187+0100] P-5416       T-3208  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/13@18:20:53.287+0100] P-5416       T-3208  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/13@18:20:55.906+0100] P-5416       T-3208  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 16 18:20:13 2015
+[2015/02/16@18:20:13.010+0100] P-5736       T-7064  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/16@18:20:13.104+0100] P-5736       T-7064  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/16@18:20:15.733+0100] P-5736       T-7064  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Feb 17 09:27:46 2015
+[2015/02/17@09:27:46.902+0100] P-2352       T-5072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/02/17@09:27:47.035+0100] P-2352       T-5072  I ABL      : (12699) Base de données wadb Options:  
+
+                Tue Feb 17 09:34:13 2015
+[2015/02/17@09:34:13.788+0100] P-1968       T-5360  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/02/17@09:34:13.879+0100] P-1968       T-5360  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/17@09:39:09.420+0100] P-1968       T-5360  I ABL      : (334)    Fin de la session Single-user. 
+[2015/02/17@09:41:30.661+0100] P-2352       T-5072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Feb 17 18:20:14 2015
+[2015/02/17@18:20:14.730+0100] P-4812       T-4576  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/17@18:20:14.823+0100] P-4812       T-4576  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/17@18:20:17.518+0100] P-4812       T-4576  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 16:36:28 2015
+[2015/02/18@16:36:28.981+0100] P-4140       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/18@16:36:29.136+0100] P-4140       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@16:46:19.978+0100] P-4140       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 16:46:21 2015
+[2015/02/18@16:46:21.766+0100] P-4140       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/18@16:46:21.831+0100] P-4140       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@16:47:25.181+0100] P-4140       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 16:47:25 2015
+[2015/02/18@16:47:25.372+0100] P-4140       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/18@16:47:25.376+0100] P-4140       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@16:50:44.498+0100] P-4140       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 16:50:44 2015
+[2015/02/18@16:50:44.682+0100] P-4140       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/18@16:50:44.686+0100] P-4140       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@17:11:23.565+0100] P-4140       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 17:11:25 2015
+[2015/02/18@17:11:25.156+0100] P-4140       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/18@17:11:25.221+0100] P-4140       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@17:14:56.739+0100] P-4140       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 17:14:56 2015
+[2015/02/18@17:14:56.925+0100] P-4140       T-5488  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/18@17:14:56.929+0100] P-4140       T-5488  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@17:37:52.407+0100] P-4140       T-5488  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 18 18:20:44 2015
+[2015/02/18@18:20:44.173+0100] P-7608       T-5260  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/18@18:20:44.317+0100] P-7608       T-5260  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/18@18:20:46.047+0100] P-7608       T-5260  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 19 18:20:32 2015
+[2015/02/19@18:20:32.742+0100] P-6936       T-7752  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/19@18:20:32.846+0100] P-6936       T-7752  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/19@18:20:35.496+0100] P-6936       T-7752  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 20 10:30:16 2015
+[2015/02/20@10:30:16.156+0100] P-3624       T-4996  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/20@10:30:16.241+0100] P-3624       T-4996  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/20@11:02:33.270+0100] P-3624       T-4996  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 20 11:02:34 2015
+[2015/02/20@11:02:34.868+0100] P-3624       T-4996  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/20@11:02:34.930+0100] P-3624       T-4996  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/20@11:15:31.563+0100] P-3624       T-4996  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 20 11:15:33 2015
+[2015/02/20@11:15:33.389+0100] P-3624       T-4996  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/02/20@11:15:33.452+0100] P-3624       T-4996  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/20@17:14:29.631+0100] P-3624       T-4996  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 20 18:20:13 2015
+[2015/02/20@18:20:13.180+0100] P-2496       T-7840  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/20@18:20:13.229+0100] P-2496       T-7840  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/20@18:20:14.943+0100] P-2496       T-7840  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 23 11:52:09 2015
+[2015/02/23@11:52:09.769+0100] P-9952       T-7312  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/23@11:52:09.909+0100] P-9952       T-7312  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/23@12:07:04.780+0100] P-9952       T-7312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 23 12:07:04 2015
+[2015/02/23@12:07:04.982+0100] P-9952       T-7312  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/23@12:07:04.982+0100] P-9952       T-7312  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/23@13:13:56.272+0100] P-9952       T-7312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 23 13:13:56 2015
+[2015/02/23@13:13:56.491+0100] P-9952       T-7312  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/23@13:13:56.491+0100] P-9952       T-7312  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/23@13:26:29.359+0100] P-9952       T-7312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 23 13:26:29 2015
+[2015/02/23@13:26:29.530+0100] P-9952       T-7312  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/23@13:26:29.546+0100] P-9952       T-7312  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/23@14:04:55.834+0100] P-9952       T-7312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 23 14:04:56 2015
+[2015/02/23@14:04:56.037+0100] P-9952       T-7312  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/23@14:04:56.037+0100] P-9952       T-7312  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/23@17:35:31.078+0100] P-9952       T-7312  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Feb 23 18:20:29 2015
+[2015/02/23@18:20:29.890+0100] P-6228       T-8004  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/23@18:20:29.987+0100] P-6228       T-8004  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/23@18:20:32.323+0100] P-6228       T-8004  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Feb 24 18:20:14 2015
+[2015/02/24@18:20:14.848+0100] P-6620       T-2616  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/24@18:20:14.956+0100] P-6620       T-2616  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/24@18:20:17.536+0100] P-6620       T-2616  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Feb 25 18:20:24 2015
+[2015/02/25@18:20:24.823+0100] P-5772       T-6740  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/25@18:20:24.932+0100] P-5772       T-6740  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/25@18:20:27.548+0100] P-5772       T-6740  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 26 11:44:16 2015
+[2015/02/26@11:44:16.046+0100] P-9432       T-5160  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/26@11:44:16.140+0100] P-9432       T-5160  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/26@13:30:19.636+0100] P-9432       T-5160  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 26 13:30:19 2015
+[2015/02/26@13:30:19.761+0100] P-9432       T-5160  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/26@13:30:19.776+0100] P-9432       T-5160  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/26@14:05:40.320+0100] P-9432       T-5160  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 26 14:05:40 2015
+[2015/02/26@14:05:40.461+0100] P-9432       T-5160  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/02/26@14:05:40.476+0100] P-9432       T-5160  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/26@14:06:00.413+0100] P-9432       T-5160  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Feb 26 18:20:22 2015
+[2015/02/26@18:20:22.900+0100] P-8340       T-10016 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/26@18:20:22.992+0100] P-8340       T-10016 I ABL      : (12699) Base de données wadb Options:  
+[2015/02/26@18:20:25.726+0100] P-8340       T-10016 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 27 11:28:42 2015
+[2015/02/27@11:28:42.518+0100] P-9568       T-9984  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/02/27@11:28:42.669+0100] P-9568       T-9984  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/27@16:01:38.441+0100] P-9568       T-9984  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 27 16:01:41 2015
+[2015/02/27@16:01:41.647+0100] P-9568       T-9984  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/02/27@16:01:41.705+0100] P-9568       T-9984  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/27@16:01:57.382+0100] P-9568       T-9984  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 27 16:01:57 2015
+[2015/02/27@16:01:57.702+0100] P-9568       T-9984  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/02/27@16:01:57.706+0100] P-9568       T-9984  I ABL      : (12699) Base de données wadb Options:  
+[2015/02/27@16:02:43.002+0100] P-9568       T-9984  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Feb 27 18:20:18 2015
+[2015/02/27@18:20:18.832+0100] P-6904       T-10236 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/02/27@18:20:18.903+0100] P-6904       T-10236 I ABL      : (12699) Base de données wadb Options:  
+[2015/02/27@18:20:20.661+0100] P-6904       T-10236 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 02 18:20:18 2015
+[2015/03/02@18:20:18.893+0100] P-9680       T-8384  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/02@18:20:18.986+0100] P-9680       T-8384  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/02@18:20:21.582+0100] P-9680       T-8384  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 12:05:00 2015
+[2015/03/03@12:05:00.065+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@12:05:00.151+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@12:07:53.739+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 12:07:53 2015
+[2015/03/03@12:07:53.923+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@12:07:53.927+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@12:14:28.732+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 12:14:28 2015
+[2015/03/03@12:14:28.909+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@12:14:28.914+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@14:38:26.390+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 14:38:28 2015
+[2015/03/03@14:38:28.602+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@14:38:28.659+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@14:45:08.915+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 14:45:09 2015
+[2015/03/03@14:45:09.091+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@14:45:09.095+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@14:58:32.042+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 14:58:33 2015
+[2015/03/03@14:58:33.320+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@14:58:33.324+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@14:58:54.369+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 14:58:55 2015
+[2015/03/03@14:58:55.443+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@14:58:55.448+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:01:19.685+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:01:22 2015
+[2015/03/03@15:01:22.035+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:01:22.092+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:02:21.843+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:02:23 2015
+[2015/03/03@15:02:23.212+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:02:23.238+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:02:39.874+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:02:40 2015
+[2015/03/03@15:02:40.285+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:02:40.289+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:05:45.779+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:05:45 2015
+[2015/03/03@15:05:45.959+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:05:45.963+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:08:42.343+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:08:42 2015
+[2015/03/03@15:08:42.646+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:08:42.650+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:10:29.442+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:10:29 2015
+[2015/03/03@15:10:29.629+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:10:29.629+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@15:12:29.687+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 15:12:29 2015
+[2015/03/03@15:12:29.999+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@15:12:30.015+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@16:39:42.471+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 16:48:25 2015
+[2015/03/03@16:48:25.938+0100] P-3604       T-5216  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/03@16:48:26.002+0100] P-3604       T-5216  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@17:22:29.434+0100] P-3604       T-5216  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 18:20:42 2015
+[2015/03/03@18:20:42.877+0100] P-7080       T-1352  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/03@18:20:42.927+0100] P-7080       T-1352  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@18:20:44.637+0100] P-7080       T-1352  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 03 19:01:49 2015
+[2015/03/03@19:01:49.299+0100] P-9568       T-9984  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/03/03@19:01:49.361+0100] P-9568       T-9984  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/03@19:02:14.523+0100] P-9568       T-9984  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Mar 04 15:42:22 2015
+[2015/03/04@15:42:22.533+0100] P-5504       T-1052  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/04@15:42:22.615+0100] P-5504       T-1052  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/04@17:12:04.841+0100] P-5504       T-1052  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Mar 04 18:20:03 2015
+[2015/03/04@18:20:03.688+0100] P-7508       T-6116  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/04@18:20:03.737+0100] P-7508       T-6116  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/04@18:20:05.453+0100] P-7508       T-6116  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 10:33:14 2015
+[2015/03/05@10:33:14.269+0100] P-4628       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/05@10:33:14.417+0100] P-4628       T-4440  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@10:38:56.469+0100] P-4628       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 10:38:56 2015
+[2015/03/05@10:38:56.759+0100] P-4628       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/05@10:38:56.765+0100] P-4628       T-4440  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@10:50:27.503+0100] P-4628       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 10:50:29 2015
+[2015/03/05@10:50:29.826+0100] P-4628       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/05@10:50:29.883+0100] P-4628       T-4440  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@11:01:54.361+0100] P-4628       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 11:01:57 2015
+[2015/03/05@11:01:57.021+0100] P-4628       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/05@11:01:57.092+0100] P-4628       T-4440  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@11:04:55.926+0100] P-4628       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 11:04:56 2015
+[2015/03/05@11:04:56.276+0100] P-4628       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/05@11:04:56.276+0100] P-4628       T-4440  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@11:39:57.080+0100] P-4628       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 11:40:00 2015
+[2015/03/05@11:40:00.976+0100] P-4628       T-4440  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/03/05@11:40:01.106+0100] P-4628       T-4440  I ABL      : (12699) Base de données wadb Options:  
+
+                Thu Mar 05 14:09:07 2015
+[2015/03/05@14:09:07.577+0100] P-5148       T-8632  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/05@14:09:07.687+0100] P-5148       T-8632  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@14:12:38.485+0100] P-5148       T-8632  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 14:12:42 2015
+[2015/03/05@14:12:42.214+0100] P-5148       T-8632  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/05@14:12:42.323+0100] P-5148       T-8632  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@14:14:00.663+0100] P-5148       T-8632  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 15:12:28 2015
+[2015/03/05@15:12:28.072+0100] P-6776       T-9008  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/05@15:12:28.181+0100] P-6776       T-9008  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@15:15:09.160+0100] P-6776       T-9008  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 15:15:12 2015
+[2015/03/05@15:15:12.888+0100] P-6776       T-9008  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/05@15:15:13.013+0100] P-6776       T-9008  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@15:19:43.254+0100] P-6776       T-9008  I ABL      : (334)    Fin de la session Single-user. 
+[2015/03/05@16:06:05.783+0100] P-4628       T-4440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 05 18:20:44 2015
+[2015/03/05@18:20:44.128+0100] P-8316       T-8976  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/05@18:20:44.178+0100] P-8316       T-8976  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/05@18:20:47.470+0100] P-8316       T-8976  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Mar 06 18:20:56 2015
+[2015/03/06@18:20:56.310+0100] P-4516       T-7896  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/06@18:20:56.410+0100] P-4516       T-7896  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/06@18:20:59.111+0100] P-4516       T-7896  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 09 18:20:14 2015
+[2015/03/09@18:20:14.670+0100] P-9688       T-8412  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/09@18:20:14.764+0100] P-9688       T-8412  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/09@18:20:17.557+0100] P-9688       T-8412  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 10 12:07:44 2015
+[2015/03/10@12:07:44.269+0100] P-3056       T-8468  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/10@12:07:44.409+0100] P-3056       T-8468  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/10@12:07:51.476+0100] P-3056       T-8468  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 10 18:20:12 2015
+[2015/03/10@18:20:12.455+0100] P-7248       T-7540  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/10@18:20:12.555+0100] P-7248       T-7540  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/10@18:20:15.367+0100] P-7248       T-7540  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Mar 11 18:20:30 2015
+[2015/03/11@18:20:30.753+0100] P-9760       T-804   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/11@18:20:30.856+0100] P-9760       T-804   I ABL      : (12699) Base de données wadb Options:  
+[2015/03/11@18:20:33.705+0100] P-9760       T-804   I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 12 10:39:34 2015
+[2015/03/12@10:39:34.559+0100] P-10612      T-8296  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/12@10:39:34.668+0100] P-10612      T-8296  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/12@17:49:01.652+0100] P-10612      T-8296  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 12 18:20:58 2015
+[2015/03/12@18:20:58.655+0100] P-9272       T-10180 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/12@18:20:58.741+0100] P-9272       T-10180 I ABL      : (12699) Base de données wadb Options:  
+[2015/03/12@18:21:02.322+0100] P-9272       T-10180 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Mar 13 18:20:40 2015
+[2015/03/13@18:20:40.950+0100] P-8968       T-10220 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/13@18:20:41.044+0100] P-8968       T-10220 I ABL      : (12699) Base de données wadb Options:  
+[2015/03/13@18:20:43.836+0100] P-8968       T-10220 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 16 11:38:26 2015
+[2015/03/16@11:38:26.433+0100] P-4536       T-7272  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/16@11:38:26.636+0100] P-4536       T-7272  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/16@11:47:27.937+0100] P-4536       T-7272  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 16 11:47:28 2015
+[2015/03/16@11:47:28.218+0100] P-4536       T-7272  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/16@11:47:28.218+0100] P-4536       T-7272  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/16@11:49:01.896+0100] P-4536       T-7272  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 16 18:20:28 2015
+[2015/03/16@18:20:28.859+0100] P-9364       T-2328  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/16@18:20:28.954+0100] P-9364       T-2328  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/16@18:20:31.800+0100] P-9364       T-2328  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 17 15:05:38 2015
+[2015/03/17@15:05:38.442+0100] P-7200       T-4104  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/03/17@15:05:39.121+0100] P-7200       T-4104  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/17@16:57:55.996+0100] P-7200       T-4104  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 17 17:43:30 2015
+[2015/03/17@17:43:30.214+0100] P-1256       T-6524  I ABL      : (451)   Début de session Single-user pour l'utilisateur devbb sur CON:. 
+[2015/03/17@17:43:30.277+0100] P-1256       T-6524  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/17@17:43:35.939+0100] P-1256       T-6524  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 17 18:20:04 2015
+[2015/03/17@18:20:04.010+0100] P-8512       T-1624  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/17@18:20:04.070+0100] P-8512       T-1624  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/17@18:20:05.776+0100] P-8512       T-1624  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Mar 18 18:21:00 2015
+[2015/03/18@18:21:00.938+0100] P-9556       T-8048  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/18@18:21:01.040+0100] P-9556       T-8048  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/18@18:21:03.880+0100] P-9556       T-8048  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 19 18:20:49 2015
+[2015/03/19@18:20:49.311+0100] P-8016       T-4020  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/19@18:20:49.405+0100] P-8016       T-4020  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/19@18:20:52.211+0100] P-8016       T-4020  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Mar 20 18:20:02 2015
+[2015/03/20@18:20:02.585+0100] P-9872       T-9688  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/20@18:20:02.645+0100] P-9872       T-9688  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/20@18:20:04.510+0100] P-9872       T-9688  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 10:59:02 2015
+[2015/03/23@10:59:02.644+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@10:59:02.710+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+
+                Mon Mar 23 10:57:47 2015
+[2015/03/23@10:57:47.398+0100] P-4876       T-1200  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/03/23@10:57:47.455+0100] P-4876       T-1200  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:07:24.926+0100] P-4876       T-1200  I ABL      : (334)    Fin de la session Single-user. 
+[2015/03/23@11:13:48.203+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:13:50 2015
+[2015/03/23@11:13:50.469+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:13:50.538+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:17:07.591+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:17:09 2015
+[2015/03/23@11:17:09.865+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:17:09.931+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:28:19.028+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:28:21 2015
+[2015/03/23@11:28:21.298+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:28:21.364+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:34:01.387+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:34:03 2015
+[2015/03/23@11:34:03.861+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:34:03.925+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:34:21.595+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:38:11 2015
+[2015/03/23@11:38:11.822+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:38:11.888+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:38:39.214+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:38:41 2015
+[2015/03/23@11:38:41.504+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:38:41.571+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:39:12.205+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:39:14 2015
+[2015/03/23@11:39:14.515+0100] P-2372       T-7072  I ABL      : (451)   Début de session Single-user pour l'utilisateur devpl sur CON:. 
+[2015/03/23@11:39:14.586+0100] P-2372       T-7072  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@11:39:32.471+0100] P-2372       T-7072  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 11:43:24 2015
+[2015/03/23@11:43:24.507+0100] P-5612       T-7928  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/03/23@11:43:24.565+0100] P-5612       T-7928  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@12:08:51.174+0100] P-5612       T-7928  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 23 18:20:45 2015
+[2015/03/23@18:20:45.234+0100] P-10036      T-8292  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/23@18:20:45.329+0100] P-10036      T-8292  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/23@18:20:48.119+0100] P-10036      T-8292  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 24 18:20:25 2015
+[2015/03/24@18:20:25.279+0100] P-4208       T-9828  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/24@18:20:25.371+0100] P-4208       T-9828  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/24@18:20:28.324+0100] P-4208       T-9828  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Mar 25 18:20:06 2015
+[2015/03/25@18:20:06.609+0100] P-9152       T-8608  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/25@18:20:06.713+0100] P-9152       T-8608  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/25@18:20:10.070+0100] P-9152       T-8608  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Mar 26 18:20:31 2015
+[2015/03/26@18:20:31.215+0100] P-5752       T-7528  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/26@18:20:31.337+0100] P-5752       T-7528  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/26@18:20:36.551+0100] P-5752       T-7528  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Mar 27 18:20:09 2015
+[2015/03/27@18:20:09.051+0100] P-10120      T-8756  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/27@18:20:09.147+0100] P-10120      T-8756  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/27@18:20:11.980+0100] P-10120      T-8756  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Mar 30 18:20:27 2015
+[2015/03/30@18:20:27.460+0200] P-7560       T-8524  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/30@18:20:27.555+0200] P-7560       T-8524  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/30@18:20:30.418+0200] P-7560       T-8524  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Mar 31 18:20:53 2015
+[2015/03/31@18:20:53.783+0200] P-9688       T-9064  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/03/31@18:20:53.885+0200] P-9688       T-9064  I ABL      : (12699) Base de données wadb Options:  
+[2015/03/31@18:20:56.644+0200] P-9688       T-9064  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 01 18:20:15 2015
+[2015/04/01@18:20:15.857+0200] P-9860       T-4116  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/01@18:20:15.971+0200] P-9860       T-4116  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/01@18:20:18.716+0200] P-9860       T-4116  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 02 18:20:52 2015
+[2015/04/02@18:20:52.352+0200] P-10100      T-9408  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/02@18:20:52.449+0200] P-10100      T-9408  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/02@18:20:55.319+0200] P-10100      T-9408  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Apr 03 18:20:41 2015
+[2015/04/03@18:20:41.432+0200] P-10172      T-4140  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/03@18:20:41.549+0200] P-10172      T-4140  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/03@18:20:44.408+0200] P-10172      T-4140  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Apr 06 18:20:08 2015
+[2015/04/06@18:20:08.501+0200] P-9808       T-8016  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/06@18:20:08.597+0200] P-9808       T-8016  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/06@18:20:11.376+0200] P-9808       T-8016  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Apr 07 18:20:28 2015
+[2015/04/07@18:20:28.788+0200] P-9272       T-8872  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/07@18:20:28.883+0200] P-9272       T-8872  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/07@18:20:31.661+0200] P-9272       T-8872  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 08 18:20:29 2015
+[2015/04/08@18:20:29.143+0200] P-9596       T-8080  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/08@18:20:29.246+0200] P-9596       T-8080  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/08@18:20:32.030+0200] P-9596       T-8080  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 08 19:50:52 2015
+[2015/04/08@19:50:52.869+0200] P-3732       T-9948  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/08@19:50:52.990+0200] P-3732       T-9948  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/08@19:50:55.037+0200] P-3732       T-9948  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 09 18:20:57 2015
+[2015/04/09@18:20:57.552+0200] P-10124      T-9420  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/09@18:20:57.662+0200] P-10124      T-9420  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/09@18:21:00.583+0200] P-10124      T-9420  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Apr 10 10:18:07 2015
+[2015/04/10@10:18:07.980+0200] P-4724       T-6692  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/04/10@10:18:08.063+0200] P-4724       T-6692  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/10@10:18:15.324+0200] P-4724       T-6692  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Apr 10 18:21:00 2015
+[2015/04/10@18:21:00.391+0200] P-9688       T-1864  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/10@18:21:00.454+0200] P-9688       T-1864  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/10@18:21:02.982+0200] P-9688       T-1864  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Apr 13 18:20:57 2015
+[2015/04/13@18:20:57.478+0200] P-5248       T-9564  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/13@18:20:57.599+0200] P-5248       T-9564  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/13@18:21:00.435+0200] P-5248       T-9564  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 15 18:20:02 2015
+[2015/04/15@18:20:02.875+0200] P-9752       T-8012  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/15@18:20:02.986+0200] P-9752       T-8012  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/15@18:20:05.767+0200] P-9752       T-8012  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 16 18:20:06 2015
+[2015/04/16@18:20:06.079+0200] P-8296       T-8800  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/16@18:20:06.241+0200] P-8296       T-8800  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/16@18:20:09.591+0200] P-8296       T-8800  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 16 18:21:00 2015
+[2015/04/16@18:21:00.475+0200] P-6940       T-6824  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/04/16@18:21:00.555+0200] P-6940       T-6824  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/16@18:22:47.838+0200] P-6940       T-6824  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 16 18:22:48 2015
+[2015/04/16@18:22:48.093+0200] P-6940       T-6824  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/04/16@18:22:48.097+0200] P-6940       T-6824  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/16@18:23:23.979+0200] P-6940       T-6824  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 16 18:23:24 2015
+[2015/04/16@18:23:24.154+0200] P-6940       T-6824  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/04/16@18:23:24.157+0200] P-6940       T-6824  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/16@18:37:17.270+0200] P-6940       T-6824  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Apr 17 18:20:28 2015
+[2015/04/17@18:20:28.907+0200] P-9984       T-7172  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/17@18:20:28.964+0200] P-9984       T-7172  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/17@18:20:31.560+0200] P-9984       T-7172  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Apr 20 18:12:55 2015
+[2015/04/20@18:12:55.604+0200] P-472        T-3108  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/04/20@18:12:55.752+0200] P-472        T-3108  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/20@18:13:17.959+0200] P-472        T-3108  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Apr 20 18:13:18 2015
+[2015/04/20@18:13:18.241+0200] P-472        T-3108  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/04/20@18:13:18.247+0200] P-472        T-3108  I ABL      : (12699) Base de données wadb Options:  
+
+                Mon Apr 20 18:20:36 2015
+[2015/04/20@18:20:36.239+0200] P-9300       T-8896  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/20@18:20:36.295+0200] P-9300       T-8896  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/20@18:20:40.453+0200] P-9300       T-8896  I ABL      : (334)    Fin de la session Single-user. 
+[2015/04/20@18:24:57.350+0200] P-472        T-3108  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Apr 21 18:20:48 2015
+[2015/04/21@18:20:48.396+0200] P-2428       T-8316  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/21@18:20:48.525+0200] P-2428       T-8316  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/21@18:20:51.336+0200] P-2428       T-8316  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 22 14:39:12 2015
+[2015/04/22@14:39:12.225+0200] P-4668       T-5012  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/04/22@14:39:12.351+0200] P-4668       T-5012  I ABL      : (12699) Base de données wadb Options:  
+
+                Wed Apr 22 14:53:11 2015
+[2015/04/22@14:53:11.387+0200] P-5060       T-3876  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/04/22@14:53:11.441+0200] P-5060       T-3876  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/22@15:22:23.335+0200] P-4668       T-5012  I ABL      : (334)    Fin de la session Single-user. 
+[2015/04/22@17:27:09.074+0200] P-5060       T-3876  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 22 18:20:22 2015
+[2015/04/22@18:20:22.291+0200] P-9468       T-9572  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/22@18:20:22.348+0200] P-9468       T-9572  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/22@18:20:24.251+0200] P-9468       T-9572  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 23 18:20:44 2015
+[2015/04/23@18:20:44.336+0200] P-2428       T-9048  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/23@18:20:44.466+0200] P-2428       T-9048  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/23@18:20:47.734+0200] P-2428       T-9048  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Apr 24 18:21:00 2015
+[2015/04/24@18:21:00.673+0200] P-10164      T-10200 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/24@18:21:00.770+0200] P-10164      T-10200 I ABL      : (12699) Base de données wadb Options:  
+[2015/04/24@18:21:03.639+0200] P-10164      T-10200 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Apr 27 18:20:04 2015
+[2015/04/27@18:20:04.091+0200] P-9764       T-6380  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/27@18:20:04.198+0200] P-9764       T-6380  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/27@18:20:07.100+0200] P-9764       T-6380  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Apr 28 18:20:09 2015
+[2015/04/28@18:20:09.722+0200] P-10164      T-9152  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/28@18:20:09.840+0200] P-10164      T-9152  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/28@18:20:12.697+0200] P-10164      T-9152  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Apr 29 18:20:18 2015
+[2015/04/29@18:20:18.802+0200] P-8640       T-8656  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/29@18:20:18.899+0200] P-8640       T-8656  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/29@18:20:21.640+0200] P-8640       T-8656  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Apr 30 18:20:36 2015
+[2015/04/30@18:20:36.768+0200] P-1060       T-7172  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/04/30@18:20:36.882+0200] P-1060       T-7172  I ABL      : (12699) Base de données wadb Options:  
+[2015/04/30@18:20:39.754+0200] P-1060       T-7172  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 01 18:20:43 2015
+[2015/05/01@18:20:43.592+0200] P-7072       T-6728  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/01@18:20:43.689+0200] P-7072       T-6728  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/01@18:20:46.454+0200] P-7072       T-6728  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 04 18:20:23 2015
+[2015/05/04@18:20:23.980+0200] P-10572      T-10644 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/04@18:20:24.080+0200] P-10572      T-10644 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/04@18:20:26.952+0200] P-10572      T-10644 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue May 05 11:27:28 2015
+[2015/05/05@11:27:28.478+0200] P-532        T-2432  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/05/05@11:27:28.559+0200] P-532        T-2432  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/05@11:37:38.044+0200] P-532        T-2432  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue May 05 18:20:57 2015
+[2015/05/05@18:20:57.350+0200] P-11904      T-11752 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/05@18:20:57.450+0200] P-11904      T-11752 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/05@18:20:59.548+0200] P-11904      T-11752 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 06 18:21:01 2015
+[2015/05/06@18:21:01.525+0200] P-11612      T-11328 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/06@18:21:01.727+0200] P-11612      T-11328 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/06@18:21:05.271+0200] P-11612      T-11328 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu May 07 18:20:26 2015
+[2015/05/07@18:20:26.505+0200] P-7608       T-10320 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/07@18:20:27.094+0200] P-7608       T-10320 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/07@18:20:35.223+0200] P-7608       T-10320 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 08 18:20:53 2015
+[2015/05/08@18:20:53.984+0200] P-9964       T-11732 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/08@18:20:54.102+0200] P-9964       T-11732 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/08@18:20:56.955+0200] P-9964       T-11732 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 11 18:20:46 2015
+[2015/05/11@18:20:46.968+0200] P-10744      T-10272 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/11@18:20:47.044+0200] P-10744      T-10272 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/11@18:20:49.692+0200] P-10744      T-10272 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue May 12 18:20:11 2015
+[2015/05/12@18:20:11.639+0200] P-7012       T-11096 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/12@18:20:11.752+0200] P-7012       T-11096 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/12@18:20:15.015+0200] P-7012       T-11096 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 13 11:00:24 2015
+[2015/05/13@11:00:24.653+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/13@11:00:24.736+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/13@11:00:28.910+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 13 11:00:29 2015
+[2015/05/13@11:00:29.116+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/13@11:00:29.120+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/13@15:41:14.818+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 13 18:20:28 2015
+[2015/05/13@18:20:28.986+0200] P-12084      T-11944 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/13@18:20:29.043+0200] P-12084      T-11944 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/13@18:20:30.951+0200] P-12084      T-11944 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu May 14 18:20:50 2015
+[2015/05/14@18:20:50.739+0200] P-11732      T-11920 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/14@18:20:50.833+0200] P-11732      T-11920 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/14@18:20:53.647+0200] P-11732      T-11920 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 15 18:20:35 2015
+[2015/05/15@18:20:35.391+0200] P-11292      T-10536 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/15@18:20:35.484+0200] P-11292      T-10536 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/15@18:20:38.322+0200] P-11292      T-10536 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 15 18:56:11 2015
+[2015/05/15@18:56:11.812+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/15@18:56:11.870+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/15@18:57:06.233+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 15 18:57:06 2015
+[2015/05/15@18:57:06.711+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/15@18:57:06.794+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/15@19:11:21.137+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 15 19:11:21 2015
+[2015/05/15@19:11:21.325+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/15@19:11:21.328+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+
+                Mon May 18 16:29:03 2015
+[2015/05/18@16:29:03.243+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 18 18:20:28 2015
+[2015/05/18@18:20:28.492+0200] P-8428       T-10504 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/18@18:20:28.551+0200] P-8428       T-10504 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/18@18:20:30.214+0200] P-8428       T-10504 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 18 18:40:44 2015
+[2015/05/18@18:40:44.287+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/18@18:40:44.341+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/18@18:40:51.536+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 18 18:40:51 2015
+[2015/05/18@18:40:51.725+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/18@18:40:51.729+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/18@18:41:07.439+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 18 18:41:07 2015
+[2015/05/18@18:41:07.613+0200] P-5288       T-3768  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/18@18:41:07.618+0200] P-5288       T-3768  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/18@18:41:58.300+0200] P-5288       T-3768  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue May 19 18:20:33 2015
+[2015/05/19@18:20:33.690+0200] P-10764      T-12044 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/19@18:20:33.778+0200] P-10764      T-12044 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/19@18:20:37.119+0200] P-10764      T-12044 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 20 13:45:17 2015
+[2015/05/20@13:45:17.157+0200] P-5668       T-5344  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/05/20@13:45:17.314+0200] P-5668       T-5344  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/20@13:45:39.542+0200] P-5668       T-5344  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 20 18:20:29 2015
+[2015/05/20@18:20:29.937+0200] P-9080       T-9524  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/20@18:20:29.994+0200] P-9080       T-9524  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/20@18:20:31.899+0200] P-9080       T-9524  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu May 21 18:20:15 2015
+[2015/05/21@18:20:15.516+0200] P-10084      T-11272 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/21@18:20:15.625+0200] P-10084      T-11272 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/21@18:20:20.418+0200] P-10084      T-11272 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 22 18:20:17 2015
+[2015/05/22@18:20:17.380+0200] P-11076      T-11192 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/22@18:20:17.856+0200] P-11076      T-11192 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/22@18:20:28.234+0200] P-11076      T-11192 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon May 25 18:20:27 2015
+[2015/05/25@18:20:27.617+0200] P-11096      T-2328  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/25@18:20:27.708+0200] P-11096      T-2328  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/25@18:20:30.549+0200] P-11096      T-2328  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue May 26 18:20:26 2015
+[2015/05/26@18:20:26.941+0200] P-8932       T-10900 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/26@18:20:27.031+0200] P-8932       T-10900 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/26@18:20:29.849+0200] P-8932       T-10900 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed May 27 18:20:29 2015
+[2015/05/27@18:20:29.210+0200] P-11036      T-2060  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/27@18:20:29.296+0200] P-11036      T-2060  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/27@18:20:32.056+0200] P-11036      T-2060  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu May 28 18:20:12 2015
+[2015/05/28@18:20:12.349+0200] P-11800      T-10528 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/28@18:20:12.479+0200] P-11800      T-10528 I ABL      : (12699) Base de données wadb Options:  
+[2015/05/28@18:20:15.201+0200] P-11800      T-10528 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri May 29 18:20:12 2015
+[2015/05/29@18:20:12.439+0200] P-11928      T-7132  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/05/29@18:20:12.534+0200] P-11928      T-7132  I ABL      : (12699) Base de données wadb Options:  
+[2015/05/29@18:20:15.436+0200] P-11928      T-7132  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jun 01 18:20:25 2015
+[2015/06/01@18:20:25.966+0200] P-12004      T-11344 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/01@18:20:26.065+0200] P-12004      T-11344 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/01@18:20:29.199+0200] P-12004      T-11344 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 02 18:17:26 2015
+[2015/06/02@18:17:26.631+0200] P-11440      T-476   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/02@18:17:26.714+0200] P-11440      T-476   I ABL      : (12699) Base de données wadb Options:  
+[2015/06/02@18:17:52.191+0200] P-11440      T-476   I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 02 18:17:52 2015
+[2015/06/02@18:17:52.375+0200] P-11440      T-476   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/02@18:17:52.379+0200] P-11440      T-476   I ABL      : (12699) Base de données wadb Options:  
+[2015/06/02@18:18:00.506+0200] P-11440      T-476   I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 02 18:18:00 2015
+[2015/06/02@18:18:00.685+0200] P-11440      T-476   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/02@18:18:00.690+0200] P-11440      T-476   I ABL      : (12699) Base de données wadb Options:  
+[2015/06/02@18:18:17.460+0200] P-11440      T-476   I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 02 18:18:17 2015
+[2015/06/02@18:18:17.659+0200] P-11440      T-476   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/02@18:18:17.664+0200] P-11440      T-476   I ABL      : (12699) Base de données wadb Options:  
+[2015/06/02@18:18:43.789+0200] P-11440      T-476   I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 02 18:18:43 2015
+[2015/06/02@18:18:43.972+0200] P-11440      T-476   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/02@18:18:43.977+0200] P-11440      T-476   I ABL      : (12699) Base de données wadb Options:  
+
+                Tue Jun 02 18:20:37 2015
+[2015/06/02@18:20:37.171+0200] P-8252       T-11360 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/02@18:20:37.315+0200] P-8252       T-11360 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/02@18:20:38.892+0200] P-8252       T-11360 I ABL      : (334)    Fin de la session Single-user. 
+[2015/06/02@18:20:46.790+0200] P-11440      T-476   I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jun 03 18:20:38 2015
+[2015/06/03@18:20:38.004+0200] P-11580      T-7568  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/03@18:20:38.114+0200] P-11580      T-7568  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/03@18:20:40.904+0200] P-11580      T-7568  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 04 18:20:30 2015
+[2015/06/04@18:20:30.491+0200] P-10216      T-10564 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/04@18:20:30.624+0200] P-10216      T-10564 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/04@18:20:34.116+0200] P-10216      T-10564 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 05 10:33:29 2015
+[2015/06/05@10:33:29.129+0200] P-2204       T-5508  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/05@10:33:29.264+0200] P-2204       T-5508  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/05@10:37:44.169+0200] P-2204       T-5508  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 05 10:37:44 2015
+[2015/06/05@10:37:44.288+0200] P-2204       T-5508  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/05@10:37:44.291+0200] P-2204       T-5508  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/05@10:37:59.481+0200] P-2204       T-5508  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 05 18:20:38 2015
+[2015/06/05@18:20:38.432+0200] P-10256      T-10908 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/05@18:20:38.528+0200] P-10256      T-10908 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/05@18:20:41.355+0200] P-10256      T-10908 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jun 08 18:20:53 2015
+[2015/06/08@18:20:53.364+0200] P-6396       T-11036 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/08@18:20:53.442+0200] P-6396       T-11036 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/08@18:20:56.058+0200] P-6396       T-11036 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 09 18:20:55 2015
+[2015/06/09@18:20:55.029+0200] P-11760      T-11168 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/09@18:20:55.120+0200] P-11760      T-11168 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/09@18:20:57.976+0200] P-11760      T-11168 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jun 10 18:20:12 2015
+[2015/06/10@18:20:12.871+0200] P-4792       T-10280 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/10@18:20:12.989+0200] P-4792       T-10280 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/10@18:20:15.917+0200] P-4792       T-10280 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 11 12:09:23 2015
+[2015/06/11@12:09:23.073+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/11@12:09:23.207+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/11@12:09:53.987+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 11 12:09:54 2015
+[2015/06/11@12:09:54.137+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/11@12:09:54.139+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/11@12:10:21.698+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 11 12:10:21 2015
+[2015/06/11@12:10:21.881+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/11@12:10:21.884+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/11@12:11:12.962+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 11 12:11:13 2015
+[2015/06/11@12:11:13.132+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/11@12:11:13.135+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/11@12:15:39.187+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 11 12:15:41 2015
+[2015/06/11@12:15:41.288+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/11@12:15:41.290+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+
+                Thu Jun 11 18:20:28 2015
+[2015/06/11@18:20:28.459+0200] P-12256      T-11960 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/11@18:20:28.516+0200] P-12256      T-11960 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/11@18:20:32.606+0200] P-12256      T-11960 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 12 13:51:11 2015
+[2015/06/12@13:51:11.669+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 12 13:51:15 2015
+[2015/06/12@13:51:15.953+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/12@13:51:16.059+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/12@14:43:59.350+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 12 14:43:59 2015
+[2015/06/12@14:43:59.505+0200] P-5436       T-3788  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/12@14:43:59.508+0200] P-5436       T-3788  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/12@17:00:31.774+0200] P-5436       T-3788  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 12 18:21:01 2015
+[2015/06/12@18:21:01.152+0200] P-13288      T-12448 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/12@18:21:01.214+0200] P-13288      T-12448 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/12@18:21:04.763+0200] P-13288      T-12448 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jun 15 18:20:16 2015
+[2015/06/15@18:20:16.337+0200] P-13768      T-12876 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/15@18:20:16.443+0200] P-13768      T-12876 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/15@18:20:19.283+0200] P-13768      T-12876 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 16 18:20:10 2015
+[2015/06/16@18:20:10.003+0200] P-13740      T-11440 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/16@18:20:10.105+0200] P-13740      T-11440 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/16@18:20:14.194+0200] P-13740      T-11440 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jun 17 18:20:48 2015
+[2015/06/17@18:20:48.044+0200] P-13292      T-13112 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/17@18:20:48.151+0200] P-13292      T-13112 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/17@18:20:50.989+0200] P-13292      T-13112 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 18 18:20:46 2015
+[2015/06/18@18:20:46.504+0200] P-13380      T-13888 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/18@18:20:46.612+0200] P-13380      T-13888 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/18@18:20:49.805+0200] P-13380      T-13888 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 19 18:20:44 2015
+[2015/06/19@18:20:44.259+0200] P-12136      T-13536 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/19@18:20:44.391+0200] P-12136      T-13536 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/19@18:20:48.363+0200] P-12136      T-13536 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jun 22 18:20:19 2015
+[2015/06/22@18:20:19.743+0200] P-12676      T-12080 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/22@18:20:19.838+0200] P-12676      T-12080 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/22@18:20:22.622+0200] P-12676      T-12080 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 23 18:20:10 2015
+[2015/06/23@18:20:10.952+0200] P-14048      T-13204 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/23@18:20:11.056+0200] P-14048      T-13204 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/23@18:20:12.682+0200] P-14048      T-13204 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jun 24 18:20:07 2015
+[2015/06/24@18:20:07.012+0200] P-13200      T-12820 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/24@18:20:07.310+0200] P-13200      T-12820 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/24@18:20:10.382+0200] P-13200      T-12820 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jun 25 18:20:37 2015
+[2015/06/25@18:20:37.398+0200] P-12740      T-14268 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/25@18:20:37.490+0200] P-12740      T-14268 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/25@18:20:40.323+0200] P-12740      T-14268 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jun 26 08:38:00 2015
+[2015/06/26@08:38:00.748+0200] P-13292      T-5972  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/06/26@08:38:00.853+0200] P-13292      T-5972  I ABL      : (12699) Base de données wadb Options:  
+
+                Fri Jun 26 18:20:44 2015
+[2015/06/26@18:20:44.480+0200] P-12912      T-14184 I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/26@18:20:44.548+0200] P-12912      T-14184 I ABL      : (12699) Base de données wadb Options:  
+[2015/06/26@18:20:48.327+0200] P-12912      T-14184 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jun 29 18:20:10 2015
+[2015/06/29@18:20:10.849+0200] P-3776       T-4064  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/29@18:20:10.912+0200] P-3776       T-4064  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/29@18:20:15.281+0200] P-3776       T-4064  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 30 14:43:03 2015
+[2015/06/30@14:43:03.688+0200] P-368        T-6116  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/30@14:43:03.783+0200] P-368        T-6116  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/30@14:43:19.937+0200] P-368        T-6116  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 30 14:43:39 2015
+[2015/06/30@14:43:39.298+0200] P-368        T-6116  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/06/30@14:43:39.392+0200] P-368        T-6116  I ABL      : (12699) Base de données wadb Options:  
+
+                Tue Jun 30 18:20:58 2015
+[2015/06/30@18:20:58.776+0200] P-2904       T-2452  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/06/30@18:20:58.842+0200] P-2904       T-2452  I ABL      : (12699) Base de données wadb Options:  
+[2015/06/30@18:21:02.910+0200] P-2904       T-2452  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jun 30 18:27:50 2015
+[2015/06/30@18:27:50.971+0200] P-13292      T-5972  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jul 01 10:02:50 2015
+[2015/07/01@10:02:50.350+0200] P-368        T-6116  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jul 01 10:02:53 2015
+[2015/07/01@10:02:53.173+0200] P-368        T-6116  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/07/01@10:02:53.384+0200] P-368        T-6116  I ABL      : (12699) Base de données wadb Options:  
+
+                Wed Jul 01 18:20:19 2015
+[2015/07/01@18:20:19.388+0200] P-2272       T-4084  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/01@18:20:19.480+0200] P-2272       T-4084  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/01@18:20:24.695+0200] P-2272       T-4084  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 02 16:46:06 2015
+[2015/07/02@16:46:06.284+0200] P-368        T-6116  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 02 18:20:59 2015
+[2015/07/02@18:20:59.042+0200] P-3472       T-148   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/02@18:20:59.183+0200] P-3472       T-148   I ABL      : (12699) Base de données wadb Options:  
+[2015/07/02@18:21:03.099+0200] P-3472       T-148   I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jul 03 10:02:38 2015
+[2015/07/03@10:02:38.760+0200] P-11244      T-6168  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/07/03@10:02:38.877+0200] P-11244      T-6168  I ABL      : (12699) Base de données wadb Options:  
+
+                Fri Jul 03 18:20:54 2015
+[2015/07/03@18:20:54.519+0200] P-2428       T-2992  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/03@18:20:54.581+0200] P-2428       T-2992  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/03@18:20:58.955+0200] P-2428       T-2992  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jul 06 18:20:58 2015
+[2015/07/06@18:20:58.095+0200] P-4352       T-5516  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/06@18:20:58.156+0200] P-4352       T-5516  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/06@18:21:02.205+0200] P-4352       T-5516  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jul 07 15:17:13 2015
+[2015/07/07@15:17:13.762+0200] P-11244      T-6168  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jul 07 18:20:27 2015
+[2015/07/07@18:20:27.385+0200] P-3492       T-4288  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/07@18:20:27.459+0200] P-3492       T-4288  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/07@18:20:29.105+0200] P-3492       T-4288  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jul 08 18:20:51 2015
+[2015/07/08@18:20:51.556+0200] P-5952       T-5624  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/08@18:20:51.655+0200] P-5952       T-5624  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/08@18:20:54.508+0200] P-5952       T-5624  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 09 18:20:28 2015
+[2015/07/09@18:20:28.747+0200] P-4740       T-5920  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/09@18:20:28.868+0200] P-4740       T-5920  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/09@18:20:32.299+0200] P-4740       T-5920  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 09 20:18:07 2015
+[2015/07/09@20:18:07.672+0200] P-8912       T-8292  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/07/09@20:18:08.045+0200] P-8912       T-8292  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/09@20:26:17.221+0200] P-8912       T-8292  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jul 10 18:20:05 2015
+[2015/07/10@18:20:05.948+0200] P-232        T-2384  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/10@18:20:06.111+0200] P-232        T-2384  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/10@18:20:09.452+0200] P-232        T-2384  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jul 13 18:20:55 2015
+[2015/07/13@18:20:55.199+0200] P-720        T-3912  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/13@18:20:55.298+0200] P-720        T-3912  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/13@18:20:58.133+0200] P-720        T-3912  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jul 14 18:20:46 2015
+[2015/07/14@18:20:46.187+0200] P-4872       T-1096  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/14@18:20:46.286+0200] P-4872       T-1096  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/14@18:20:49.076+0200] P-4872       T-1096  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jul 15 18:20:13 2015
+[2015/07/15@18:20:13.878+0200] P-1060       T-5948  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/15@18:20:13.985+0200] P-1060       T-5948  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/15@18:20:16.673+0200] P-1060       T-5948  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 16 18:32:48 2015
+[2015/07/16@18:32:48.777+0200] P-1584       T-5264  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/16@18:32:48.897+0200] P-1584       T-5264  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/16@18:32:54.553+0200] P-1584       T-5264  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jul 17 18:33:04 2015
+[2015/07/17@18:33:04.348+0200] P-5712       T-4824  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/17@18:33:04.406+0200] P-5712       T-4824  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/17@18:33:06.672+0200] P-5712       T-4824  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jul 20 17:36:39 2015
+[2015/07/20@17:36:39.642+0200] P-10120      T-5292  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/07/20@17:36:39.744+0200] P-10120      T-5292  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/20@17:56:13.626+0200] P-10120      T-5292  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jul 20 18:20:56 2015
+[2015/07/20@18:20:56.454+0200] P-6120       T-3476  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/20@18:20:56.510+0200] P-6120       T-3476  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/20@18:20:58.125+0200] P-6120       T-3476  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jul 21 18:20:53 2015
+[2015/07/21@18:20:53.262+0200] P-992        T-4460  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/21@18:20:53.361+0200] P-992        T-4460  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/21@18:20:57.271+0200] P-992        T-4460  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jul 22 18:20:50 2015
+[2015/07/22@18:20:50.813+0200] P-5820       T-5092  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/22@18:20:50.908+0200] P-5820       T-5092  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/22@18:20:53.607+0200] P-5820       T-5092  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 23 18:20:34 2015
+[2015/07/23@18:20:34.357+0200] P-2860       T-5012  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/23@18:20:34.452+0200] P-2860       T-5012  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/23@18:20:37.199+0200] P-2860       T-5012  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jul 24 18:20:29 2015
+[2015/07/24@18:20:29.481+0200] P-3968       T-6036  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/24@18:20:29.569+0200] P-3968       T-6036  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/24@18:20:32.394+0200] P-3968       T-6036  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Jul 27 18:20:44 2015
+[2015/07/27@18:20:44.199+0200] P-1636       T-4088  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/27@18:20:44.299+0200] P-1636       T-4088  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/27@18:20:47.129+0200] P-1636       T-4088  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Jul 28 18:20:04 2015
+[2015/07/28@18:20:04.126+0200] P-5160       T-5968  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/28@18:20:04.234+0200] P-5160       T-5968  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/28@18:20:07.018+0200] P-5160       T-5968  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Jul 29 18:20:53 2015
+[2015/07/29@18:20:53.807+0200] P-4624       T-4608  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/29@18:20:53.897+0200] P-4624       T-4608  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/29@18:20:56.835+0200] P-4624       T-4608  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Jul 30 18:20:34 2015
+[2015/07/30@18:20:34.244+0200] P-5608       T-1100  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/30@18:20:34.341+0200] P-5608       T-1100  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/30@18:20:37.147+0200] P-5608       T-1100  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jul 31 11:42:21 2015
+[2015/07/31@11:42:21.669+0200] P-11904      T-7868  I ABL      : (451)   Début de session Single-user pour l'utilisateur nlapointe sur CON:. 
+[2015/07/31@11:42:21.797+0200] P-11904      T-7868  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/31@11:42:34.588+0200] P-11904      T-7868  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Jul 31 18:20:21 2015
+[2015/07/31@18:20:21.339+0200] P-1872       T-4524  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/07/31@18:20:21.470+0200] P-1872       T-4524  I ABL      : (12699) Base de données wadb Options:  
+[2015/07/31@18:20:24.705+0200] P-1872       T-4524  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 03 18:20:26 2015
+[2015/08/03@18:20:26.153+0200] P-2720       T-4048  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/03@18:20:26.257+0200] P-2720       T-4048  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/03@18:20:29.005+0200] P-2720       T-4048  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Aug 04 18:20:59 2015
+[2015/08/04@18:20:59.252+0200] P-2532       T-5152  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/04@18:20:59.366+0200] P-2532       T-5152  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/04@18:21:02.162+0200] P-2532       T-5152  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 05 18:20:13 2015
+[2015/08/05@18:20:13.109+0200] P-5584       T-724   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/05@18:20:13.230+0200] P-5584       T-724   I ABL      : (12699) Base de données wadb Options:  
+[2015/08/05@18:20:17.063+0200] P-5584       T-724   I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Aug 06 18:20:06 2015
+[2015/08/06@18:20:06.543+0200] P-5292       T-4196  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/06@18:20:06.751+0200] P-5292       T-4196  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/06@18:20:10.980+0200] P-5292       T-4196  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 07 18:21:00 2015
+[2015/08/07@18:21:00.696+0200] P-4732       T-5244  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/07@18:21:00.805+0200] P-4732       T-5244  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/07@18:21:04.109+0200] P-4732       T-5244  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 10 18:20:59 2015
+[2015/08/10@18:20:59.598+0200] P-6040       T-6036  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/10@18:20:59.735+0200] P-6040       T-6036  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/10@18:21:02.545+0200] P-6040       T-6036  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Aug 11 18:20:14 2015
+[2015/08/11@18:20:14.232+0200] P-5212       T-6076  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/11@18:20:14.336+0200] P-5212       T-6076  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/11@18:20:17.163+0200] P-5212       T-6076  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 12 12:10:20 2015
+[2015/08/12@12:10:20.761+0200] P-6256       T-5764  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/08/12@12:10:20.972+0200] P-6256       T-5764  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/12@12:10:30.267+0200] P-6256       T-5764  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 12 12:10:30 2015
+[2015/08/12@12:10:30.404+0200] P-6256       T-5764  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/08/12@12:10:30.406+0200] P-6256       T-5764  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/12@15:21:36.915+0200] P-6256       T-5764  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 12 17:10:58 2015
+[2015/08/12@17:10:58.014+0200] P-3300       T-4140  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/08/12@17:10:58.109+0200] P-3300       T-4140  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/12@17:18:05.462+0200] P-3300       T-4140  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 12 18:20:28 2015
+[2015/08/12@18:20:28.342+0200] P-6032       T-5120  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/12@18:20:28.397+0200] P-6032       T-5120  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/12@18:20:30.093+0200] P-6032       T-5120  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Aug 13 18:20:39 2015
+[2015/08/13@18:20:39.456+0200] P-3912       T-4436  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/13@18:20:39.555+0200] P-3912       T-4436  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/13@18:20:42.354+0200] P-3912       T-4436  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 14 18:20:24 2015
+[2015/08/14@18:20:24.481+0200] P-2608       T-2440  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/14@18:20:24.584+0200] P-2608       T-2440  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/14@18:20:27.387+0200] P-2608       T-2440  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 17 18:20:23 2015
+[2015/08/17@18:20:23.619+0200] P-3636       T-5184  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/17@18:20:23.729+0200] P-3636       T-5184  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/17@18:20:26.820+0200] P-3636       T-5184  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Aug 18 12:12:18 2015
+[2015/08/18@12:12:18.838+0200] P-4724       T-4800  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/08/18@12:12:19.036+0200] P-4724       T-4800  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/18@12:12:23.747+0200] P-4724       T-4800  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Aug 18 12:12:23 2015
+[2015/08/18@12:12:23.916+0200] P-4724       T-4800  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/08/18@12:12:23.919+0200] P-4724       T-4800  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/18@12:14:34.117+0200] P-4724       T-4800  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Aug 18 18:20:36 2015
+[2015/08/18@18:20:36.498+0200] P-1804       T-4372  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/18@18:20:36.554+0200] P-1804       T-4372  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/18@18:20:38.437+0200] P-1804       T-4372  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 19 18:20:17 2015
+[2015/08/19@18:20:17.731+0200] P-1460       T-3928  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/19@18:20:17.838+0200] P-1460       T-3928  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/19@18:20:20.736+0200] P-1460       T-3928  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Aug 20 17:05:53 2015
+[2015/08/20@17:05:53.848+0200] P-11044      T-9228  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/08/20@17:05:53.986+0200] P-11044      T-9228  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/20@17:06:11.282+0200] P-11044      T-9228  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Aug 20 17:06:11 2015
+[2015/08/20@17:06:11.441+0200] P-11044      T-9228  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/08/20@17:06:11.444+0200] P-11044      T-9228  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/20@17:22:11.178+0200] P-11044      T-9228  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Aug 20 18:20:29 2015
+[2015/08/20@18:20:29.301+0200] P-4048       T-4084  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/20@18:20:29.470+0200] P-4048       T-4084  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/20@18:20:33.169+0200] P-4048       T-4084  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 21 16:23:23 2015
+[2015/08/21@16:23:23.612+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/21@16:23:23.732+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/21@16:24:10.575+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 21 16:24:10 2015
+[2015/08/21@16:24:10.750+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/21@16:24:10.753+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/21@16:25:25.143+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 21 16:25:25 2015
+[2015/08/21@16:25:25.270+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/21@16:25:25.273+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/21@16:33:06.849+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 21 16:44:25 2015
+[2015/08/21@16:44:25.319+0200] P-8932       T-8532  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/08/21@16:44:25.412+0200] P-8932       T-8532  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/21@17:55:14.127+0200] P-8932       T-8532  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 21 18:20:08 2015
+[2015/08/21@18:20:08.399+0200] P-4664       T-4328  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/21@18:20:08.465+0200] P-4664       T-4328  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/21@18:20:10.255+0200] P-4664       T-4328  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 14:03:48 2015
+[2015/08/24@14:03:48.384+0200] P-9472       T-2536  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/08/24@14:03:48.512+0200] P-9472       T-2536  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@14:04:20.753+0200] P-9472       T-2536  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 14:04:20 2015
+[2015/08/24@14:04:20.937+0200] P-9472       T-2536  I ABL      : (451)   Début de session Single-user pour l'utilisateur devsp sur CON:. 
+[2015/08/24@14:04:20.939+0200] P-9472       T-2536  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@15:09:35.955+0200] P-9472       T-2536  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 17:50:34 2015
+[2015/08/24@17:50:34.161+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/24@17:50:34.311+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@17:50:42.171+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 17:50:42 2015
+[2015/08/24@17:50:42.341+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/24@17:50:42.341+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@17:50:50.802+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 17:50:50 2015
+[2015/08/24@17:50:50.982+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/24@17:50:50.982+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@17:52:45.952+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 17:52:46 2015
+[2015/08/24@17:52:46.132+0200] P-43356      T-35144 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/24@17:52:46.132+0200] P-43356      T-35144 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@17:58:44.172+0200] P-43356      T-35144 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 24 18:20:46 2015
+[2015/08/24@18:20:46.613+0200] P-7600       T-6548  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/24@18:20:46.676+0200] P-7600       T-6548  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/24@18:20:48.630+0200] P-7600       T-6548  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Aug 25 18:20:38 2015
+[2015/08/25@18:20:38.857+0200] P-7764       T-4984  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/25@18:20:38.963+0200] P-7764       T-4984  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/25@18:20:41.767+0200] P-7764       T-4984  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 26 09:55:10 2015
+[2015/08/26@09:55:10.581+0200] P-52656      T-52912 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/26@09:55:10.721+0200] P-52656      T-52912 I ABL      : (12699) Base de données wadb Options:  
+[2015/08/26@10:48:42.085+0200] P-52656      T-52912 I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Aug 26 10:48:42 2015
+[2015/08/26@10:48:42.305+0200] P-52656      T-52912 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/26@10:48:42.305+0200] P-52656      T-52912 I ABL      : (12699) Base de données wadb Options:  
+
+                Wed Aug 26 18:20:37 2015
+[2015/08/26@18:20:37.396+0200] P-5428       T-4056  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/26@18:20:37.488+0200] P-5428       T-4056  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/26@18:20:42.588+0200] P-5428       T-4056  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Aug 27 18:20:17 2015
+[2015/08/27@18:20:17.279+0200] P-6548       T-2084  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/27@18:20:17.337+0200] P-6548       T-2084  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/27@18:20:21.561+0200] P-6548       T-2084  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Aug 28 12:34:17 2015
+[2015/08/28@12:34:17.208+0200] P-31560      T-30136 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/08/28@12:34:17.333+0200] P-31560      T-30136 I ABL      : (12699) Base de données wadb Options:  
+
+                Fri Aug 28 18:20:19 2015
+[2015/08/28@18:20:19.338+0200] P-7844       T-6352  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/28@18:20:19.394+0200] P-7844       T-6352  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/28@18:20:23.175+0200] P-7844       T-6352  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 31 17:48:40 2015
+[2015/08/31@17:48:40.104+0200] P-31560      T-30136 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Aug 31 18:20:44 2015
+[2015/08/31@18:20:44.247+0200] P-4344       T-7088  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/08/31@18:20:44.321+0200] P-4344       T-7088  I ABL      : (12699) Base de données wadb Options:  
+[2015/08/31@18:20:48.491+0200] P-4344       T-7088  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 01 16:24:54 2015
+[2015/09/01@16:24:54.502+0200] P-52656      T-52912 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 01 18:20:36 2015
+[2015/09/01@18:20:36.033+0200] P-4196       T-1460  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/01@18:20:36.109+0200] P-4196       T-1460  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/01@18:20:38.787+0200] P-4196       T-1460  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 02 14:33:32 2015
+[2015/09/02@14:33:32.812+0200] P-6676       T-6388  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/09/02@14:33:32.933+0200] P-6676       T-6388  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/02@15:03:29.211+0200] P-6676       T-6388  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 02 15:13:39 2015
+[2015/09/02@15:13:39.591+0200] P-3816       T-1032  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/09/02@15:13:39.680+0200] P-3816       T-1032  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/02@15:13:52.120+0200] P-3816       T-1032  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 02 15:13:52 2015
+[2015/09/02@15:13:52.305+0200] P-3816       T-1032  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/09/02@15:13:52.307+0200] P-3816       T-1032  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/02@15:14:01.793+0200] P-3816       T-1032  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 02 18:20:44 2015
+[2015/09/02@18:20:44.140+0200] P-7000       T-5576  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/02@18:20:44.261+0200] P-7000       T-5576  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/02@18:20:47.202+0200] P-7000       T-5576  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 03 18:20:58 2015
+[2015/09/03@18:20:58.305+0200] P-7272       T-7600  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/03@18:20:58.520+0200] P-7272       T-7600  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/03@18:21:02.132+0200] P-7272       T-7600  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 04 18:20:16 2015
+[2015/09/04@18:20:16.832+0200] P-5948       T-5228  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/04@18:20:16.887+0200] P-5948       T-5228  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/04@18:20:18.594+0200] P-5948       T-5228  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Sep 07 18:20:25 2015
+[2015/09/07@18:20:25.810+0200] P-5584       T-7188  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/07@18:20:25.906+0200] P-5584       T-7188  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/07@18:20:28.740+0200] P-5584       T-7188  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 08 09:34:36 2015
+[2015/09/08@09:34:36.226+0200] P-31080      T-59472 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/09/08@09:34:36.335+0200] P-31080      T-59472 I ABL      : (12699) Base de données wadb Options:  
+[2015/09/08@09:35:38.506+0200] P-31080      T-59472 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 08 09:35:38 2015
+[2015/09/08@09:35:38.631+0200] P-31080      T-59472 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/09/08@09:35:38.631+0200] P-31080      T-59472 I ABL      : (12699) Base de données wadb Options:  
+[2015/09/08@09:35:51.906+0200] P-31080      T-59472 I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 08 09:35:52 2015
+[2015/09/08@09:35:52.047+0200] P-31080      T-59472 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/09/08@09:35:52.062+0200] P-31080      T-59472 I ABL      : (12699) Base de données wadb Options:  
+
+                Tue Sep 08 13:53:04 2015
+[2015/09/08@13:53:04.806+0200] P-8920       T-6552  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/09/08@13:53:04.917+0200] P-8920       T-6552  I ABL      : (12699) Base de données wadb Options:  
+
+                Tue Sep 08 18:20:54 2015
+[2015/09/08@18:20:54.788+0200] P-3308       T-8184  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/08@18:20:54.847+0200] P-3308       T-8184  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/08@18:20:59.129+0200] P-3308       T-8184  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 09 18:20:37 2015
+[2015/09/09@18:20:37.271+0200] P-6184       T-5188  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/09@18:20:37.338+0200] P-6184       T-5188  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/09@18:20:41.984+0200] P-6184       T-5188  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 10 11:09:59 2015
+[2015/09/10@11:09:59.104+0200] P-31080      T-59472 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 10 11:10:02 2015
+[2015/09/10@11:10:02.494+0200] P-31080      T-59472 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/09/10@11:10:02.614+0200] P-31080      T-59472 I ABL      : (12699) Base de données wadb Options:  
+[2015/09/10@11:10:12.644+0200] P-31080      T-59472 I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 10 15:14:04 2015
+[2015/09/10@15:14:04.985+0200] P-8920       T-6552  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 10 16:51:20 2015
+[2015/09/10@16:51:20.035+0200] P-1036       T-1620  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/09/10@16:51:20.159+0200] P-1036       T-1620  I ABL      : (12699) Base de données wadb Options:  
+
+                Thu Sep 10 18:20:28 2015
+[2015/09/10@18:20:28.863+0200] P-4888       T-7716  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/10@18:20:28.943+0200] P-4888       T-7716  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/10@18:20:33.670+0200] P-4888       T-7716  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 11 09:27:24 2015
+[2015/09/11@09:27:24.901+0200] P-1036       T-1620  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 11 15:13:41 2015
+[2015/09/11@15:13:41.557+0200] P-6956       T-5896  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/09/11@15:13:41.720+0200] P-6956       T-5896  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/11@15:13:56.119+0200] P-6956       T-5896  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 11 15:22:19 2015
+[2015/09/11@15:22:19.428+0200] P-6956       T-5896  I ABL      : (451)   Début de session Single-user pour l'utilisateur devdm sur CON:. 
+[2015/09/11@15:22:19.523+0200] P-6956       T-5896  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/11@15:22:37.769+0200] P-6956       T-5896  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 11 18:20:02 2015
+[2015/09/11@18:20:02.982+0200] P-3408       T-4548  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/11@18:20:03.105+0200] P-3408       T-4548  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/11@18:20:05.957+0200] P-3408       T-4548  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Sep 14 18:39:30 2015
+[2015/09/14@18:39:30.626+0200] P-7468       T-7004  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/14@18:39:30.725+0200] P-7468       T-7004  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/14@18:39:33.509+0200] P-7468       T-7004  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 15 18:20:49 2015
+[2015/09/15@18:20:49.648+0200] P-3116       T-6332  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/15@18:20:49.706+0200] P-3116       T-6332  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/15@18:20:52.335+0200] P-3116       T-6332  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 16 18:20:16 2015
+[2015/09/16@18:20:16.952+0200] P-3392       T-7952  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/16@18:20:17.046+0200] P-3392       T-7952  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/16@18:20:19.979+0200] P-3392       T-7952  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 17 18:20:39 2015
+[2015/09/17@18:20:39.726+0200] P-7340       T-6456  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/17@18:20:39.834+0200] P-7340       T-6456  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/17@18:20:42.760+0200] P-7340       T-6456  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 18 18:20:27 2015
+[2015/09/18@18:20:27.203+0200] P-4344       T-996   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/18@18:20:27.279+0200] P-4344       T-996   I ABL      : (12699) Base de données wadb Options:  
+[2015/09/18@18:20:29.823+0200] P-4344       T-996   I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Sep 21 18:20:18 2015
+[2015/09/21@18:20:18.612+0200] P-5964       T-7252  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/21@18:20:18.722+0200] P-5964       T-7252  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/21@18:20:21.507+0200] P-5964       T-7252  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Sep 22 18:20:40 2015
+[2015/09/22@18:20:40.943+0200] P-7244       T-8080  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/22@18:20:41.049+0200] P-7244       T-8080  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/22@18:20:43.771+0200] P-7244       T-8080  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 23 18:20:11 2015
+[2015/09/23@18:20:11.036+0200] P-3900       T-6576  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/23@18:20:11.174+0200] P-3900       T-6576  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/23@18:20:14.070+0200] P-3900       T-6576  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Sep 24 18:20:56 2015
+[2015/09/24@18:20:56.956+0200] P-6912       T-6180  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/24@18:20:57.088+0200] P-6912       T-6180  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/24@18:20:59.935+0200] P-6912       T-6180  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 25 12:22:30 2015
+[2015/09/25@12:22:30.262+0200] P-6600       T-6612  I ABL      : (451)   Début de session Single-user pour l'utilisateur devrf sur CON:. 
+[2015/09/25@12:22:30.375+0200] P-6600       T-6612  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/25@14:51:15.258+0200] P-6600       T-6612  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Sep 25 18:20:46 2015
+[2015/09/25@18:20:46.741+0200] P-5272       T-7536  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/25@18:20:46.799+0200] P-5272       T-7536  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/25@18:20:48.862+0200] P-5272       T-7536  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Sep 28 18:20:50 2015
+[2015/09/28@18:20:50.588+0200] P-8096       T-7704  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/28@18:20:50.690+0200] P-8096       T-7704  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/28@18:20:53.486+0200] P-8096       T-7704  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Sep 30 18:20:22 2015
+[2015/09/30@18:20:22.571+0200] P-8152       T-6220  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/09/30@18:20:22.674+0200] P-8152       T-6220  I ABL      : (12699) Base de données wadb Options:  
+[2015/09/30@18:20:25.442+0200] P-8152       T-6220  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Oct 01 18:20:53 2015
+[2015/10/01@18:20:53.823+0200] P-3688       T-2360  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/01@18:20:53.926+0200] P-3688       T-2360  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/01@18:20:56.796+0200] P-3688       T-2360  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Oct 02 18:20:46 2015
+[2015/10/02@18:20:46.415+0200] P-3176       T-472   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/02@18:20:46.517+0200] P-3176       T-472   I ABL      : (12699) Base de données wadb Options:  
+[2015/10/02@18:20:49.386+0200] P-3176       T-472   I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Oct 05 16:30:23 2015
+[2015/10/05@16:30:23.550+0200] P-60092      T-57012 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/10/05@16:30:23.660+0200] P-60092      T-57012 I ABL      : (12699) Base de données wadb Options:  
+[2015/10/05@17:01:43.451+0200] P-60092      T-57012 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Oct 05 17:01:43 2015
+[2015/10/05@17:01:43.716+0200] P-60092      T-57012 I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/10/05@17:01:43.716+0200] P-60092      T-57012 I ABL      : (12699) Base de données wadb Options:  
+[2015/10/05@17:01:47.884+0200] P-60092      T-57012 I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Oct 05 18:20:33 2015
+[2015/10/05@18:20:33.289+0200] P-2120       T-6048  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/05@18:20:33.348+0200] P-2120       T-6048  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/05@18:20:35.269+0200] P-2120       T-6048  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Oct 06 18:20:49 2015
+[2015/10/06@18:20:49.132+0200] P-4072       T-4496  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/06@18:20:49.225+0200] P-4072       T-4496  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/06@18:20:51.996+0200] P-4072       T-4496  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Oct 07 18:21:01 2015
+[2015/10/07@18:21:01.006+0200] P-5740       T-1232  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/07@18:21:01.094+0200] P-5740       T-1232  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/07@18:21:03.820+0200] P-5740       T-1232  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Oct 08 18:20:42 2015
+[2015/10/08@18:20:42.534+0200] P-4784       T-2388  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/08@18:20:42.662+0200] P-4784       T-2388  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/08@18:20:46.214+0200] P-4784       T-2388  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Oct 09 18:20:43 2015
+[2015/10/09@18:20:43.571+0200] P-4904       T-1116  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/09@18:20:43.716+0200] P-4904       T-1116  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/09@18:20:46.547+0200] P-4904       T-1116  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Oct 12 18:20:36 2015
+[2015/10/12@18:20:36.683+0200] P-2548       T-224   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/12@18:20:36.778+0200] P-2548       T-224   I ABL      : (12699) Base de données wadb Options:  
+[2015/10/12@18:20:39.606+0200] P-2548       T-224   I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Oct 13 18:20:11 2015
+[2015/10/13@18:20:11.733+0200] P-1232       T-5868  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/13@18:20:11.840+0200] P-1232       T-5868  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/13@18:20:14.716+0200] P-1232       T-5868  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Oct 13 20:07:54 2015
+[2015/10/13@20:07:54.201+0200] P-9220       T-9600  I ABL      : (451)   Début de session Single-user pour l'utilisateur devcca sur CON:. 
+[2015/10/13@20:07:54.279+0200] P-9220       T-9600  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/13@20:08:57.972+0200] P-9220       T-9600  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Oct 14 18:20:21 2015
+[2015/10/14@18:20:21.308+0200] P-5480       T-5040  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/14@18:20:21.415+0200] P-5480       T-5040  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/14@18:20:24.192+0200] P-5480       T-5040  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Oct 15 18:20:07 2015
+[2015/10/15@18:20:07.496+0200] P-5068       T-1844  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/15@18:20:07.664+0200] P-5068       T-1844  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/15@18:20:10.757+0200] P-5068       T-1844  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Oct 16 18:20:14 2015
+[2015/10/16@18:20:14.176+0200] P-5612       T-3328  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/16@18:20:14.305+0200] P-5612       T-3328  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/16@18:20:17.023+0200] P-5612       T-3328  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Oct 19 18:20:33 2015
+[2015/10/19@18:20:33.028+0200] P-5040       T-3664  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/19@18:20:33.166+0200] P-5040       T-3664  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/19@18:20:35.879+0200] P-5040       T-3664  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Oct 20 18:20:06 2015
+[2015/10/20@18:20:06.841+0200] P-4340       T-2036  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/20@18:20:06.970+0200] P-4340       T-2036  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/20@18:20:09.922+0200] P-4340       T-2036  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Oct 21 18:20:15 2015
+[2015/10/21@18:20:15.813+0200] P-5796       T-4732  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/21@18:20:15.915+0200] P-5796       T-4732  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/21@18:20:18.645+0200] P-5796       T-4732  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Oct 22 18:20:04 2015
+[2015/10/22@18:20:04.475+0200] P-5892       T-4848  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/22@18:20:04.616+0200] P-5892       T-4848  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/22@18:20:08.708+0200] P-5892       T-4848  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Oct 23 18:20:11 2015
+[2015/10/23@18:20:11.588+0200] P-4980       T-3744  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/23@18:20:11.706+0200] P-4980       T-3744  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/23@18:20:14.478+0200] P-4980       T-3744  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Oct 26 18:20:24 2015
+[2015/10/26@18:20:24.045+0100] P-4936       T-2180  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/26@18:20:24.167+0100] P-4936       T-2180  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/26@18:20:26.926+0100] P-4936       T-2180  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Oct 27 18:20:26 2015
+[2015/10/27@18:20:26.479+0100] P-4908       T-1460  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/27@18:20:26.587+0100] P-4908       T-1460  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/27@18:20:29.352+0100] P-4908       T-1460  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Oct 28 18:20:06 2015
+[2015/10/28@18:20:06.561+0100] P-4744       T-1676  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/28@18:20:06.743+0100] P-4744       T-1676  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/28@18:20:09.974+0100] P-4744       T-1676  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Oct 29 18:20:34 2015
+[2015/10/29@18:20:34.838+0100] P-4080       T-6036  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/29@18:20:35.000+0100] P-4080       T-6036  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/29@18:20:39.091+0100] P-4080       T-6036  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Oct 30 18:20:21 2015
+[2015/10/30@18:20:21.818+0100] P-4372       T-4692  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/10/30@18:20:21.958+0100] P-4372       T-4692  I ABL      : (12699) Base de données wadb Options:  
+[2015/10/30@18:20:27.072+0100] P-4372       T-4692  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Nov 02 18:20:39 2015
+[2015/11/02@18:20:39.819+0100] P-4236       T-5712  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/02@18:20:39.918+0100] P-4236       T-5712  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/02@18:20:42.867+0100] P-4236       T-5712  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Nov 03 18:20:22 2015
+[2015/11/03@18:20:22.839+0100] P-4860       T-5664  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/03@18:20:22.972+0100] P-4860       T-5664  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/03@18:20:25.884+0100] P-4860       T-5664  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Nov 04 18:20:50 2015
+[2015/11/04@18:20:50.832+0100] P-1132       T-3292  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/04@18:20:50.921+0100] P-1132       T-3292  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/04@18:20:55.231+0100] P-1132       T-3292  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Nov 05 18:20:35 2015
+[2015/11/05@18:20:35.571+0100] P-380        T-3264  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/05@18:20:35.666+0100] P-380        T-3264  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/05@18:20:39.028+0100] P-380        T-3264  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Nov 06 18:20:24 2015
+[2015/11/06@18:20:24.270+0100] P-2140       T-3284  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/06@18:20:24.376+0100] P-2140       T-3284  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/06@18:20:27.230+0100] P-2140       T-3284  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Nov 09 18:20:28 2015
+[2015/11/09@18:20:28.301+0100] P-108        T-3224  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/09@18:20:28.403+0100] P-108        T-3224  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/09@18:20:31.949+0100] P-108        T-3224  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Nov 10 18:20:27 2015
+[2015/11/10@18:20:27.861+0100] P-5624       T-2188  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/10@18:20:27.961+0100] P-5624       T-2188  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/10@18:20:31.703+0100] P-5624       T-2188  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Nov 11 18:20:28 2015
+[2015/11/11@18:20:28.060+0100] P-5876       T-4184  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/11@18:20:28.156+0100] P-5876       T-4184  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/11@18:20:30.932+0100] P-5876       T-4184  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Nov 12 18:20:08 2015
+[2015/11/12@18:20:08.694+0100] P-2016       T-4500  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/12@18:20:08.826+0100] P-2016       T-4500  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/12@18:20:11.667+0100] P-2016       T-4500  I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Nov 13 18:20:06 2015
+[2015/11/13@18:20:06.431+0100] P-1188       T-5400  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/13@18:20:06.585+0100] P-1188       T-5400  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/13@18:20:11.872+0100] P-1188       T-5400  I ABL      : (334)    Fin de la session Single-user. 
+
+                Mon Nov 16 18:20:15 2015
+[2015/11/16@18:20:15.255+0100] P-2012       T-2200  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/16@18:20:15.332+0100] P-2012       T-2200  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/16@18:20:18.015+0100] P-2012       T-2200  I ABL      : (334)    Fin de la session Single-user. 
+
+                Tue Nov 17 18:20:28 2015
+[2015/11/17@18:20:28.006+0100] P-4644       T-4572  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/17@18:20:28.150+0100] P-4644       T-4572  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/17@18:20:30.994+0100] P-4644       T-4572  I ABL      : (334)    Fin de la session Single-user. 
+
+                Wed Nov 18 18:20:24 2015
+[2015/11/18@18:20:24.206+0100] P-2384       T-5760  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/18@18:20:24.335+0100] P-2384       T-5760  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/18@18:20:27.795+0100] P-2384       T-5760  I ABL      : (334)    Fin de la session Single-user. 
+
+                Thu Nov 19 18:20:51 2015
+[2015/11/19@18:20:51.870+0100] P-3184       T-760   I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/19@18:20:51.964+0100] P-3184       T-760   I ABL      : (12699) Base de données wadb Options:  
+[2015/11/19@18:20:54.791+0100] P-3184       T-760   I ABL      : (334)    Fin de la session Single-user. 
+
+                Fri Nov 20 18:20:41 2015
+[2015/11/20@18:20:41.973+0100] P-2272       T-4028  I ABL      : (451)   Début de session Single-user pour l'utilisateur compil sur CON:. 
+[2015/11/20@18:20:42.068+0100] P-2272       T-4028  I ABL      : (12699) Base de données wadb Options:  
+[2015/11/20@18:20:44.854+0100] P-2272       T-4028  I ABL      : (334)    Fin de la session Single-user. 

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="11.6">
+<module id="90e3e9c3-26fa-4bb6-bb9d-4089b2529f2e" name="magiModele">
+<resource path="src\AppServer" publish="true"/>
+</module>
+</module-content>

@@ -1,0 +1,56 @@
+E;10;Programme inexistant! Vous devriez peut-être exécuter ce module sur la machine virtuelle !;;
+G;0;Traitements généraux;;
+G;10;Todos;Todo encore présent;Il reste des 'todos' à traiter
+G;20;Messages encore présents;Message encore présent;Il reste des messages de debug
+G;30;Lignes vides inutiles dans le programme;Ligne(s) vide(s) apparemment inutile(s);Supprimer ces lignes car elles provoquent des différences inutiles lors du merge
+G;40;Lignes vides après la fin du programme;Ligne(s) vide(s) apparemment inutile(s) en fin de programme;Supprimer ces lignes car elles provoquent des différences inutiles lors du merge
+G;50;Espaces inutiles en fin de ligne;Espace(s) apparemment inutile(s) en fin de ligne;Supprimer ces espaces car ils provoquent des différences inutiles lors du merge
+G;60;Espaces inutiles en cours de ligne;Espace(s) apparemment inutile(s) en cours de ligne;Supprimer ces espaces car ils provoquent des différences inutiles lors du merge
+G;70;Variables mal nommées dans le programme;Variable < %1 > apparemment mal nommée dans le corps du programme;Les noms des variables du corps du programme doivent commencer par 'g' puis le type et le nom de la variable
+G;80;Variables mal nommées dans les procédures;Variables mal nommées dans les procédures;Les noms des variables des procédures doivent commencer par 'v' puis le type et le nom de la variable
+G;90;Paramètres mal nommés;Paramètre < %1 > apparemment mal nommé dans une procédure;Les noms des paramètres des procédures et fonctions doivent commencer par 'p' puis le type et le nom du paramètre
+G;100;Paramètres inutilisés;Paramètre < %1 > apparemment inutilisé;Supprimer ce paramètre après vérification (peut-être est-il utilisé dans un include ou bien il peut s'agir d'un faux positif)
+G;110;Variable inutilisées;Variable < %1 > apparemment inutilisée;Supprimer cette variable après vérification (peut-être est-elle utilisée dans un include ou bien il peut s'agir d'un faux positif)
+G;120;Scoped-defined inutilisées;Scoped-defined < %1 > apparemment inutilisé;Supprimer ce Scoped-defined après vérification (peut-être est-il utilisé dans un include ou bien il peut s'agir d'un faux positif)
+G;130;Programme sans bannière;Ce programme n'a apparemment pas de bannière;Le programme doit commencer par une bannière avec le nom du programme, l'auteur, la date de création et le programme GI dont il est issu
+G;140;Programme sans renseignement du programme d'origine;Ce programme n'a apparemment pas d'origine renseignée dans la bannière;Le programme doit commencer par une bannière avec le nom du programme, l'auteur, la date de création et le programme GI dont il est issu
+G;150;Libellés à créer : A voir à l'usage avec les autres possibilités;Libellés en dur à créer;Créer le code correspondant à ce libellé dans la base des libellés
+G;160;Variables Date définies avec 'init ?';Variable < %1 > : 'init ?' inutile pour une date;Une variable date est assignée par défaut à '?'
+G;170;Variables Logical définies avec 'init false';Variable < %1 > : 'init false' inutile pour un logical;Une variable logical est assignée par défaut à 'false'
+G;180;Problème potentiel sur un bloc;Le bloc < %1 > n'a pas de ligne de fin;Il manque certainement le type du bloc (procedure, function, method) après le end du bloc
+G;190;Variables numéro non définie en int64;La variable < %1 > n'est pas définie en int64 alors qu'elle le devrait;Corriger le typage de la variable
+C;0;Traitement du code;;
+C;10;Recherche des Whole-Index;Whole-index < %1 > détecté sur une requête;Vérifier l'index utilisé dans la requête
+C;20;Find, for : contrôle des définitions des buffers;Buffer < %1 > apparemment non défini pour la table;Il faut toujours définir un buffer sur la table physique que l'on souhaite utiliser pour éviter de se trouver sur un mauvais enregistrement
+C;30;Then do: en début de ligne;'Then do:'  peut-être mal placé;Pour des raisons de lisibilité du code, il est préférable de mettre le 'then do:' à la fin de la ligne précédente
+C;40;Valeurs des booléen inutiles;Retirer la valeur du logical apparemment inutile;l'expression 'if booléen = true then' est juste mais inutile. 'if booléen then' suffirait
+C;50;Parenthèse sur la fonction available et not;Retirer les () du mot clé < %1 >;Les parenthèses pour cette fonction sont inutiles
+C;60;Gestion des break et first/last-of;First-of/last-of < %1 > sans break correspondant;
+C;70;Assign no-error sans traitement de l'erreur;Assign...no-error' apparemment sans gestion de l'erreur;Le retour doit être traité immédiatement après l'instruction ou bien le 'no-error' est inutile
+C;80;Find no-error sans traitement de l'erreur;Find...no-error' sans gestion de l'erreur;Le retour doit être traité après l'instruction ou bien le 'no-error' est inutile voire dangereux
+C;90;Collections sans delete-object;Objet < %1 > créé mais apparemment non détruit;Ajouter l'instruction 'delete-object' à l'endroit adéquat
+C;100;Lookup dans les for each;Attention : 'Lookup' dans la clause where d'un for each;Un lookup portant sur un champ d'un index peut poser problème.
+C;110;Empty des tables temporaires mal placés;Empty temp-table' peut-être mal placé;Il est préférable que le vidage d'une table temporaire soit la première chose faite après la définition des variables
+C;120;Code en commentaire potentiellement inutile;Code en commentaire potentiellement inutile;Supprimer le code en commentaire sauf si vraiment nécessaire
+C;130;Find first/last potentiellement remplaçable par un for first/last;Find first/last' peut-être remplaçable par un 'for first/last';Remplacer le find par for
+C;140;Instruction sur plusieurs lignes : Virgule mal placée;Instruction sur plusieurs lignes : la virgule serait mieux à la fin de la ligne précédente;Pour des raisons de lisibilité du code, il est préférable de mettre la virgule à la fin de la ligne précédente
+C;150;Find, for : contrôle des lock sur les tables temporaires;Utilisation d'une clause 'Lock' sur la table temporaire < %1 >;La gestion des lock sur les tables temporaires est inutile
+C;160;Find, for : contrôle des lock sur les tables réelles;Aucune clause 'Lock' précisée pour la table < %1 >;La gestion des lock sur les tables réelle est obligatoire car sinon, par défaut, tous les enregistrements seront lockés en shared-lock
+C;170;Substring avec l'option 'character';La clause 'character' est inutile car par défaut pour l'instruction 'substring';Supprimer la clause 'character' inutile
+C;180;CreateError sans type;la fonction 'mError:createError' est sans type (error, information...) ;Corriger le type qui est soit absent, soit n'utilise pas les variables pré-process définies
+C;190;CreateError avec libellé en dur;La fonction 'mError:createError' à un libellé en dur en paramètre;Créer le libellé dans la base et le mettre dans l'appel de la fonction
+C;200;Bloc 'For' sans étiquette;Les blocs 'For' doivent toujours être précédés par une étiquette;Créer l'étiquette du bloc
+C;210;Instruction 'Leave' ou 'Next' sans étiquette;Les instructions 'Leave' et 'Next' doivent toujours être suivies par une étiquette;Ajouter l'étiquette adéquate
+P;0;Procédures/Fonctions/Méthodes;;
+P;10;Procédure persistente dans les For each;Attention : Appel d'une procédure persistente dans un for each;La procédure va être créée autant de fois que la boucle va tourner. Déplacer le run de la procédure avant la boucle
+P;20;Procédure persistente sans destroy;Procédure persistente < %1 > apparemment non détruite;Les procédures persistente doivent être détruite dès qu'elles ne servent plus
+P;30;Procédure/fonction/méthode trop longue;Cette procédure/fonction/méthode est apparemment trop longue;Pour des raisons de lisibilité du code, il est préférable de limiter la taille d'une procédure/fonction/méthode
+P;40;Procédure pouvant être transformée en fonction;Cette procédure pourrait peut-être être remplacée pas une fonction;Une procédure ne retournant qu'un seul paramètre peut être remplacée par une fonction, plus pratique à utiliser
+P;50;Procédure avec ttcombo en ouput;Paramètre output ttcombo interdit;ttCombo est une table globale, il est inutile de la passer en output parameter
+P;60;Procédure private non utilisées;Procédure private apparemment non utilisée;Les procédures non appelées depuis une class doivent être qualifiées en 'private'
+P;80;Procédure sans bannière;Cette procédure/fonction/méthode n'a apparemment pas de bannière;La procédure doit commencer par une bannière avec la description de son action ainsi que la procédure GI dont elle est issue
+P;90;Procédure sans renseignement de la procédure d'origine;Cette procédure/fonction/méthode n'a apparemment pas d'origine renseignée ;La procédure doit commencer par une bannière avec la description de son action ainsi que la procédure GI dont elle est issue
+P;100;Procédure avec précision d'un parametre en input;La précision du type 'input' pour un paramètre de procédure/fonction/methode est inutile;Retirer le type 'input'
+P;110;Fonction avec précision d'un parametre en input;La précision du type 'input' pour un paramètre de procédure/fonction/methode est inutile;Retirer le type 'input'
+O;0;Particularités OS;;
+O;10;Gestion des .exe et .bat;Utilisation d'un programme spécifique à Windows;Les programmes doivent pouvoir être utilisés sous Windows, mais aussi sous Linux. Ne pas utiliser de programmes spécifiques à un OS

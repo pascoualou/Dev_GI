@@ -1,0 +1,47 @@
+
+                Wed Nov 28 18:23:08 2018
+[2018/11/28@18:23:08.907+0100] P-13328      T-1416  I DBUTIL   : (451)   Début de session prostrct create pour l'utilisateur pascoualou sur CON:. 
+[2018/11/28@18:23:08.909+0100] P-13328      T-1416  I DBUTIL   : (12862) Fichier structure H:\dev\outils\progress\Menudev2\Structures_&_Données\Référence\gidata_Ref.st est utilisé pour créer la base de données avec une taille de block 4096. 
+[2018/11/28@18:23:08.929+0100] P-13328      T-1416  I DBUTIL   : (334)    Fin de la session prostrct create. 
+[2018/11/28@18:23:08.939+0100] P-13328      T-1416  I DBUTIL   : (451)   Début de session procopy pour l'utilisateur pascoualou sur CON:. 
+[2018/11/28@18:23:08.997+0100] P-13328      T-1416  I DBUTIL   : (334)    Fin de la session procopy. 
+
+                Wed Nov 28 18:23:09 2018
+[2018/11/28@18:23:09.010+0100] P-13328      T-1416  I          : (451)   Début de session procopy get default SQL DBA pour l'utilisateur pascoualou sur CON:. 
+[2018/11/28@18:23:09.010+0100] P-13328      T-1416  I          : (15321) Avant l'initialisation du journal d'image dans le bloc 0  avec un décalage 2006112. 
+[2018/11/28@18:23:09.201+0100] P-13328      T-1416  I          : (14867) Procopy -newinstance a créé un GUID de base de données. 
+[2018/11/28@18:23:09.203+0100] P-13328      T-1416  I          : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2018/11/28@18:23:09.203+0100] P-13328      T-1416  I          : (15743) Before Image Log Completion at Block 0 Offset 1150. 
+[2018/11/28@18:23:09.226+0100] P-13328      T-1416  I          : (334)    Fin de la session procopy get default SQL DBA. 
+
+                Wed Nov 28 18:23:13 2018
+[2018/11/28@18:23:13.167+0100] P-13992      T-8132  I ABL      : (451)   Début de session Single-user pour l'utilisateur pascoualou sur CON:. 
+[2018/11/28@18:23:13.167+0100] P-13992      T-8132  I ABL      : (15321) Avant l'initialisation du journal d'image dans le bloc 0  avec un décalage 1150. 
+[2018/11/28@18:23:13.172+0100] P-13992      T-8132  I ABL      : (12699) Base de données gidata_Ref Options:  
+[2018/11/28@18:29:07.935+0100] P-13992      T-8132  I ABL      : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2018/11/28@18:29:07.935+0100] P-13992      T-8132  I ABL      : (15743) Before Image Log Completion at Block 72 Offset 2003. 
+[2018/11/28@18:29:07.990+0100] P-13992      T-8132  I ABL      : (334)    Fin de la session Single-user. 
+
+                Sun Jan 13 17:43:43 2019
+[2019/01/13@17:43:43.763+0100] P-11972      T-5680  I ABL      : (451)   Début de session Single-user pour l'utilisateur pascoualou sur CON:. 
+[2019/01/13@17:43:43.782+0100] P-11972      T-5680  I ABL      : (15321) Avant l'initialisation du journal d'image dans le bloc 72  avec un décalage 2003. 
+[2019/01/13@17:43:43.923+0100] P-11972      T-5680  I ABL      : (12699) Base de données gidata_Ref Options:  
+[2019/01/13@17:43:53.747+0100] P-11972      T-5680  I ABL      : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2019/01/13@17:43:53.748+0100] P-11972      T-5680  I ABL      : (15743) Before Image Log Completion at Block 72 Offset 2063. 
+[2019/01/13@17:43:53.765+0100] P-11972      T-5680  I ABL      : (334)    Fin de la session Single-user. 
+
+                Sun Jan 13 17:43:56 2019
+[2019/01/13@17:43:56.893+0100] P-8320       T-11280 I ABL      : (451)   Début de session Single-user pour l'utilisateur pascoualou sur CON:. 
+[2019/01/13@17:43:56.895+0100] P-8320       T-11280 I ABL      : (15321) Avant l'initialisation du journal d'image dans le bloc 72  avec un décalage 2063. 
+[2019/01/13@17:43:56.902+0100] P-8320       T-11280 I ABL      : (12699) Base de données gidata_Ref Options:  
+[2019/01/13@17:44:11.894+0100] P-8320       T-11280 I ABL      : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2019/01/13@17:44:11.894+0100] P-8320       T-11280 I ABL      : (15743) Before Image Log Completion at Block 72 Offset 2123. 
+[2019/01/13@17:44:11.936+0100] P-8320       T-11280 I ABL      : (334)    Fin de la session Single-user. 
+
+                Sun Jan 13 17:44:39 2019
+[2019/01/13@17:44:39.578+0100] P-10000      T-4864  I ABL      : (451)   Début de session Single-user pour l'utilisateur pascoualou sur CON:. 
+[2019/01/13@17:44:39.580+0100] P-10000      T-4864  I ABL      : (15321) Avant l'initialisation du journal d'image dans le bloc 72  avec un décalage 2123. 
+[2019/01/13@17:44:39.583+0100] P-10000      T-4864  I ABL      : (12699) Base de données gidata_Ref Options:  
+[2019/01/13@17:48:12.410+0100] P-10000      T-4864  I ABL      : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2019/01/13@17:48:12.410+0100] P-10000      T-4864  I ABL      : (15743) Before Image Log Completion at Block 72 Offset 2183. 
+[2019/01/13@17:48:12.426+0100] P-10000      T-4864  I ABL      : (334)    Fin de la session Single-user. 

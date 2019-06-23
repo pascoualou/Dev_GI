@@ -1,0 +1,7 @@
+CRITERES_EXCLUS=G30,G40,G50,G60,C10
+EDITION_WORD=NON
+CONFIRMATION_SORTIE=NON
+MENAGE_SORTIE=NON
+MODE_DEBUG=NON
+FICHIERS_TRAITES=C:\MAGI\workspace\magiModele\src\AppServer\bail\quittancement\majQuittance.p
+FICHIERS_TRAITES=C:\MAGI\workspace\magiModele\src\AppServer\bail\quittancement\rubriqueQuitt.p

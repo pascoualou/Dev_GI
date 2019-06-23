@@ -1,0 +1,10 @@
+Private Sub tgl_versionauto_Click()
+    If tgl_versionauto.Value = vbUnchecked Then
+        Open Reseau & "dev\intf\BloqueVersionHebdo" For Output As #88
+        Close #88
+    Else
+        If Dir(Reseau & "dev\intf\BloqueVersionHebdo") <> "" Then
+            Kill Reseau & "dev\intf\BloqueVersionHebdo"
+        End If
+    End If
+End Sub

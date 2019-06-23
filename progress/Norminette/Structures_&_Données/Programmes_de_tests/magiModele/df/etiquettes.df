@@ -1,0 +1,131 @@
+ADD FIELD "valetqenergie" OF "local" AS integer
+  DESCRIPTION "DPE 22/09/2017 : valeur de l'étiquette energie"
+  FORMAT ">>>>>9"
+  POSITION 130
+  INITIAL "0"
+  LABEL "Valeur etiquette energie"
+  COLUMN-LABEL "valetqenergie"
+  ORDER 1220
+  MAX-WIDTH 4
+
+ADD FIELD "valetqclimat" OF "local" AS integer
+  DESCRIPTION "DPE 22/09/2017 : valeur de l'étiquette climat"
+  FORMAT ">>>>>9"
+  POSITION 131
+  INITIAL "0"
+  LABEL "valeur de l'étiquette climat"
+  COLUMN-LABEL "valetqclimat"
+  ORDER 1230
+  MAX-WIDTH 4
+
+ADD FIELD "IndEnergiePrimaire" OF "local" AS decimal
+  DESCRIPTION "22/09/2017 : DPE  - Indicateurs consommation énergie primaire (étiquette énergie - kWhep / m2 . an) "
+  FORMAT "->>,>>9.99"
+  POSITION 132
+  INITIAL "0"
+  LABEL "Indicateur conso energie primaire"
+  COLUMN-LABEL "IndEnergiePrimaire"
+  DECIMALS 2
+  ORDER 1240
+  MAX-WIDTH 17
+
+ADD FIELD "IndGazEffetSerre" OF "local" AS decimal
+  DESCRIPTION "22/09/2017 : DPE  - Indicateurs quantité de gaz à effet de serre émise (étiquette climat - kgeqCO2 /m.2an)"
+  FORMAT "->>,>>9.99"
+  POSITION 133
+  INITIAL "0"
+  LABEL "Indicateur qte gaz effet de serre"
+  COLUMN-LABEL "IndGazEffetSerre"
+  DECIMALS 2
+  ORDER 1250
+  MAX-WIDTH 17
+
+ADD FIELD "valetqenergie" OF "tache" AS integer
+  DESCRIPTION "DPE 22/09/2017 : valeur de l'étiquette energie"
+  FORMAT ">>>>>9"
+  POSITION 94
+  INITIAL "0"
+  LABEL "Valeur etiquette energie"
+  COLUMN-LABEL "valetqenergie"
+  ORDER 881
+  MAX-WIDTH 4
+
+ADD FIELD "valetqclimat" OF "tache" AS integer
+  DESCRIPTION "DPE 22/09/2017 : valeur de l'étiquette climat"
+  FORMAT ">>>>>9"
+  POSITION 95
+  INITIAL "0"
+  LABEL "valeur de l'étiquette climat"
+  COLUMN-LABEL "valetqclimat"
+  ORDER 891
+  MAX-WIDTH 4
+
+ADD FIELD "IndEnergiePrimaire" OF "tache" AS decimal
+  DESCRIPTION "22/09/2017 : DPE  - Indicateurs consommation énergie primaire (étiquette énergie - kWhep / m2 . an) "
+  FORMAT "->>,>>9.99"
+  POSITION 96
+  INITIAL "0"
+  LABEL "Indicateur conso energie primaire"
+  COLUMN-LABEL "IndEnergiePrimaire"
+  DECIMALS 2
+  ORDER 901
+  MAX-WIDTH 17
+
+ADD FIELD "IndGazEffetSerre" OF "tache" AS decimal
+  DESCRIPTION "22/09/2017 : DPE  - Indicateurs quantité de gaz à effet de serre émise (étiquette climat - kgeqCO2 /m.2an)"
+  FORMAT "->>,>>9.99"
+  POSITION 97
+  INITIAL "0"
+  LABEL "Indicateur qte gaz effet de serre"
+  COLUMN-LABEL "IndGazEffetSerre"
+  DECIMALS 2
+  ORDER 911
+  MAX-WIDTH 17
+
+ADD FIELD "valetqenergie" OF "taint" AS integer
+  DESCRIPTION "DPE 22/09/2017 : valeur de l'étiquette energie"
+  FORMAT ">>>>>9"
+  POSITION 24
+  INITIAL "0"
+  LABEL "Valeur etiquette energie"
+  COLUMN-LABEL "valetqenergie"
+  ORDER 230
+  MAX-WIDTH 4
+
+ADD FIELD "valetqclimat" OF "taint" AS integer
+  DESCRIPTION "DPE 22/09/2017 : valeur de l'étiquette climat"
+  FORMAT ">>>>>9"
+  POSITION 25
+  INITIAL "0"
+  LABEL "valeur de l'étiquette climat"
+  COLUMN-LABEL "valetqclimat"
+  ORDER 240
+  MAX-WIDTH 4
+
+ADD FIELD "IndEnergiePrimaire" OF "taint" AS decimal
+  DESCRIPTION "22/09/2017 : DPE  - Indicateurs consommation énergie primaire (étiquette énergie - kWhep / m2 . an) "
+  FORMAT "->>,>>9.99"
+  POSITION 26
+  INITIAL "0"
+  LABEL "Indicateur conso energie primaire"
+  COLUMN-LABEL "IndEnergiePrimaire"
+  DECIMALS 2
+  ORDER 250
+  MAX-WIDTH 17
+
+ADD FIELD "IndGazEffetSerre" OF "taint" AS decimal
+  DESCRIPTION "22/09/2017 : DPE  - Indicateurs quantité de gaz à effet de serre émise (étiquette climat - kgeqCO2 /m.2an)"
+  FORMAT "->>,>>9.99"
+  POSITION 27
+  INITIAL "0"
+  LABEL "Indicateur qte gaz effet de serre"
+  COLUMN-LABEL "IndGazEffetSerre"
+  DECIMALS 2
+  ORDER 260
+  MAX-WIDTH 17
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000007091

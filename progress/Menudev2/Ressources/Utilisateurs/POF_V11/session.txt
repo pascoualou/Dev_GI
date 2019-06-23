@@ -1,0 +1,7 @@
+Environnement :
+---------------
+    VERSION = 064
+    DEVUSR = pof_v11
+    TEMP = C:\Users\devof\AppData\Local\Temp
+    TMP = C:\Users\devof\AppData\Local\Temp
+    DISQUE = d:\

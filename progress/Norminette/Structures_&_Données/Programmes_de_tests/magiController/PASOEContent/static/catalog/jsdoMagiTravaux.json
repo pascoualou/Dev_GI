@@ -1,0 +1,586 @@
+{
+    "version": "1.2",
+    "lastModified": "Mon Feb 15 12:11:23 CET 2016",
+    "services": [{
+        "name": "magiTravaux",
+        "address": "\/rest\/magiTravaux",
+        "useRequest": true,
+        "resources": [
+            {
+                "name": "beIntervention",
+                "path": "\/interventions",
+                "autoSave": false,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"dsbeIntervention": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "ttIntervention": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "iNumeroInterne": {
+                                            "type": "integer",
+                                            "ablType": "INT64",
+                                            "default": 0,
+                                            "title": "iNumeroInterne"
+                                        },
+                                        "cCodeTraitement": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeTraitement"
+                                        },
+                                        "iNumeroTraitement": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroTraitement"
+                                        },
+                                        "iNumeroIntervention": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroIntervention"
+                                        },
+                                        "lSelected": {
+                                            "type": "boolean",
+                                            "ablType": "LOGICAL",
+                                            "default": false,
+                                            "title": "lSelected"
+                                        },
+                                        "iNumeroImmeuble": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroImmeuble"
+                                        },
+                                        "cLibelleImmeuble": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleImmeuble"
+                                        },
+                                        "cTypeContrat": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cTypeContrat"
+                                        },
+                                        "iNumeroContrat": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroContrat"
+                                        },
+                                        "cLibelleTraitement": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleTraitement"
+                                        },
+                                        "daCreation": {
+                                            "type": "string",
+                                            "ablType": "DATE",
+                                            "default": null,
+                                            "title": "daCreation",
+                                            "format": "date"
+                                        },
+                                        "cLibelle": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelle"
+                                        },
+                                        "daRealisation": {
+                                            "type": "string",
+                                            "ablType": "DATE",
+                                            "default": null,
+                                            "title": "daRealisation",
+                                            "format": "date"
+                                        },
+                                        "cCodeStatut": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeStatut"
+                                        },
+                                        "cLibelleStatut": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleStatut"
+                                        },
+                                        "iNumeroFournisseur": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroFournisseur"
+                                        },
+                                        "cLibelleFournisseur": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleFournisseur"
+                                        },
+                                        "lFacture": {
+                                            "type": "boolean",
+                                            "ablType": "LOGICAL",
+                                            "default": false,
+                                            "title": "lFacture"
+                                        },
+                                        "lBAP": {
+                                            "type": "boolean",
+                                            "ablType": "LOGICAL",
+                                            "default": false,
+                                            "title": "lBAP"
+                                        },
+                                        "lPJ": {
+                                            "type": "boolean",
+                                            "ablType": "LOGICAL",
+                                            "default": false,
+                                            "title": "lPJ"
+                                        }
+                                    }
+                                }
+                            },
+                            "ttError": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "iSeqId": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iSeqId"
+                                        },
+                                        "iType": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iType"
+                                        },
+                                        "cError": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cError"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }}
+                },
+                "operations": [
+                    {
+                        "path": "",
+                        "useBeforeImage": true,
+                        "type": "update",
+                        "verb": "put",
+                        "params": [{
+                            "name": "dsbeIntervention",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "name": "GetttError",
+                        "path": "\/GetttError",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [{
+                            "name": "filter",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "read",
+                        "verb": "get",
+                        "params": [
+                            {
+                                "name": "CdLngSes",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "CdLngRef",
+                                "type": "REQUEST_BODY"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "GetttIntervention",
+                        "path": "\/GetttIntervention",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [{
+                            "name": "filter",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "delete",
+                        "verb": "delete",
+                        "params": [{
+                            "name": "dsbeIntervention",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "create",
+                        "verb": "post",
+                        "params": [{
+                            "name": "dsbeIntervention",
+                            "type": "REQUEST_BODY"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "beSignalement",
+                "path": "\/signalement",
+                "autoSave": true,
+                "schema": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {"dsbeSignalement": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "ttSignalement": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "iseqid": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iseqid"
+                                        },
+                                        "iNumeroIntervention": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroIntervention"
+                                        },
+                                        "iNumeroSignalement": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroSignalement"
+                                        },
+                                        "cTypeMandat": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cTypeMandat"
+                                        },
+                                        "iNumeroImmeuble": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroImmeuble"
+                                        },
+                                        "cLibelleImmeuble": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleImmeuble"
+                                        },
+                                        "iNumeroMandat": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroMandat"
+                                        },
+                                        "cLibelleMandat": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleMandat"
+                                        },
+                                        "cCodeTheme": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeTheme"
+                                        },
+                                        "cLibelleTheme": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleTheme"
+                                        },
+                                        "cCodeSignalant": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeSignalant"
+                                        },
+                                        "iNumeroSignalant": {
+                                            "type": "integer",
+                                            "ablType": "INT64",
+                                            "default": 0,
+                                            "title": "iNumeroSignalant"
+                                        },
+                                        "cLibelleSignalant": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleSignalant"
+                                        },
+                                        "cAdresseSignalant": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cAdresseSignalant"
+                                        },
+                                        "iNoSig": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNoSig"
+                                        },
+                                        "cCodeMode": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeMode"
+                                        },
+                                        "cCommentaire": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCommentaire"
+                                        }
+                                    }
+                                }
+                            },
+                            "ttLot": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "iseqid": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iseqid"
+                                        },
+                                        "iSeqIdSignalement": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iSeqIdSignalement"
+                                        },
+                                        "iNumeroLot": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iNumeroLot"
+                                        },
+                                        "cCodeNatureLot": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeNatureLot"
+                                        },
+                                        "cLibelleNatureLot": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cLibelleNatureLot"
+                                        },
+                                        "cCodeBatiment": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cCodeBatiment"
+                                        },
+                                        "cEntree": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cEntree"
+                                        },
+                                        "cEtage": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cEtage"
+                                        },
+                                        "cPorte": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cPorte"
+                                        },
+                                        "cEscalier": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cEscalier"
+                                        },
+                                        "cOccupant": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cOccupant"
+                                        },
+                                        "lIsSeclected": {
+                                            "type": "boolean",
+                                            "ablType": "LOGICAL",
+                                            "default": false,
+                                            "title": "lIsSeclected"
+                                        }
+                                    }
+                                }
+                            },
+                            "ttError": {
+                                "type": "array",
+                                "items": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "_id": {"type": "string"},
+                                        "_errorString": {"type": "string"},
+                                        "iSeqId": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iSeqId"
+                                        },
+                                        "iType": {
+                                            "type": "integer",
+                                            "ablType": "INTEGER",
+                                            "default": 0,
+                                            "title": "iType"
+                                        },
+                                        "cError": {
+                                            "type": "string",
+                                            "ablType": "CHARACTER",
+                                            "default": "",
+                                            "title": "cError"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }}
+                },
+                "operations": [
+                    {
+                        "name": "GetttSignalement",
+                        "path": "\/GetttSignalement",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [{
+                            "name": "filter",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "name": "GetttError",
+                        "path": "\/GetttError",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [{
+                            "name": "filter",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "delete",
+                        "verb": "delete",
+                        "params": [{
+                            "name": "dsbeSignalement",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": false,
+                        "type": "create",
+                        "verb": "post",
+                        "params": [{
+                            "name": "dsbeSignalement",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "path": "?filter={filter}",
+                        "useBeforeImage": false,
+                        "type": "read",
+                        "verb": "get",
+                        "params": [
+                            {
+                                "name": "cTypeContrat",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "iNumeroContrat",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "iNumeroTraitement",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "CdLngSes",
+                                "type": "REQUEST_BODY"
+                            },
+                            {
+                                "name": "CdLngRef",
+                                "type": "REQUEST_BODY"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "",
+                        "useBeforeImage": true,
+                        "type": "update",
+                        "verb": "put",
+                        "params": [{
+                            "name": "dsbeSignalement",
+                            "type": "REQUEST_BODY"
+                        }]
+                    },
+                    {
+                        "name": "GetttLot",
+                        "path": "\/GetttLot",
+                        "useBeforeImage": false,
+                        "type": "invoke",
+                        "verb": "put",
+                        "params": [{
+                            "name": "filter",
+                            "type": "REQUEST_BODY"
+                        }]
+                    }
+                ]
+            }
+        ]
+    }]
+}

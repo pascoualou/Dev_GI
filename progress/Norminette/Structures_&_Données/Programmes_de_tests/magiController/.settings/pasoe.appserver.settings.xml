@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="11.6">
+<module id="cfca5062-7148-42ee-b97a-3957f88fe537" name="magiController">
+<resource path="src\AppServer" publish="true"/>
+</module>
+</module-content>

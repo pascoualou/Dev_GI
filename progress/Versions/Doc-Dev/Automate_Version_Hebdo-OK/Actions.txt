@@ -1,0 +1,100 @@
+Dans le programme principal de gestbases :
+------------------------------------------
+
+            Private Sub Form_Load()
+                recupere_env_dev
+                ajout = False
+                If Command = "AUTO" Then
+                    genversion.Show vbModal
+                    MsgBox "retour menu principal"
+                    ' sortie auto
+                    End
+                End If
+            End Sub
+
+
+Dans genversion :
+-----------------
+
+            Private Sub Form_Activate()
+            Dim memoire As Integer
+            
+                ' chargement des combos
+                Set rs = Versions.table_version.Recordset
+                With rs
+                    .MoveFirst
+                    While Not .EOF
+                        depart.AddItem (!numero)
+                        depart.ItemData(depart.NewIndex) = !noord
+                        fin.AddItem (!numero)
+                        fin.ItemData(fin.NewIndex) = !noord
+                        ' on memorise la derniere version test autre qu'un patch
+                        'If !gicli = "Oui" And num_entries(!numero, ".") = 3 Then memoire = depart.NewIndex
+                        If !gi = "Oui" And num_entries(!numero, ".") = 3 Then memoire = depart.NewIndex
+                        Debug.Print !gi, memoire
+                        .MoveNext
+                    Wend
+                End With
+            
+                ' par defaut derniere version
+                depart.ListIndex = depart.ListCount - 1
+                fin.ListIndex = fin.ListCount - 1
+                depart.ListIndex = memoire
+                
+                If Command = "AUTO" Then
+                    genfichier
+                    ' sortie auto
+                    End
+                End If
+            
+                
+            End Sub
+            
+Dans genfichier :
+-----------------
+
+            Private Sub genfichier()
+                On Error GoTo ABANDON
+                If Dir(Reseau & "dev\intf\AbandonVersionHebdo") <> "" Then
+                    Kill Reseau & "dev\intf\AbandonVersionHebdo"
+                End If
+                Open Environ("DISQUE") & "version\gi_image\gi\exe\version.maj" For Output As #70
+                Open Environ("DISQUE") & "version\majgi.txt" For Output As #80
+                
+                ' recupération de la dernière version
+                Set rs = Versions.table_version.Database.OpenRecordset("select * from version order by noord")
+                rs.FindLast ("true")
+                
+                ' si pas de prochaine version : abandon
+                If rs!gi = "Oui" Then
+                    GoTo ABANDON
+                End If
+                
+                Print #70, "Version du : " & CStr(rs!Date)
+                Print #70, "Numéro     : V" & CStr(rs!numero)
+                Print #80, "La Gestion Intégrale V" & CStr(rs!numero)
+                rs.Edit
+                rs!gi = "Oui"
+                rs.Update
+                ' recherche version précédente GI"
+                rs.FindPrevious ("gi = 'Oui'")
+                Print #80, "ADB#Mise à jour depuis la version " & CStr(rs!numero) & "#adb." & Format(rs!noord / 100, "000000")
+                Close #70
+                Close #80
+                
+                ' génération du fichier de montage de la version
+                bouton_lancer_Click
+                
+                ' copie du fichier version sur le serveur
+                If Dir(Environ("RESEAU") & "gidev\exe\version") <> "" Then Kill Environ("RESEAU") & "gidev\exe\version"
+                Call FileCopy(Environ("DISQUE") & "version\gi_image\gi\exe\version.maj", Environ("RESEAU") & "gidev\exe\version")
+                If Dir(Environ("RESEAU") & "gi\exe\version") <> "" Then Kill Environ("RESEAU") & "gi\exe\version"
+                Call FileCopy(Environ("DISQUE") & "version\gi_image\gi\exe\version.maj", Environ("RESEAU") & "gi\exe\version")
+                Exit Sub
+                
+            ABANDON:
+            Open Reseau & "dev\intf\AbandonVersionHebdo" For Output As #88
+            Close #88
+            
+            End Sub
+            

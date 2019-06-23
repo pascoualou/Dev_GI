@@ -1,0 +1,2 @@
+FAV,1,PCL Viewer + autres,%dlc%\bin\prowin32.exe -ininame %windir%\outilsgi.ini -pf %reseau%dev\outils\connex.pf -param %reseau%dev\outils\pclviewer2.w -T %disque%tmp,,,
+FAV,1,Moulin (Barbade),explorer.exe %reseau%moulin,,,

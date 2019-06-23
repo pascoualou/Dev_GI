@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_assuranceImmeuble" path="/assuranceImmeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beAssuranceImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beAssuranceImmeuble..readbeAssuranceImmeuble" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beAssuranceImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beAssuranceImmeuble..updatebeAssuranceImmeuble" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beAssuranceImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beAssuranceImmeuble..deletebeAssuranceImmeuble" produces="application/json" verb="DELETE"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beAssuranceImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beAssuranceImmeuble..createbeAssuranceImmeuble" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeAssuranceImmeubleMandat" path="/listeAssuranceImmeubleMandat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beAssuranceImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beAssuranceImmeuble..readbeListeAssuranceImmeubleMandat" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeTacheObjetAssuranceImmeuble" path="/listeTacheObjetAssuranceImmeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beAssuranceImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beAssuranceImmeuble..readbeListeTacheObjet" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_chargeLocativePrestation" path="/chargeLocativePrestation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beChargeLocativePrestation.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beChargeLocativePrestation..updatebeChargeLocativePrestation" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beChargeLocativePrestation.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beChargeLocativePrestation..readbeChargeLocativePrestation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_imputationParticuliere" path="/imputationParticuliere" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beImputationParticuliere.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beImputationParticuliere..ReadbeImputationParticuliere" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beImputationParticuliere.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beImputationParticuliere..UpdatebeImputationParticuliere" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeImputationParticuliere" path="/listeImputationParticuliere" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beImputationParticuliere.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beImputationParticuliere..ReadbeListeImputationParticuliere" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_releveCompteur" path="/releveCompteur" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beReleveCompteur.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beReleveCompteur..readbeReleveCompteur" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/tache/beReleveCompteur.pidl::com.progress.openedge.pdt.bpmbindings" name="tache.beReleveCompteur..updatebeReleveCompteur" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

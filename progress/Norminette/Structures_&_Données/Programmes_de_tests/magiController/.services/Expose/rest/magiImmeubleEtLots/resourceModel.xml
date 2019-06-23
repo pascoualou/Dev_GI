@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_lots" path="/lot" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..updatebeLot" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbeLot" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_lotReloc" path="/lotReloc" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/commercialisation/beLotCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.commercialisation.beLotCommercialisation..ReadbeLotCommercialisation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_immeuble" path="/immeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beImmeuble..readbeImmeuble" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beImmeuble..updatebeImmeuble" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_infoImmeubleParMandat" path="/infoImmeubleParMandat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beImmeuble..readInfoImmeubleParMandat" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeLot" path="/listeLot" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbeListeLot" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_comboBatiment" path="/comboImmeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beImmeuble..ReadCombo" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_pourcentageTauxReduit" path="/pourcentageTauxReduit" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbePourcentageTauxReduit" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_ListeLotContratImmeuble" path="/listeLotContratImmeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbeListeLotContratImmeuble" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_contratFournisseurParMandat" path="/contratFournisseurParMandat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beImmeuble..readContratFournisseurParMandat" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_centreImpot" path="/centreImpot" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beCentreImpot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beCentreImpot..ReadbeCentreImpot" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_controleDateAchevement" path="/controleDateAchevement" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beImmeuble.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beImmeuble..controleDateAchevement" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeLotMandat" path="/listeLotMandat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbeListeLotMandat" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_equipement" path="/equipement" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beEquipement.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beEquipement..ReadbeEquipement" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_testNumeroLot" path="/testNumeroLot" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..testNumeroLot" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeLotImmeuble" path="/listeLotImmeuble" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbeListeLotImmeuble" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeLotContratSimplifie" path="/listeLotContratSimplifie" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/immeubleEtLot/beLot.pidl::com.progress.openedge.pdt.bpmbindings" name="immeubleEtLot.beLot..readbeListeLotContratSimplifie" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

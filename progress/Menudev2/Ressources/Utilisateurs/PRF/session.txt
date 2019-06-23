@@ -1,0 +1,7 @@
+Environnement :
+---------------
+    VERSION = 064
+    DEVUSR = PRF
+    TEMP = C:\Users\devrf\AppData\Local\Temp
+    TMP = d:\tmp
+    DISQUE = d:\

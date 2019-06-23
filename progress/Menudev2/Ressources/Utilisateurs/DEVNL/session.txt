@@ -1,0 +1,23 @@
+Environnement :
+---------------
+    VERSION = 050
+    DEVUSR = DEVNL
+    DISQUE = d:\
+    RESEAU = h:\
+    RESEAUBIS = 
+    PROVERSION = 10.2B
+    DLC = c:\progress\dlc
+    PROPATH = .,h:\dev\outils\progress
+    REPGI = gidev
+    PATH = C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\i
+    CLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.
+    0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Man
+    agement Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Fil
+    es (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\IDM Computer Solutions\UltraE
+    dit\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\PROGRESS\DLC;C:\PROGRESS\DLC\bin;C:\Program 
+    Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Pr
+    ogramData\ComposerSetup\bin;E:\ETUDES\Extranet\ZDEV\ZF3;C:\php7;C:\Program Files\TortoiseGit\bin;C:\Program F
+    iles\nodejs\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;h:\dev\outils;C:\Users\devnl\AppData\Lo
+    cal\atom\bin;C:\Users\devnl\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Microsoft VS Code\bin;
+    C:\Users\devnl\AppData\Roaming\npm
+    PROFILE_BLAT = DEVNL

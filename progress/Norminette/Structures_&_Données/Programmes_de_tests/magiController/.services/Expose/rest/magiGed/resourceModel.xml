@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_attributEcranVersement" path="/attributEcranVersement" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..readbeAttributEcranVersement" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeTypeDocument" path="/listeTypeDocument" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..readbeListeTypeDocument" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeTypeDocumentMandat" path="/comboTypeDocument" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeComboTypeDocument" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_visibiliteRoleExtranet" path="/visibiliteRoleExtranet" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeVisibiliteRoleExtranet" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_recherche" path="/recherche" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeRecherche" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_documentParId" path="/documentGED" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeDocumentGED" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..CreatebeDocumentGED" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..UpdatebeDocumentGED" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..deletebeDocumentGED" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_documentParId_1" path="/documentParId" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeDocumentParId" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_sendFileWatcher" path="/sendFileWatcher" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..UpdatebeSendDocumentFileWatcher" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_sendGED" path="/sendGED" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..UpdatebeSendDocumentGED" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_scan" path="/scan" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeScan" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..CreatebeScan" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..UpdatebeScan" produces="application/json" verb="POST"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..deletebeScan" produces="application/json" verb="DELETE"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_documentScan" path="/documentScan" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/ged/beVersement.pidl::com.progress.openedge.pdt.bpmbindings" name="ged.beVersement..ReadbeDocumentScan" produces="application/json" verb="POST"/>
+  </prgs:resource>
+</prgs:model>

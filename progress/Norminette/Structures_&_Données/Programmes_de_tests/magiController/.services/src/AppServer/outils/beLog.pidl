@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pidl:description targetNamespace="urn:schemas-progress-com:bpm:appserverbinding:0001" serviceType="wsad:OEAppServerInvoke" xmlns:pidl="http://www.progress.com/caf/idl1.0" xmlns:java="http://www.progress.com/adapters/idl1.0/javatype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsad="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<pidl:types>
+</pidl:types>
+  <pidl:interface name="com.progress.openedge.pdt.bpminterfaces">
+    <pidl:operation name="outils.beLog..DeletebeLog" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="dsbeLog" req="false" type="java:Object">
+    </pidl:input>
+      <pidl:output messageLabel="dsbeLog" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="outils.beLog..ReadbeLog" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="pcfiltre" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="dsbeLog" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+  </pidl:interface>
+  <pidl:binding name="com.progress.openedge.pdt.bpmbindings" interface="wsad:com.progress.openedge.pdt.bpminterfaces" type="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<wsad:Operation isPersistent="false" useFullName="false" executionMode="11">
+  <wsad:Name>outils.beLog</wsad:Name>
+  <wsad:ProcPath/>
+  <wsad:ProPath/>
+  <wsad:ProcExt>cls</wsad:ProcExt>
+  <wsad:ProcDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="true" IsMappedToSubmit="false">
+    <wsad:Name>outils.beLog</wsad:Name>
+    <wsad:HelpString></wsad:HelpString>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>DeletebeLog</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>DeletebeLog</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>dsbeLog</wsad:Name>
+          <wsad:OrigName>dsbeLog</wsad:OrigName>
+          <wsad:Type>36</wsad:Type>
+          <wsad:Mode>3</wsad:Mode>
+          <wsad:DataSetMetaData>
+            <wsad:NamespaceUri xsi:nil="true"/>
+            <wsad:DataTable Name="ttLog" hasBeforeTable="false">
+              <wsad:MetaData>
+                <wsad:FieldName>iLigne</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>timestamp</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>jSessionId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cModele</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iLevel</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cMessage</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+            </wsad:DataTable>
+          </wsad:DataSetMetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeLog</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeLog</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>pcfiltre</wsad:Name>
+          <wsad:OrigName>pcfiltre</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>dsbeLog</wsad:Name>
+          <wsad:OrigName>dsbeLog</wsad:OrigName>
+          <wsad:Type>36</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+          <wsad:DataSetMetaData>
+            <wsad:NamespaceUri xsi:nil="true"/>
+            <wsad:DataTable Name="ttLog" hasBeforeTable="false">
+              <wsad:MetaData>
+                <wsad:FieldName>iLigne</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>timestamp</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>jSessionId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cModele</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iLevel</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cMessage</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+            </wsad:DataTable>
+          </wsad:DataSetMetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+  </wsad:ProcDetail>
+</wsad:Operation>
+  </pidl:binding>
+</pidl:description>

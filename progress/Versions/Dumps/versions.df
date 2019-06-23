@@ -1,0 +1,298 @@
+ADD TABLE "Moulinettes"
+  AREA "Schema Area"
+  DUMP-NAME "moulinettes"
+
+ADD FIELD "cNomMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  LABEL "Nom Moulinette"
+  POSITION 2
+  MAX-WIDTH 64
+  ORDER 10
+
+ADD FIELD "cLibelleMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(80)"
+  INITIAL ""
+  LABEL "Libelle Moulinette"
+  POSITION 3
+  MAX-WIDTH 160
+  ORDER 20
+
+ADD FIELD "cRepertoireMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(70)"
+  INITIAL ""
+  LABEL "Répertoire moulinette"
+  POSITION 4
+  MAX-WIDTH 140
+  ORDER 30
+
+ADD FIELD "cNumeroVersion" OF "Moulinettes" AS character 
+  FORMAT "x(10)"
+  INITIAL ""
+  LABEL "Numéro version"
+  POSITION 5
+  MAX-WIDTH 20
+  ORDER 40
+
+ADD FIELD "lURef" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "URef"
+  POSITION 6
+  MAX-WIDTH 1
+  ORDER 50
+
+ADD FIELD "lUVid" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "UVid"
+  POSITION 7
+  MAX-WIDTH 1
+  ORDER 60
+
+ADD FIELD "lHREF" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "HRef"
+  POSITION 8
+  MAX-WIDTH 1
+  ORDER 70
+
+ADD FIELD "lHVid" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  POSITION 9
+  MAX-WIDTH 1
+  ORDER 80
+
+ADD FIELD "cAuteurMoulinette" OF "Moulinettes" AS character 
+  FORMAT "x(32)"
+  INITIAL ""
+  LABEL "Auteur de la moulinette"
+  POSITION 10
+  MAX-WIDTH 64
+  ORDER 90
+
+ADD FIELD "iNumero" OF "Moulinettes" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Numero"
+  POSITION 11
+  MAX-WIDTH 4
+  ORDER 100
+
+ADD FIELD "lPME" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "PME"
+  POSITION 12
+  MAX-WIDTH 1
+  ORDER 110
+
+ADD FIELD "lGestion" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Gestion"
+  POSITION 13
+  MAX-WIDTH 1
+  ORDER 120
+
+ADD FIELD "lDernier" OF "Moulinettes" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "En dernier"
+  POSITION 14
+  MAX-WIDTH 1
+  ORDER 130
+
+ADD FIELD "cFiller1" OF "Moulinettes" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 1"
+  POSITION 15
+  MAX-WIDTH 100
+  ORDER 140
+
+ADD FIELD "cFiller2" OF "Moulinettes" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 2"
+  POSITION 16
+  MAX-WIDTH 100
+  ORDER 150
+
+ADD INDEX "ixMoulinettes01" ON "Moulinettes" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cNumeroVersion" ASCENDING 
+  INDEX-FIELD "cNomMoulinette" ASCENDING 
+
+ADD TABLE "Versions"
+  AREA "Schema Area"
+  LABEL "Versions des bases"
+  DUMP-NAME "versions"
+
+ADD FIELD "cNumeroVersion" OF "Versions" AS character 
+  FORMAT "x(10)"
+  INITIAL ""
+  LABEL "Numéro version"
+  POSITION 2
+  MAX-WIDTH 20
+  ORDER 10
+
+ADD FIELD "dDateVersion" OF "Versions" AS date 
+  FORMAT "99/99/9999"
+  INITIAL ?
+  LABEL "Date de la version"
+  POSITION 3
+  MAX-WIDTH 4
+  ORDER 20
+
+ADD FIELD "iCrcSadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Sadb"
+  POSITION 4
+  MAX-WIDTH 4
+  ORDER 30
+
+ADD FIELD "iCrcInter" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Inter"
+  POSITION 5
+  MAX-WIDTH 4
+  ORDER 40
+
+ADD FIELD "iCrcCompta" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de compta"
+  POSITION 6
+  MAX-WIDTH 4
+  ORDER 50
+
+ADD FIELD "iCrcTransfert" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Transfert"
+  POSITION 7
+  MAX-WIDTH 4
+  ORDER 60
+
+ADD FIELD "iCrcCadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Cadb"
+  POSITION 8
+  MAX-WIDTH 4
+  ORDER 70
+
+ADD FIELD "iCrcLadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Ladb"
+  POSITION 9
+  MAX-WIDTH 4
+  ORDER 80
+
+ADD FIELD "iCrcWadb" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Wadb"
+  POSITION 10
+  MAX-WIDTH 4
+  ORDER 90
+
+ADD FIELD "iCrcLcompta" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Lcompta"
+  POSITION 11
+  MAX-WIDTH 4
+  ORDER 100
+
+ADD FIELD "iCrcLtrans" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Ltrans"
+  POSITION 12
+  MAX-WIDTH 4
+  ORDER 110
+
+ADD FIELD "lGidev" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Version gidev"
+  POSITION 13
+  MAX-WIDTH 1
+  ORDER 120
+
+ADD FIELD "lGi" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Version GI"
+  POSITION 14
+  MAX-WIDTH 1
+  ORDER 130
+
+ADD FIELD "lGicli" OF "Versions" AS logical 
+  FORMAT "yes/no"
+  INITIAL "no"
+  LABEL "Version GICLI"
+  POSITION 15
+  MAX-WIDTH 1
+  ORDER 140
+
+ADD FIELD "iOrdre" OF "Versions" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  LABEL "Ordre"
+  POSITION 16
+  MAX-WIDTH 4
+  ORDER 150
+
+ADD FIELD "cRepertoireVersion" OF "Versions" AS character 
+  FORMAT "x(70)"
+  INITIAL ""
+  LABEL "Repertoire de la version"
+  POSITION 17
+  MAX-WIDTH 140
+  ORDER 160
+
+ADD FIELD "iCrcDwh" OF "Versions" AS integer 
+  FORMAT ">>>>>>>9"
+  INITIAL "0"
+  LABEL "Crc de Dwh"
+  POSITION 18
+  MAX-WIDTH 4
+  ORDER 115
+
+ADD FIELD "cFiller1" OF "Versions" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 1"
+  POSITION 19
+  MAX-WIDTH 100
+  ORDER 170
+
+ADD FIELD "cFiller2" OF "Versions" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Filler 2"
+  POSITION 20
+  MAX-WIDTH 100
+  ORDER 180
+
+ADD INDEX "ixVersions01" ON "Versions" 
+  AREA "Schema Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "cNumeroVersion" ASCENDING 
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000005693

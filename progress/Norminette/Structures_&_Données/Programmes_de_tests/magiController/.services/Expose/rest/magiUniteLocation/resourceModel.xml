@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_listeUniteLocation" path="/listeUniteLocation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beUniteLocation.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beUniteLocation..ReadbeListeUniteLocation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beUniteLocation.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beUniteLocation..updatebeUniteLocation" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_uniteLocation" path="/uniteLocation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beUniteLocation.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beUniteLocation..readbeUniteLocation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

@@ -1,0 +1,25 @@
+Environnement :
+---------------
+    VERSION = 058
+    DEVUSR = compilv11
+    DISQUE = e:\
+    RESEAU = h:\
+    RESEAUBIS = 
+    PROVERSION = 11.5
+    DLC = C:\Progress\OpenEdge_v11_64b
+    PROPATH = C:\Progress\OpenEdge_v11_64b\probuild\eucapp,C:\Progress\OpenEdge_v11_64b\probuild\eucapp\euc.pl,h:
+    \dev\outils\progress,C:\Progress\OpenEdge_v11_64b,C:\Progress\OpenEdge_v11_64b\bin,C:\Progress\OpenEdge_v11_6
+    4b\src
+    REPGI = gi
+    PATH = ;;;;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\In
+    tel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShel
+    l\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R
+    ) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Progra
+    m Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\WindowsPowerShell\v1.0\;;;;
+    ;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS C
+    lient\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:
+    \Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Manageme
+    nt Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x
+    86)\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Progress\O
+    penEdge_v11_64b;C:\Progress\OpenEdge_v11_64b\bin;h:\dev\outils
+    PROFILE_BLAT = compilv11

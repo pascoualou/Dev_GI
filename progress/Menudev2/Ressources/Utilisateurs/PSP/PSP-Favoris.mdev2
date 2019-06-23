@@ -1,0 +1,4 @@
+FAV,1,Outils ADB,%dlc%\bin\prowin32.exe -param %reseau%dev\outils\adb\outiladb.p -pf %reseau%dev\outils\connex.pf -ininame %windir%\outilsgi.ini -T %disque%tmp,,,,
+FAV,1,Compilateur GI,#BAT#%reseau%dev\outils\lanceCompilateur.bat,,,,
+FAV,1,Compilateur patchs,%dlc%\bin\prowin32.exe -p %reseau%dev\outils\comppatch.w -h 15  -ininame %reseau%gidev\gest\ress\init\gest.ini -cpstream iso8859-1 -inp 32000 -l 400 -s 100 -assemblies %reseau%gidev,,,,
+FAV,1,Mot de passe GI,%reseau%dev\outils\passe.exe,,,,

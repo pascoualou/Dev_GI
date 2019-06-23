@@ -1,0 +1,7 @@
+# Modifier juste le répertoire du projet et le nom de la base
+# sur la ligne ci-dessous
+-h 11
+
+#-pf H:\dev\outils\progress\versions\cnxGIVersions.pf
+
+-db v:\dev\dat\gidata

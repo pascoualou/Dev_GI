@@ -1,0 +1,41 @@
+ADD FIELD "tpcon" OF "cteur" AS character
+  DESCRIPTION "02/02/2018 - Pour V19.00"
+  FORMAT "X(5)"
+  POSITION 19
+  INITIAL ""
+  LABEL "type de mandat"
+  COLUMN-LABEL "tpcon"
+  ORDER 180
+  MAX-WIDTH 10
+
+ADD FIELD "nocon" OF "cteur" AS integer
+  DESCRIPTION "02/02/2018 - Pour V19.00"
+  FORMAT ">>>>>9"
+  POSITION 20
+  INITIAL "0"
+  LABEL "No mandat"
+  COLUMN-LABEL "nocon"
+  ORDER 190
+  MAX-WIDTH 4
+
+UPDATE INDEX "Ix_cteur01" OF "cteur"
+  DESCRIPTION "à supprimer"
+ADD INDEX "ix_cteur02" ON "cteur"
+  AREA "Index Area"
+  UNIQUE
+  DESCRIPTION "Index par mandat (01030 ou 01003)
+noimm devrait disparaitre à terme"
+  INDEX-FIELD "tpcon" ASCENDING
+  INDEX-FIELD "nocon" ASCENDING
+  INDEX-FIELD "noimm" ASCENDING
+  INDEX-FIELD "nolot" ASCENDING
+  INDEX-FIELD "TpCpt" ASCENDING
+  INDEX-FIELD "nocpt" ASCENDING
+
+UPDATE PRIMARY INDEX "ix_cteur02" ON "cteur"
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000000889

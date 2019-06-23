@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<references xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assembly name="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Documents.Spreadsheet, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Documents.Flow.FormatProviders.Pdf, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Documents.Flow, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Documents.Fixed, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Documents.Core, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Zip, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+  <assembly name="Telerik.Windows.Zip.Extensions, Version=2016.3.1024.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+</references>

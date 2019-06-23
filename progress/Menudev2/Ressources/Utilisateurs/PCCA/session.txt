@@ -1,0 +1,7 @@
+Environnement :
+---------------
+    VERSION = 066
+    DEVUSR = PCCA
+    TEMP = C:\Users\devcca\AppData\Local\Temp
+    TMP = C:\Users\devcca\AppData\Local\Temp
+    DISQUE = D:\

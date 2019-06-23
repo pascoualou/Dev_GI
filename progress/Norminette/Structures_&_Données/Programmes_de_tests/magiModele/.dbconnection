@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<connection>
+<connectionentry identifier="ladb"/>
+<connectionentry identifier="sadb"/>
+<connectionentry identifier="cadb"/>
+<connectionentry identifier="compta"/>
+<connectionentry identifier="lcompta"/>
+<connectionentry identifier="inter"/>
+<connectionentry identifier="wadb"/>
+<connectionentry identifier="ltrans"/>
+<connectionentry identifier="transfer"/>
+</connection>

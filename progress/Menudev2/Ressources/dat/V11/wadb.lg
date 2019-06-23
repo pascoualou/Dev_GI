@@ -1,0 +1,29 @@
+
+                Mon Nov 12 17:15:45 2018
+[2018/11/12@17:15:45.968+0100] P-5868       T-10344 I DBUTIL   : (451)   Début de session prostrct repair pour l'utilisateur devpl sur CON:. 
+[2018/11/12@17:15:46.057+0100] P-5868       T-10344 I DBUTIL   : (334)    Fin de la session prostrct repair. 
+
+                Mon Nov 12 17:15:46 2018
+[2018/11/12@17:15:46.324+0100] P-3592       T-11072 I          : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb.db is on a remote device. 
+[2018/11/12@17:15:46.360+0100] P-3592       T-11072 I          : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb.d1 is on a remote device. 
+[2018/11/12@17:15:46.371+0100] P-3592       T-11072 I          : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb.b1 is on a remote device. 
+[2018/11/12@17:15:46.377+0100] P-3592       T-11072 I          : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb_7.d1 is on a remote device. 
+[2018/11/12@17:15:46.387+0100] P-3592       T-11072 I          : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb_8.d1 is on a remote device. 
+[2018/11/12@17:15:46.416+0100] P-3592       T-11072 I          : (451)   Début de session Truncate bi pour l'utilisateur devpl sur CON:. 
+[2018/11/12@17:15:46.421+0100] P-3592       T-11072 I          : (15321) Avant l'initialisation du journal d'image dans le bloc 0  avec un décalage 33879408. 
+[2018/11/12@17:15:46.880+0100] P-3592       T-11072 I          : (123)   Le fichier .bi a été tronqué. 
+[2018/11/12@17:15:46.885+0100] P-3592       T-11072 I          : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2018/11/12@17:15:46.887+0100] P-3592       T-11072 I          : (15743) Before Image Log Completion at Block 0 Offset 235. 
+[2018/11/12@17:15:46.900+0100] P-3592       T-11072 I          : (334)    Fin de la session Truncate bi. 
+
+                Mon Nov 12 17:15:47 2018
+[2018/11/12@17:15:47.515+0100] P-7276       T-10748 I CONV     : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb.db is on a remote device. 
+[2018/11/12@17:15:47.534+0100] P-7276       T-10748 I CONV     : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb.d1 is on a remote device. 
+[2018/11/12@17:15:47.549+0100] P-7276       T-10748 I CONV     : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb.b1 is on a remote device. 
+[2018/11/12@17:15:47.560+0100] P-7276       T-10748 I CONV     : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb_7.d1 is on a remote device. 
+[2018/11/12@17:15:47.574+0100] P-7276       T-10748 I CONV     : (9466)  File H:\dev\outils\progress\Menudev2\Ressources\dat\V11\wadb_8.d1 is on a remote device. 
+[2018/11/12@17:15:47.605+0100] P-7276       T-10748 I CONV     : (451)   Début de session proutil -C conv1011 pour l'utilisateur devpl sur batch. 
+[2018/11/12@17:15:47.610+0100] P-7276       T-10748 I CONV     : (15321) Avant l'initialisation du journal d'image dans le bloc 0  avec un décalage 0. 
+[2018/11/12@17:15:51.442+0100] P-7276       T-10748 I CONV     : (15109) A la fermeture de la base de données, le nombre de transactions actives est 0. 
+[2018/11/12@17:15:51.446+0100] P-7276       T-10748 I CONV     : (15743) Before Image Log Completion at Block 79 Offset 4682. 
+[2018/11/12@17:15:51.466+0100] P-7276       T-10748 I CONV     : (334)    Fin de la session proutil -C conv1011. 

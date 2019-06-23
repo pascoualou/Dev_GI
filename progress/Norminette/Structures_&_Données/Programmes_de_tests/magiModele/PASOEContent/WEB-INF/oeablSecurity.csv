@@ -1,0 +1,48 @@
+## Intercept URLs imported from C:\MAGI\workspace\magiModele\PASOEContent\WEB-INF\web.xml
+## Imported at 2017-10-06T13:33:55.007+02:00
+##
+## PASOE Configuration file C:\MAGI\workspace\magiModele\PASOEContent\WEB-INF\oeablSecurity-anonymous.xml
+
+## Properties from http space /apsv/**
+## Transport: apsv
+## "url-pattern","method","spring-access-expression"
+
+       
+
+## Properties from http space /soap/**
+## Transport: soap
+## "url-pattern","method","spring-access-expression"
+
+       
+
+## Properties from http space /rest/**
+## Transport: rest
+## "url-pattern","method","spring-access-expression"
+"/rest/**","*","hasAnyRole('ROLE_ANONYMOUS')"
+
+       
+
+## Properties from http space /**
+## Transport: all
+## "url-pattern","method","spring-access-expression"
+"/*","GET","permitAll()"
+"/webspeed/cgi-bin/**","GET","permitAll()"
+"/jsp/**","*","hasAnyRole('ROLE_ANONYMOUS')"
+"/web/**","*","hasAnyRole('ROLE_ANONYMOUS')"
+"/index.htm*","GET","permitAll()"
+"/server/**","GET","permitAll()"
+"/static/error/*","GET","permitAll()"
+"/static/auth/*","*","permitAll()"
+"/static/images/*","*","permitAll()"
+"/static/**","*","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.htm*","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.gif","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.jpg","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.css","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.js","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.json","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.asp","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**/*.inc","GET","hasAnyRole('ROLE_ANONYMOUS')"
+"/**","*","denyAll()"
+
+       

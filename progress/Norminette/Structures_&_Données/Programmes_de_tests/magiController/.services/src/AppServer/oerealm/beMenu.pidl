@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pidl:description targetNamespace="urn:schemas-progress-com:bpm:appserverbinding:0001" serviceType="wsad:OEAppServerInvoke" xmlns:pidl="http://www.progress.com/caf/idl1.0" xmlns:java="http://www.progress.com/adapters/idl1.0/javatype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsad="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<pidl:types>
+</pidl:types>
+  <pidl:interface name="com.progress.openedge.pdt.bpminterfaces">
+    <pidl:operation name="oerealm.beMenu..CreatebeMenu" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:input>
+      <pidl:output messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..DeletebeMenu" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:input>
+      <pidl:output messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..ReadbeKendoMenu" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="CdLngSes" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngRef" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="oMenuHTML" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..ReadbeMenu" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="filter" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngSes" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngRef" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..ReadbeMenuHTML2" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="CdLngSes" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngRef" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="oMenuHTML" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..ReadbeMenuHTML" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="CdLngSes" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngRef" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="oMenuHTML" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..ReadbeMenuJson" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="CdLngSes" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngRef" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="oMenuJson" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..ReadbeTableMenu" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="CdLngSes" req="false" type="java:String">
+    </pidl:input>
+      <pidl:input messageLabel="CdLngRef" req="false" type="java:String">
+    </pidl:input>
+      <pidl:output messageLabel="oMenuHTML" req="false" type="java:String">
+    </pidl:output>
+    </pidl:operation>
+    <pidl:operation name="oerealm.beMenu..UpdatebeMenu" pattern="http://www.progress.com/caf/idl1.0/request-response">
+      <pidl:input messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:input>
+      <pidl:output messageLabel="dsbeMenu" req="false" type="java:Object">
+    </pidl:output>
+    </pidl:operation>
+  </pidl:interface>
+  <pidl:binding name="com.progress.openedge.pdt.bpmbindings" interface="wsad:com.progress.openedge.pdt.bpminterfaces" type="urn:schemas-progress-com:bpm:appserverbinding:0001">
+<wsad:Operation isPersistent="false" useFullName="false" executionMode="11">
+  <wsad:Name>oerealm.beMenu</wsad:Name>
+  <wsad:ProcPath/>
+  <wsad:ProPath/>
+  <wsad:ProcExt>cls</wsad:ProcExt>
+  <wsad:ProcDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="true" IsMappedToSubmit="false">
+    <wsad:Name>oerealm.beMenu</wsad:Name>
+    <wsad:HelpString></wsad:HelpString>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>CreatebeMenu</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>CreatebeMenu</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>dsbeMenu</wsad:Name>
+          <wsad:OrigName>dsbeMenu</wsad:OrigName>
+          <wsad:Type>36</wsad:Type>
+          <wsad:Mode>3</wsad:Mode>
+          <wsad:DataSetMetaData>
+            <wsad:NamespaceUri xsi:nil="true"/>
+            <wsad:DataTable Name="ttMenu" hasBeforeTable="false">
+              <wsad:MetaData>
+                <wsad:FieldName>cId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cParentId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>tpmenu</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeLangue</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cIcone</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionX</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionY</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cUrl</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iRang</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+            </wsad:DataTable>
+          </wsad:DataSetMetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>DeletebeMenu</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>DeletebeMenu</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>dsbeMenu</wsad:Name>
+          <wsad:OrigName>dsbeMenu</wsad:OrigName>
+          <wsad:Type>36</wsad:Type>
+          <wsad:Mode>3</wsad:Mode>
+          <wsad:DataSetMetaData>
+            <wsad:NamespaceUri xsi:nil="true"/>
+            <wsad:DataTable Name="ttMenu" hasBeforeTable="false">
+              <wsad:MetaData>
+                <wsad:FieldName>cId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cParentId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>tpmenu</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeLangue</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cIcone</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionX</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionY</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cUrl</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iRang</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+            </wsad:DataTable>
+          </wsad:DataSetMetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeKendoMenu</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeKendoMenu</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngSes</wsad:Name>
+          <wsad:OrigName>CdLngSes</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngRef</wsad:Name>
+          <wsad:OrigName>CdLngRef</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>oMenuHTML</wsad:Name>
+          <wsad:OrigName>oMenuHTML</wsad:OrigName>
+          <wsad:Type>39</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeMenu</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeMenu</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>filter</wsad:Name>
+          <wsad:OrigName>filter</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngSes</wsad:Name>
+          <wsad:OrigName>CdLngSes</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngRef</wsad:Name>
+          <wsad:OrigName>CdLngRef</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="4" writeXmlBeforeImage="false">
+          <wsad:Name>dsbeMenu</wsad:Name>
+          <wsad:OrigName>dsbeMenu</wsad:OrigName>
+          <wsad:Type>36</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+          <wsad:DataSetMetaData>
+            <wsad:NamespaceUri xsi:nil="true"/>
+            <wsad:DataTable Name="ttMenu" hasBeforeTable="false">
+              <wsad:MetaData>
+                <wsad:FieldName>cId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cParentId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>tpmenu</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeLangue</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cIcone</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionX</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionY</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cUrl</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iRang</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+            </wsad:DataTable>
+          </wsad:DataSetMetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeMenuHTML2</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeMenuHTML2</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngSes</wsad:Name>
+          <wsad:OrigName>CdLngSes</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngRef</wsad:Name>
+          <wsad:OrigName>CdLngRef</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>oMenuHTML</wsad:Name>
+          <wsad:OrigName>oMenuHTML</wsad:OrigName>
+          <wsad:Type>39</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeMenuHTML</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeMenuHTML</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngSes</wsad:Name>
+          <wsad:OrigName>CdLngSes</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngRef</wsad:Name>
+          <wsad:OrigName>CdLngRef</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>oMenuHTML</wsad:Name>
+          <wsad:OrigName>oMenuHTML</wsad:OrigName>
+          <wsad:Type>39</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeMenuJson</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeMenuJson</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngSes</wsad:Name>
+          <wsad:OrigName>CdLngSes</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngRef</wsad:Name>
+          <wsad:OrigName>CdLngRef</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>oMenuJson</wsad:Name>
+          <wsad:OrigName>oMenuJson</wsad:OrigName>
+          <wsad:Type>39</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>ReadbeTableMenu</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>ReadbeTableMenu</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngSes</wsad:Name>
+          <wsad:OrigName>CdLngSes</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="2" writeXmlBeforeImage="false">
+          <wsad:Name>CdLngRef</wsad:Name>
+          <wsad:OrigName>CdLngRef</wsad:OrigName>
+          <wsad:Type>1</wsad:Type>
+          <wsad:Mode>1</wsad:Mode>
+        </wsad:Parameter>
+        <wsad:Parameter allowUnknown="true" ordinal="3" writeXmlBeforeImage="false">
+          <wsad:Name>oMenuHTML</wsad:Name>
+          <wsad:OrigName>oMenuHTML</wsad:OrigName>
+          <wsad:Type>39</wsad:Type>
+          <wsad:Mode>2</wsad:Mode>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+    <wsad:InternalProc isExcluded="false" hasBadParams="false">
+      <wsad:Name>UpdatebeMenu</wsad:Name>
+      <wsad:ProcType>1</wsad:ProcType>
+      <wsad:MethodDetail isCustomized="false" usesUnknownDefault="true" useRetVal="false" usesTTMappingDefault="true" IsTTResultSet="true" usesBeforeImageDefault="false" IsMappedToSubmit="false">
+        <wsad:Name>UpdatebeMenu</wsad:Name>
+        <wsad:Parameter allowUnknown="true" ordinal="1" writeXmlBeforeImage="false">
+          <wsad:Name>dsbeMenu</wsad:Name>
+          <wsad:OrigName>dsbeMenu</wsad:OrigName>
+          <wsad:Type>36</wsad:Type>
+          <wsad:Mode>3</wsad:Mode>
+          <wsad:DataSetMetaData>
+            <wsad:NamespaceUri xsi:nil="true"/>
+            <wsad:DataTable Name="ttMenu" hasBeforeTable="false">
+              <wsad:MetaData>
+                <wsad:FieldName>cId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cParentId</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>tpmenu</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeLangue</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cCodeText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cText</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cIcone</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionX</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iPositionY</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>cUrl</wsad:FieldName>
+                <wsad:Type>1</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>CHARACTER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+              <wsad:MetaData>
+                <wsad:FieldName>iRang</wsad:FieldName>
+                <wsad:Type>4</wsad:Type>
+                <wsad:Extent>0</wsad:Extent>
+                <wsad:TypeName>INTEGER</wsad:TypeName>
+                <wsad:XmlNodeType>0</wsad:XmlNodeType>
+              </wsad:MetaData>
+            </wsad:DataTable>
+          </wsad:DataSetMetaData>
+        </wsad:Parameter>
+      </wsad:MethodDetail>
+    </wsad:InternalProc>
+  </wsad:ProcDetail>
+</wsad:Operation>
+  </pidl:binding>
+</pidl:description>

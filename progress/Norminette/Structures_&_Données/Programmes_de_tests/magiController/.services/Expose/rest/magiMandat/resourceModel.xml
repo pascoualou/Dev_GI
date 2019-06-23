@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_clemi" path="/clemi" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/beCle.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.beCle..ReadbeCle" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_mandatReloc" path="/mandatreloc" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/commercialisation/beMandatCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.commercialisation.beMandatCommercialisation..ReadbeMandatCommercialisation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_mandatGerance" path="/mandatGerance" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beMandatGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beMandatGerance..updatebeMandat" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beMandatGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beMandatGerance..readbeMandat" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beMandatGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beMandatGerance..createbeMandat" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeTache" path="/listeTache" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/mandat/gerance/beMandatGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="mandat.gerance.beMandatGerance..readbeListeTache" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_parametreDefautMandatGestion" path="/parametreDefautMandatGestion" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..readbeDefautMandatGestion" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..updatebeDefautMandatGestion" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_parametreCrg" path="/parametreCrg" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..readbeParamCrg" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..updatebeParamCrg" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_parametreTexteCrg" path="/parametreTexteCrg" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..readbeParamTexteCrg" produces="application/json" verb="GET"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..updatebeParamTexteCrg" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_parametrageGeranceMandat" path="/parametrageGeranceMandat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..readbeParametrageGeranceMandat" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/parametre/cabinet/gerance/beParametreGerance.pidl::com.progress.openedge.pdt.bpmbindings" name="parametre.cabinet.gerance.beParametreGerance..updatebeParametrageGeranceMandat" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

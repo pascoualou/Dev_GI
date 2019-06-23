@@ -1,0 +1,29 @@
+# Paramètres utilisés par le programme MailAuto.p
+
+# les lignes commençant par # sont en commentaire
+# Les valeurs entre [] seront remplacées dans le programme
+# Les lignes blanches sont ignorées
+
+# PARAMETRAGE GENERAL
+MailAuto_Repertoire_Demon=[disque]dev\perso\MailAuto
+MailAuto_Repertoire_Traites=[disque]dev\perso\MailAuto\Traites
+MailAuto_Traitement=OUI
+MailAuto_Fichier=[util]-[yyyymmjj]-[hhmmss]
+MailAuto_Email=insgidev@gmail.com
+MailAuto_EmailBis=
+MailAuto_CorpsEmail=[disque]dev\perso\MailAuto\Modeles\CorpsEmail.txt
+MailAuto_LogBlat=
+MailAuto_NoLog=
+
+
+# PARAMETRAGES PERSOS
+# Personalisables ....
+#   MailAuto_Email_utilisateur=adresse mail
+#   MailAuto_EmailBis_utilisateur=adresse mail copie
+#   MailAuto_NoLog_utilisateur= log limité au minimum oui ou non
+
+MailAuto_Email_PPL=pascoualou.gsm@gmail.com
+MailAuto_EmailBis_PPL=pascoualou.portable@gmail.com
+MailAuto_NoLog_PPL=OUI
+
+

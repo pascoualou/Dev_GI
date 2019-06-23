@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_interventions" path="/intervention" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beIntervention..DeletebeIntervention" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_signalement" path="/signalement" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beSignalement.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beSignalement..ReadbeSignalement" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beSignalement.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beSignalement..DeletebeSignalement" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beSignalement.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beSignalement..UpdatebeSignalement" produces="application/json" verb="POST"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beSignalement.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beSignalement..createbeSignalement" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_xlsintervention" path="/xlsintervention" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beIntervention..xlsIntervention" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_historiqueIntervention" path="/historiqueIntervention" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beIntervention..ReadbeHistoriqueIntervention" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_demandeDevis" path="/demandeDeDevis" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beDemandeDeDevis.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beDemandeDeDevis..ReadbeDemandeDeDevis" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beDemandeDeDevis.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beDemandeDeDevis..DeletebeDemandeDeDevis" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beDemandeDeDevis.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beDemandeDeDevis..createbeDemandeDeDevis" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beDemandeDeDevis.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beDemandeDeDevis..UpdatebeDemandeDeDevis" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_ordreDeService" path="/ordreDeService" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beOrdreDeService.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beOrdreDeService..ReadbeOrdreDeService" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beOrdreDeService.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beOrdreDeService..createbeOrdreDeService" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beOrdreDeService.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beOrdreDeService..updatebeOrdreDeService" produces="application/json" verb="POST"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beOrdreDeService.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beOrdreDeService..deletebeOrdreDeService" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_reponseFournisseur" path="/reponseFournisseur" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beReponseFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beReponseFournisseur..ReadbeReponseFournisseur" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beReponseFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beReponseFournisseur..DeletebeReponseFournisseur" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beReponseFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beReponseFournisseur..CreatebeReponseFournisseur" produces="application/json" verb="PUT"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beReponseFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beReponseFournisseur..UpdatebeReponseFournisseur" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_duplicationDemandeDeDevis" path="/duplicationDemandeDeDevis" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beDemandeDeDevis.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beDemandeDeDevis..duplicateDemandeDeDevis" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_pieceJointeIntervention" path="/pieceJointeIntervention" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/bePieceJointeIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.bePieceJointeIntervention..ReadbePieceJointe" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/bePieceJointeIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.bePieceJointeIntervention..DeletebePieceJointe" produces="application/json" verb="DELETE">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_clotureReponseFournisseur" path="/clotureIntervention" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beIntervention..cloturebeIntervention" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_dossierTravaux" path="/dossierTravaux" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beDossierTravaux.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beDossierTravaux..ReadbeDossierTravaux" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beDossierTravaux.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beDossierTravaux..deletebeDossierTravaux" produces="application/json" verb="DELETE"/>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beDossierTravaux.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beDossierTravaux..updatebeDossierTravaux" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_appelDeFond" path="/appelDeFond" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beAppelDeFond.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beAppelDeFond..ReadbeAppelDeFond" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeDossierTravaux" path="/listeDossierTravaux" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beDossierTravaux.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beDossierTravaux..ReadbeListeDossierTravaux" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listeIntervention" path="/listeIntervention" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beIntervention.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beIntervention..ReadbeListeIntervention" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_validateDossierTravaux" path="/validateDossierTravaux" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beDossierTravaux.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beDossierTravaux..validatebeDossierTravaux" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_suiviFinancierClient" path="/suiviFinancier" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beSuiviFinancier.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beSuiviFinancier..ReadbeListeSuiviFinancier" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_voteAG" path="/voteAG" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beReponseFournisseur.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beReponseFournisseur..voteAG" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_BAP" path="/bonAPayer" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beOrdreDeService.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beOrdreDeService..updateBAPbeOrdreDeService" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_repartitionAV" path="/repartitionAV" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beRepartitionAV.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beRepartitionAV..GetRepartitionAV" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beRepartitionAV.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beRepartitionAV..UpdateRepartitionAV" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_repartitionAVCalculPrct" path="/repartitionAVCalculPrct" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beRepartitionAV.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beRepartitionAV..CalculPrctRepartitionAV" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_recapDossier" path="/recapDossier" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beRecapDossier.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beRecapDossier..readbeRecapDossier" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_comptabilisationReliquat" path="/comptabilisationReliquat" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beComptabilisationReliquat.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beComptabilisationReliquat..updatebeComptabilisationReliquat" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_infoSaisieAppelDeFond" path="/infoSaisieAppelDeFond" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/dossierTravaux/beAppelDeFond.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.dossierTravaux.beAppelDeFond..readbeInfoSaisieAppelDeFond" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_ticketOS" path="/ticketOS" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/travaux/intervention/beSignalement.pidl::com.progress.openedge.pdt.bpmbindings" name="travaux.intervention.beSignalement..ReadbeSignalementExtranet" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_ordreDeService_id_fusion" path="/ordreDeService/{id}/fusion/{typeFichier}" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/bureautique/beBureautique.pidl::com.progress.openedge.pdt.bpmbindings" name="bureautique.beBureautique..fusionOrdreDeService" produces="application/json" verb="GET">
+      <prgs:param name="id" type="PATH"/>
+      <prgs:param name="typeFichier" type="PATH"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

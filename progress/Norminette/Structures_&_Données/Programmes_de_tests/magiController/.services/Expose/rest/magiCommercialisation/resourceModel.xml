@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_commercialisation" path="/commercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..updatebeCommercialisation" produces="application/json" verb="POST">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..readbeCommercialisation" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_listecommercialisation" path="/listeCommercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..readbeListeFiche" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_createFicheCommercialisation" path="/createFicheCommercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..createbeFicheCommercialisation" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_createFamilleDepotFicheCommercialisation" path="/familleDepotFicheCommercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..createFamilleDepotFicheCommercialisation" produces="application/json" verb="PUT"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_createFamilleLoyerFicheCommercialisation" path="/familleLoyerFicheCommercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..createFamilleLoyerFicheCommercialisation" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_createFamilleHonoraireFicheCommercialisation" path="/familleHonoraireFicheCommercialisation" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..createFamilleHonoraireFicheCommercialisation" produces="application/json" verb="PUT">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_worflow" path="/workflow" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beWorkflow.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beWorkflow..readbeWorkflow" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_encadrementLoyer" path="/encadrementLoyer" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..CalculEncadrementLoyer" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_bareme" path="/bareme" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..ReadbeBareme" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_siteWeb" path="/siteWeb" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..ReadbeSiteWeb" produces="application/json" verb="GET"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_fichierSiteWeb" path="/fichierSiteWeb" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..ReadbeFichierSiteWeb" produces="application/json" verb="GET">
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..MajbeFichierSiteWeb" produces="application/json" verb="POST"/>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_plafonnementEncadrementLoyer" path="/plafonnementEncadrementLoyer" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/commercialisation/beCommercialisation.pidl::com.progress.openedge.pdt.bpmbindings" name="commercialisation.beCommercialisation..majbePlafonnementEncadrementLoyer" produces="application/json" verb="POST"/>
+  </prgs:resource>
+</prgs:model>

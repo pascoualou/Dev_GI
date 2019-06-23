@@ -1,0 +1,1002 @@
+-----------------------------------------------------------------------------------------------------------------
+                    Version 058 du 06/11/2018
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - Correction : La procédure de vérification des répertoires partagés était lancée toutes les minutes, ce qui
+                   était inutile et chronophage pour le processeur.
+                   
+    - Préparation : Préparation à la mise en place de la version du lundi (Pour le service Tests entre autres).
+                    Ce n'est pas encore opérationnel, mais j'ai besoin de mettre en place certaines choses pour
+                    continuer.                   
+
+- Bases :
+    - Nouveau : Toutes les informations concernant la base sont regroupées dans un seul et même fichier nommé 
+                _infos.mdev2. Les anciens fichiers (_version.txt, _Progress.txt, etc...) seront supprimés dans
+                une prochaine version, le temps de voir si menudev2 fonctionne correctement.
+                Le contenu du fichier est le suivant :
+                
+                Version=18.1.0
+                Date=23/11/2017
+                TypeVersion=SPE
+                VersionProgress=V10
+                Commentaire=DAUCHEZ 
+                Auto=NON
+
+    - Ajout : Prise en compte de la version Progress dans la liste des bases des autres utilisateurs
+    - Correction : Filtre des bases qui restait actif dans certains cas
+    - Correction : Les bases ouvertes en haut de la liste ne fonctionnait pas dans certains cas.
+    - Correction : La suppression d'une base supprimait aussi les infos sur la base (version, type, etc...)
+    - Correction : La fermeture de toutes les bases ne prenait pas en compte les bases libellé
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 057 du 01/10/2018
+-----------------------------------------------------------------------------------------------------------------
+- Bases : 
+    - Modification : La recherche de la version Progress de la base ne se fait plus à chaque mise à jour de la
+                     liste des bases car cela prend trop de temps pour une information qui n'est pas censée
+                     changer tout le temps.
+                     Cette recherche s'effectura maintenant soit au démarrage de menudev2 (sur paramètres dans
+                     les paramètres concernant la gestion des bases), soit manuellement, via le menu popup de
+                     la liste des bases avec l'item "Calcul de la version Progress des bases"                    
+- A Faire :
+    - Modification : Les infos-bulle avec les infos sur les actions, date et heure sont remises en marche car ne
+                     fonctionnaient plus suite au changement de structure pour stocker les listes et les actions.         
+- Telephone :
+    - Modification : Ajout de la recherche aussi bien pour les numéros GI que pour les numéros perso.    
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 056 du 17/09/2018
+-----------------------------------------------------------------------------------------------------------------
+- Général : 
+    - Modification : Modifications diverses afin de gérer le fait d'avoir 2 versions de Progress sur la même 
+                     machine.                     
+    - Modification : Suppression du bouton "Assistance GI" plus utilisé et remplacement par un deuxième bouton
+                     raccourci internet.
+    
+- Journal :
+    - Suppression : Suppression du module (pas utilisé) ainsi que ses dépendances sur les autres modules.
+    
+- Dicationnaire :
+    - Modification : Ajout des boutons suivant/précédent sur la recherche d'une table.
+    
+- Bloc-note :
+    - Modification : Passage de l'éditeur de la note en auto-wrap
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 055 du 04/09/2018
+-----------------------------------------------------------------------------------------------------------------
+- Ajout de la version de progress dans le titre de la fenêtre (Machine de tests avec la V11 et la V10)
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 054 du 06/07/2018
+-----------------------------------------------------------------------------------------------------------------
+- Ajout/modification de l'environnement pour la mise en place des outils liés à la modernisation, avec très 
+  prochainement l'accès à la 'norminette' (norme / moulinette...) qui controlera les programmes à la recherche
+  du non respect des normes mises en place et des défauts/oublis récurrents dans les programmes en vue de
+  ne plus perdre de temps avec les aspects cosmétiques du programme et se consacrer à la justesse du code lors
+  des revues de code.
+
+- Bases :
+    - Ajout : Version Progress de la base.
+    - Ajout : Interdire toute action sur les bases dont la version Progress ne correspond pas à la version 
+              progress de la machine.
+    - Ajout : Pas de controle des bases ouvertes et qui ne sont pas de la bonne version Progress lors de la 
+              fermeture de menudev.
+
+- Messagerie :
+    - Ajout : Zone de recherche de l'utilisateur.
+
+- Nouveau module 'Activité' servant à saisir votre activité quotidienne selon un type, un code et un sous-code
+  entièrement libres. Cela pour permettre, entre autre, de pouvoir saisir de manière décomposée (dev, maj 
+  machine, pb technique, ..etc..) votre activité hebdomadaire dans Redmine, et/ou simplement suivre votre
+  travail de manière organisée.
+  Des activité pré-saisies sont disponible ainsi que des éditions Excel au jour, à la semaine, au mois ou sur
+  une période donnée.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 053 du 19/02/2018
+-----------------------------------------------------------------------------------------------------------------
+- Modifications diverses pour utilisation sur les VM
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 052 du 09/01/2018
+-----------------------------------------------------------------------------------------------------------------
+- Modifications diverses suite au changement de FireWall.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 051 du 01/06/2017
+-----------------------------------------------------------------------------------------------------------------
+- Corrections/Modifications diverses suite à des messages d'erreur se produisant sur les nouvelles machines 
+  des consultants.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 050 du 19/12/2016
+-----------------------------------------------------------------------------------------------------------------
+- Absences : 
+    - Modifications : Changement du mode de présentation des absences. La liste peut être affichée par date/nom.
+                      Cette présentation est modifiable dans les préférences et s'applique à la présentation 
+                      dans l'écran d'accueil ainsi que pour le message du matin.
+
+- Dictionnaire :
+    - Nouveau : (Demandde d'Olivier) possibilité de générer le code de la table temporaire et de l'assign 
+                associé, en fonction des champs sélectionnés, pour copier/coller dans les nouveau programmes
+                WebGI. (Précision : pour certaines tables le code généré est trop grand pour le presse papier,
+                il est donc déchargé dans un fichier dont le nom est précisé si tel est le cas).
+                Cette option est accessible par le clic droit sur la liste des champs après avoir sélectionné
+                les champs voulus.
+                
+-----------------------------------------------------------------------------------------------------------------
+                    Version 049 du 01/12/2016
+-----------------------------------------------------------------------------------------------------------------
+Nouveau module "Absences" qui permet de voir qui est ou sera absent dans les jours à venir. Au démarrage de
+menudev2 ou une fois pas jour le matin, un message vous préviendra si des personnes sont absentes ce jour, ou 
+dans les n jours à venir (n étant paramétrable dans les préférences).
+Cela ne fonctionne que si les utilisateurs de menudev2 ont indiqué qu'ils seront absents dans ce module.
+Rien n'est obligatoire. C'est juste une information que vous pouvez saisir pour informer les autres utilisateurs.
+Les types d'absence sont Vacances, RTT, Clientèle, autre et maladie. La notion de demie journée est gérée.
+Pas de motif à saisir. Ce n'est pas le but. Le but est de savoir si untel n'est pas là ou ne sera pas là si on a 
+prévu de le voir pour avoir des informations. Si on sait que la personne n'est pas là demain et qu'on a prévu de
+lui poser des questions, on pourra du coup anticiper.
+
+- Général : 
+    - Modification : Le programme des préférences ne pouvait plus être modifié car trop de widgets. Découpage du
+	             programme en autant de programmes que de modules ayant des préférences.
+                     Un bouton pour ouvrir les préférences générales est disponible dans chaque écran de 
+                     préférences d'un module, et inversement, les boutons d'accès aux préférences d'un module
+                     sont disponibles dans l'écran des préférences générales.
+
+- A Faire :
+    - Correction : Les rappels horaires sur les actions ne fonctionnaient plus.
+
+- ByPass : 
+    - Correction : L'ouverture d'un fichier bypass via menudev2 bloquait menudev2 tant que le fichier était
+                   ouvert.
+
+- Messages : 
+    - Modification : Gestion de la selection multiple sur la liste des messages
+
+   
+-----------------------------------------------------------------------------------------------------------------
+                    Version 048 du 02/11/2016
+-----------------------------------------------------------------------------------------------------------------
+- Général : 
+    - Nouveau : Ajout de 3 boutons personnels, avec possibilité de modifier les images des boutons (clic droit, 
+                Modifier l'image).
+   
+    - Modification : Les infos de session qui se trouvaient en haut à droite de menudev2 sont reportées dans un
+                     module "Informations session".
+
+    - Modification : AJout de la version et du code utilisateur dans le titre de menudev2.
+
+    - Modification : Prise en compte du "Vrai" nom de l'utilisateur dans les messages.
+
+- Messages : 
+    - Modification : Prise en compte du "Vrai" nom de l'utilisateur dans les messages.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 047 du 24/10/2016
+-----------------------------------------------------------------------------------------------------------------
+- Général : 
+    - Nouveau : Ajout de l'information de la version en dessous du bouton gidev, à l'identique des autres 
+                boutons.
+
+    - Nouveau : Ajout d'un bouton personnel 3, et changement des images des boutons.
+
+    - Nouveau : Ajout dans les préférences, du nom de l'utilisateur tel qu'il veut qu'il apparaisse. Cela sera
+                plus parlant que le code utilisateur dans certains écrans. (Mise en place progressive...)
+  
+- Messages :
+    - Nouveau : Tri sur toutes les colonnes
+
+    - Nouveau : Ajout d'une option dans les préférences, de tri des messages du plus récent au moins récent par 
+                défaut.
+
+    - Nouveau : Ajout d'une option dans les préférences, de positionnement automatique sur le message le plus 
+                récent à l'activation du module.
+
+    - Nouveau : Ajout d'une option dans les préférences pour ne conserver que le dernier message d'incorporation
+                de sources de l'application (DEV).
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 046 du 17/10/2016
+-----------------------------------------------------------------------------------------------------------------
+- Messages :
+    - Nouveau : Ajout d'une liste des messages reçus et envoyés avec possibilité de supprimer le message en
+		cours ou tous les messages, de répondre à un message. Toutes les fonctions de gestion des 
+		messages de la liste des messages reçus, toujours visible en bas de menudev2, sont reprises.
+		Du coup, cette dernière n'affiche que les messages reçus depuis n jours, et non plus tous les 
+		messages reçus, n étant paramétrable dans les préférences.
+
+- Bases :
+    - Nouveau : Ajout du controle d'existence des fichiers nécessaires à la connexion d'une base lors du 
+                lancement de celle-ci. Si les fichiers n'existent pas, la saisie des fichiers est lancée.
+                De même, lors de la suppression de la base, les fichiers de connexion sont supprimés pour ne 
+                utiliser un cnx obsolète. Cette dernière option est activable/désactivable dans les préférences.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 045 du 13/09/2016
+-----------------------------------------------------------------------------------------------------------------
+- Correction du bug affichant le message d'erreur "version inexistant" sur certains postes.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 044 du 13/09/2016
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - Nouveau : La gestion des informations sur les diférentes versions (PREC,CLI,SUIV et SPE) est maintenant 
+		automatique en fonction du fichier version trouvé dans le répertoire qui correspond à la version.
+		Cela pour controler lors du lancement de l'application sur une des versions, si la version de la
+		base (2ème nombre du numéro de version) à changé depuis le dernier lancement.
+		Si vous ne voulez pas de cette gestion automatique, vous pouvez activer dans les préférences
+		l'option " Gérer les informations de version manuellement ".
+		Si la version de base à changé, un message vous le précisera en vous demandant si vous vouler
+		continuer.
+		Attention, ce message ne sera émis qu'une fois. La version étant stockée à chaque lancement.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 043 du 29/08/2016
+-----------------------------------------------------------------------------------------------------------------
+- A Faire :
+    - Nouveau : Ajout d'un bouton "Commentaire" sur les actions pour créer automatiquement un fichiers joint
+                à l'action, au format Word, permettant de stocker plus d'informations en tout genre sur l'action.
+                Le répertoire de stockage des fichiers commentaire est paramétrable dans les préférences, et
+                par défaut, il vaut "%disque%dev\log" (%disque% représentant le disque sur lequel est installé 
+                votre application MaGI.)
+                Par convention, le fichier est nommé "C_" + le nom de l'action + ".doc".
+                Attention, tous les caractères non permis pour un nom de fichier sous windows, sont remplacés
+                par le caractère "_". (il s'agit par exemple de :,;/\><()& etc...)
+
+    - Nouveau : Ajout de la possibilité d'associer un répertoire à une action. bouton "Ajouter un répertoire"
+
+
+- Dictionnaire :
+    - Nouveau : Gestion du "CTRL-A" sur la liste des champs qui permet de sélectionner tous les champs.
+
+    - Nouveau : Gestion du clic-droit de la souris qui permet de mettre dans le presse papier, les noms des
+                champs en cours de selection (uniquement le nom).
+
+    - Nouveau : Activation du bouton de rafraichissement du dictionnaire.
+
+- Général : 
+    - Nouveau : Ajout dans les préférences de l'adresse mail de l'utilisateur pour être prévenu du déroulement 
+                de certains traitements longs (A vous de la saisir si vous le voulez !!).
+
+    - Nouveau : Ajout dans les préférences d'une section concernant le controle de votre machine. Cela permet
+                de controler la place restante, le répertoire des bases, pour savoir si les fichiers de 
+                sauvegarde sont bien présents, s'ils sont valides pour 7z, si vous avez des fichiers oubliés
+                lors d'un dump-load dans le répertoire base-dos, etc, avec affichage du log à l'écran ou 
+                envoi par mail (d'où l'ajout de l'adresse mail....).
+                L'activation de ce controle génère une tache dans le planificateur de menudev2, que vous 
+                pouvez ensuite modifier pour la lancer à une autre heure, périodiquement, etc....
+                Par défaut, cette tache est lancée tous les jours à 00h00 sauf le week-end.
+
+    - Nouveau : Possibilité de classer les modules commes vous le souhaitez. clic droit sur la liste des modules.
+		Possibilité de cacher les modules que vous n'utilisez pas. clic droit sur la liste des modules.
+		Possibilité de changer la couleur des modules. clic droit sur la liste des modules.
+
+    - Modification : Gestion correcte du bouton par défaut lors d'un message ou d'une question. 'Return' simule
+                     la sélection du bouton par défaut, 'Escape' simule la sélection de l'autre bouton, si il
+                     y a un autre bouton, sinon, produit la même action que 'Return'.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 042 du 22/06/2016
+-----------------------------------------------------------------------------------------------------------------
+- Bases :
+    - Nouveau : Au démarrage de menudev2, les fichier .lk des bases sont supprimés. Cela pour éviter que
+                certains utilisateurs "impatients" ferment leur machine en ayant les bases ouvertes, et 
+                se retrouvent avec des soucis pour relancer leurs bases le lendemain. (Si...si!!! ça arrive !)
+                C'est une option dans les préférences dans la partie "Gestion des bases", qui n'est pas activée
+                par défaut. A ceux qui sont dans ce cas de l'activer.
+
+- A faire : 
+    - Nouveau : ajout d'une coche en bas de la liste des listes pour n'afficher que les listes qui ne sont pas 
+                terminées. (CAD : pas à 100%)
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 041 du 14/06/2016
+-----------------------------------------------------------------------------------------------------------------
+- Bases :
+    - Nouveau : Ajout d'un bouton pour accéder directement au répertoire des anciennes sauvegardes sur 
+                scompilv11. (Bouton à droite du bouton filtre et de la zone de recherche)
+
+    - Nouveau : possibilité de démarrer une base automaiquement lors du démarrage de menudev2. Clic droit sur
+                la ligne de la base et séléction de l'option "Démarrage automatique au lancement de menudev2"
+
+- Mots de passe : 
+    - Nouveau : Ajout de l'impression de la liste des mots de passe.
+
+- Général :
+    - le mappage automatique du disque X: sur le répertoire "Bases" de xcompil au démarrage de menudev2 est 
+      remis en route.
+    - Le mappage automatique du disque Y: sur le répertoire "Anciennes sauvegardes" de scompilv11 au démarrage de menudev2 
+      est ajouté.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 040 du 30/03/2016
+-----------------------------------------------------------------------------------------------------------------
+- MODIFICATIONS DES SCRIPTS ET DES OUTILS POUR UTILISER PROWIN.EXE OU PROWIN32.EXE SUIVANT LA VERSION
+  DE PROGRESS UTILISEE. V10.2B OU V11.6.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 039 du 22/03/2016
+-----------------------------------------------------------------------------------------------------------------
+- Bases: 
+    - NOUVEAU: L'ouverture d'une base positionne cette référence comme dernière utilisée dans le fichier 
+               client.ini. Cela positionne directement la liste des références sur celle-ci lors du lancement de
+               l'application.
+               Cette option est désactivable via les préférences, section "Bases".
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 038 du 17/03/2016
+-----------------------------------------------------------------------------------------------------------------
+- Bases: 
+    - MODIFICATION : Le fichier "adbxxxxx" se génère maintenant dans le répertoire correspondant à la version
+                     spécifiée pour la base si la zone "répertoire(s) où copier les fichiers adbxxxx" est à blanc
+                     dans les préférences.
+                     Sinon, le fonctionnement reste identique, le fichier adbxxxxx sera copié dans tous les 
+                     répertoires spécifiés.
+
+- Brouillon:
+    - MODIFICATION : Remise des boutons de la fenetres.
+                     Correction bug affichage.
+ 
+-----------------------------------------------------------------------------------------------------------------
+                    Version 037 du 10/03/2016
+-----------------------------------------------------------------------------------------------------------------
+- Bases: 
+    - NOUVEAU : Batches pré/post sauvegarde/restauration lancés automatiquement. Les batches sont accessibles
+                par un clic droit sur la liste des bases.
+                Chaque base peut avoir des scripts spécifiques.
+ 
+-----------------------------------------------------------------------------------------------------------------
+                    Version 036 du 18/01/2016
+-----------------------------------------------------------------------------------------------------------------
+- Dictionnaire : 
+    - NOUVEAU : Gestion du format du champ et de l'extent du champ dans la génération automatique des requêtes.
+                Remarque : Pour les champs 'soc-cd' et 'etab-cd', le format est mis d'office à "99999" pour ne
+                pas tenir compte du format stocké dans la base et qui est souvent insuffisant..
+                Si d'autres champs doivent faire l'objet de ce genre de particularité, merci de les signaler.
+
+- Bloc notes :
+    - MODIFICATION : Refonte de l'écran pour retirer les onglets et les remplacer par une liste sur la gauche.
+ 
+-----------------------------------------------------------------------------------------------------------------
+                    Version 035 du 17/12/2015
+-----------------------------------------------------------------------------------------------------------------
+- Général : Suite à un problème rencontré sur une machine ou Menudev2 avait été lancé sur un écran annexe, et
+            refusait d'apparaitre sur le bureau une fois l'écran annexe débranché, j'ai ajouté une séquence 
+            de touche pour réinitialiser la position de menudev2 dans un tel cas.
+            Si Menudev2 apparait dans la barre de tache Windows, mais refuse d'apparaitre sur le bureau, c'est 
+            qu'il apparait à un endroit non visible sur l'écran.
+            Dans ce cas, il faut faire en même temps "CTRL+ALT+HOME".
+            (HOME est la touche avec la flèche inclinée vers le haut et la gauche qui sert à retourner au
+            début d'un document).
+
+- Préférences :
+    - NOUVEAU : Ajout d'un paramètre concernant l'utilisation de bases libellé spécifiques pour un type de 
+                version donné. Si la case "Toujours utiliser la connexion aux bases libellé suivante" est 
+                cochée, lors de la génération du fichier cnx..., les bases libellé seront remplacées par ce
+                qui est saisi dans la zone de saisie située juste à coté de la case à cocher, en fonction du 
+                type de version de la base.
+                Cela est fait pour permettre aux utilisateurs Hot-Line, de pouvoir utiliser une base en 
+                pointant toujours sur des bases libellé spécifiques, en l'occurence, celles de gicli, se 
+                trouvant sur le serveur Neptune.
+ 
+- Bases : 
+    - MODIFICATION : Modification de la génération du fichier CNX pour tenir compte du nouveau paramètre des 
+                     préférences concernant l'utilisation de bases libellé spécifiques pour un type de version
+                     donné.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 034 du 23/11/2015
+-----------------------------------------------------------------------------------------------------------------
+- Bases : 
+    - MODIFICATION : Génération et utilisation d'un fichier cnx particulier lors du montage de version sur une
+                     base. Menudev2 utilise maintenant des bases libellé "bidons" copiées sur d:\tmp\dat	.
+                     Le cnx particulier est généré en pointant sur ces bases "Bidons".
+                     Cela à pour but de ne plus modifier les bases libellé de la version de départ. En effet
+                     avant cette modification, en fin de montage d'une version on se retrouvait avec des bases
+                     libellé sur lesquelles on avait passé les moulinettes de création de menu, de libellé des
+                     moulinettes executées lors du montage de version.
+                     Typiquement, en passant une base de 11.13 à 12.07, on avait à la fin les bases libellé de
+                     la version 11.13 avec tous les nouveaux libellés et menus de la 12.07.
+                     Maintenant, les bases libellé restent dans leur état d'origine.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 033 du 19/10/2015
+-----------------------------------------------------------------------------------------------------------------
+- Mots de passe :
+    - NOUVEAU : Balayage du programme fpclie.i pour ajouter dans la liste les mots de passe des modules des 
+                paramètres clients (Dans l'application MaGI : Avancé/Droits/Paramètres client).
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 032 du 31/08/2015 
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - NOUVEAU : Création des répertoires de travail et copie des macros sur l'environnement demandé.
+    - CORRECTION : Le bouton de la version SPE pointait sur la version SUIV pour certaines options du poppup.
+
+- LanceRepMacros & RepMacros :
+    - NOUVEAU : Création des répertoires de travail et copie des macros sur l'environnement demandé.
+
+- Journal :
+    - MODIFICATION : Retrait de l'option "flat" sur le bouton journal pour le rendre plus visible.
+
+- Bases :
+    - CORRECTION : Bases libellé mal gerées si bases locales pas coché.
+    - MODIFICATION : Ne pas lancer les bases lib si n'existent pas.
+    - NOUVEAU : Bases utilisateur : ajout filtre sur utilisateur.
+
+- Blocnotes :
+    - MODIFICATION : Notes : Recherche dans toutes les notes perso + notes partagées des autres.
+
+- stats :
+    - NOUVEAU : Chargement des fichiers de statistiques MaGI issus des exports des bases client (DEV EN COURS).
+
+- administration :
+    - MODIFICATION : Modifications pour nouveau module "stats.w".
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 031 du 22/07/2015 
+-----------------------------------------------------------------------------------------------------------------
+- Général :     
+    - MODIFICATION : Suppression des 2 petits boutons de suppression et d'envoi dans le presse-papier des 
+      messages, qui sont remplacés par un menu popup sur la liste des messages.   
+
+    - NOUVEAU : Ajout de la possibilité de répondre à un message directement via le menu popup de la liste 
+      des messages 
+
+- Bases :
+    - NOUVEAU : Ajout dans le menu popup de la liste des bases de la copie "automatique" d'une base d'un autre
+      utilisateur sur le poste local.
+      Pour cela, il faut que menudev2 se connecte aux machines des autres utilisateurs. Il faut donc un code
+      utilisateur et un mot de passe (Ceux que vous saisissez à l'ouverture d'une session Windows).
+      Il faut donc, si vous le voulez, saisir ces informations dans les préférences.
+      C'est encore au niveau expérimantal, car la connexion ne répond pas toujours de la même manière. Des fois
+      il faut saisir le code utilisateur, d'autres fois non, idem pour le mot de passe....bref, il se peut que
+      le script de copie se mette en attente d'une saisie, et que la copie ne se déroule pas comme prévu.
+      Je vais affiner le script au cas par cas, à l'utilisation.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 030 du 20/07/2015 
+-----------------------------------------------------------------------------------------------------------------
+- Général :     
+    - NOUVEAU : Ajout d'un environnement suplémentaire "(Spé)cifique", gérer comme les 3 autres environnements
+      et disposant des mêmes actions.
+
+    - SUPPRESSION : Suppression des boutons de lancement de giserver, les bases libellé étant gérées via le
+      module "bases" comme les autres bases, depuis la version 025 du 29/06/2015.
+    
+- Bloc-notes :
+    - CORRECTION : L'édition des notes ne fonctionnait plus.
+
+- Bases :
+    - NOUVEAU : Génération automatique du fichier adb et cnx en cas de changement de type de version, pour ne
+      pas oublier et provoquer une connexion sur les mauvaises bases libellé.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 029 du 15/07/2015 
+-----------------------------------------------------------------------------------------------------------------
+- Général :     
+    - NOUVEAU : Interdiction de passer un patch sur un environnement si la configuration de l'environnement est
+      en mode 'Client-Serveur'.
+    
+    - NOUVEAU : Remplacement de l'éditeur des informations en bas de l'écran par un browse pour ne plus avoir le
+      message d'erreur disant que le fichier est trop grand, et gérer les messages importants et d'erreur.
+       
+    - CORRECTION : L'édition via Word bloquait le menudev2 tant que Word restait ouvert.
+
+    - MODIFICATION : Modification du fonctionnement du bouton de suppression des message ainsi que de copie dans
+      le presse-papier. (le clic traite le message en cours, le clic droit traite tous les messages)
+
+    - CORRECTION : Problème de classement des messages car générés avec l'heure de la machine qui le génère.
+      Prise en compte de l'heure de la base pour la génération des messages.
+
+- Bases :
+    - NOUVEAU : Fermeture de la base et calcul automatique du crc en fin de montage de version.
+
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 028 du 06/07/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Bases :
+    - NOUVEAU : Ajout du montage de version directement depuis la liste des bases, via le menu poppup.
+      L'écran est pré-renseigné, il suffit de choisir la version d'arrivée et le montage se lance.
+      Disponible uniquement s'il s'agit d'une base locale, et si la base est ouverts.
+
+    - NOUVEAU : Avertissement en cas d'erreur lors de l'ouverture des bases.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 027 du 01/07/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Bases :
+    - NOUVEAU : Avertissement en cas d'erreur lors de la fermeture des bases.
+
+    - NOUVEAU : Ajout de l'arret forcé des bases dans le menu poppup de gestion des bases
+
+- Versions :
+    - CORRECTION : La création d'un fichier de montage de version pour les bases ne fonctionnait plus sur 
+      neptune2.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 026 du 30/06/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Il est maintenant possible de lancer l'application MaGI en mode Client/Serveur (Disque et Reseau différents).
+  Il faut préciser pour chaque version (PREC,CLI ou SUIV) le mode de fonctionnement dans les préférences.
+
+  ATTENTION : Cela ne fonctionne que pour les environnements gérés par Menudev2. 
+              Cela ne fonctionne que pour le lancement de l'application. Le passage des patches reste en mode
+              local, pour ne pas passer de patche par erreur sur le serveur.
+
+- Bases :
+    - MODIFICATION : Les bases libellé sont mises à part pour ne pas "polluer" la liste des bases.
+      Une nouvelle selection est mise en place en haut au milieu de la liste, pour choisir la type de bases à
+      afficher. (Bases locales et serveurs, Bases libellés, Bases des autres utilisateurs).
+
+    - AJOUT : Ajout des bases des autres utilisateurs dans la liste des bases.  
+      A terme, cela remplacera le bouton d'accès via Excel à la liste des bases des utilisateurs.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 025 du 29/06/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Bases :
+    - AJOUT : Ajout des bases libellé dans la liste des bases. (en test) 
+      Les lignes des bases libellé sont les lignes dont le nom de la base commence par "Lib_".
+      4 bases libellé sont gérées, gi, gidev, prev, suiv.
+      Si vous ne voulez pas les utiliser, vous pouvez continuer à utiliser des batches de lancements.
+      A terme, cela remplacera le gestionnaire des serveurs.
+      Les bases libellé peuvent être ouvertes et fermées automatiquement suivant l'option choisie dans les 
+      préférences. La fermeture se fait sur confirmation pour ne pas couper des traitements en cours.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 024 du 26/06/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Modification des fichiers outilsgi.ini, outilsg2.ini et outilsg3.ini pour remplacement de "OPENEDGE" par 
+  "DLC" dans les chemins de Progress, suite au changement du répertoire d'installation de Progress lors du 
+  changement des machines du DEV.
+
+- Ajout dans asvarenv.i de la procédure "GenerePF" qui crée un fichier "cnxtempo.pf" à partir de 
+  "cnxtests.pf", avec uniquement certaines bases (passées en paramètre).
+  Ce fichier cnxtempo.pf sera utilisé pour le lancement des environnement Adb, Cadb, Compta, depuis le 
+  module "Développement", qui, avant, se connectait en dur sur les bases de "d:\gidev\base".
+
+- Bases :
+    - CORRECTION : En cas de restauration de base, la taille de la base décompressée est de nouveau correcte.
+      Cela était dû au fait que la version de l'outil "Grep" utilisé, était en 16 bits, désormais plus supportée
+      par windows 64 bits.
+
+- Général :
+    - CORRECTION : Le nom de la sauvegarde en cas de sauvegarde de la version (CLI,PREC,SUIV ou DEV) conserve
+      les éventuelles modifications de l'utilisateur.
+
+    - SUPPRESSION : Supression du bouton permettant de lancer la tour de contrôle. Cette version utilisant ftp
+      ne fonctionnant plus sur certaines machines de la Hot-line et du DEV, est remplacée par la gestion des 
+      bases de barbade et neptune dans le même module que les bases locales. 
+      Toutes les fonction de la TC sont disponible via ce module excepté la liste des utilisateurs connectés
+      à une base. (A venir...)
+
+    - AJOUT : Dans le menu popup sur les boutons de lancement des versions, ajout d'une ligne pour accèder 
+      directement au répertoire de la version via l'explorateur Windows.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 022 du 01/06/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Général : 
+    - CORRECTION : LA temporisation des messages temporisés ne fonctionnait plus
+
+    - NOUVEAU : Ajout d'une notion de message important qui s'affiche dans la zone de message, en notification
+      et en message-box pour être certain de le voir.
+
+    - NOUVEAU : Ajout dans la fenêtre de message d'une options pour ne plus voir certains messages répétitifs.
+
+- Bases :
+    - CORRECTION : Repositionnement correct lors de l'ajout d'une base ou de la recherche d'une base.
+
+    - NOUVEAU : Remplacement de certains messages temporisés par des cartouches d'avertissement (Bandeau 
+      temporaire au centre de menudev2).
+
+    - NOUVEAU : Ajout du clic droit sur le bouton "Filtre" pour supprimer d'un coup tous les filtres actifs.
+
+- Préférences :
+    - NOUVEAU : Bouton pour réinitialiser les messages marqués "Ne plus voir".
+    
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 021 du 04/05/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Brouillon : 
+    - CORRECTION : Positionnement correct du brouillon, même s'il était minimisé lors de la fermeture de 
+      mednudev2.
+
+- Bases :
+    - NOUVEAU : Filtres sur les bases.
+
+    - CORRECTION : Repositionnement correct dans le liste des bases.
+
+- Journal :
+    - NOUVEAU : Ajout d'un bouton pour insérer une ligne de séparation dans le journal en cours.
+    
+    - CORRECTION : Gestion correcte de la sauvegarde du journal lors du clic sur le bouton modifier.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 020 du 15/04/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+- Général : 
+    - CORRECTION : Positionnement correct des messages temporaires dans tous les modules.
+
+- Bases :
+    - NOUVEAU : Recherche sur la référence ou le commentaire de la base.
+
+    - NOUVEAU : Tri sur toutes les colonnes de la liste.
+
+    - NOUVEAU : Paramètres dans les préférences pour ne pas remplacer les bases libellé des bases situées sur 
+      barbade ou Neptune2, par les bases libellé locales. (Principalement pour Eric qui utilise les 3 
+      environnements sur le serveur et non en local, pour ne pas l'obliger à ouvrir des serveurs sur des bases 
+      locales alors qu'il ne s'en sert pas). 
+
+    - CORRECTION : Sauvegarde/Restauration interdits si base située sur neptune2 (Non géré sur Neptune2...).
+
+- Préférences :
+    - NOUVEAU : Refonte de l'écran pour regrouper les préférences par modules.
+    
+    - CORRECTION : Suppression des préférences en double par rapport à l'écran du module (exemple, tri des références dans 
+      le module des bases)
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 019 du 09/04/2015 
+-----------------------------------------------------------------------------------------------------------------
+      
+        >>>>>  Intégration de la Tour de contrôle dans menudev2 dans le module "Bases". <<<<<
+
+    - CORRECTION:
+	La liste des bases locales ne se charge plus si pas de répertoire bases saisi (Affichait la liste des 
+	répertoires du répertoire de travail de menudev2).
+
+    - CORRECTION:
+	Modification des programmes Linux pour générer les fichiers de la TC sur une partition NFS pour ne plus
+	avoir à passer par la couche FTP de windows qui ne fonctionne pas sur certains postes.
+	La récupération des listes de bases de la TC est maintenant rapide sur tous les postes, ainsi que la
+	génération des fichiers cnx..., adb, et la maj du fichier services.
+	Les scripts restent inchangés, seul le contenu est modifié pour ne plus lancer la partie FTP.
+    
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 018 du 30/03/2015 
+-----------------------------------------------------------------------------------------------------------------
+      
+        >>>>>  Intégration de la Tour de contrôle dans menudev2 dans le module "Bases". <<<<<
+
+    - Ouverture/Fermeture des bases comme pour les bases locales
+    - Sauvegarde/Restauration des bases à distance
+    - Génération du fichier CNX, ADB, et ajout dans le fichier Services si besoin comme pour les bases locales.
+    - Lancement de l'application sur une base de Barbade ou Neptune2 comme pour les autres bases
+    - Editeur sur les bases de Barbade ou Neptune2, comme pour les bases locales.
+    - Gestion des droits d'accès sur les bases de Neptune2 et Barbade comme avec la tour de controle.
+   
+    - A venir : Ajout de la liste des utilisateurs connectés à une base Serveur, comme sur la tour de controle.
+    
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 017 du 27/03/2015 
+-----------------------------------------------------------------------------------------------------------------
+- Gestion des environnements : 3 versions + DEV.
+
+    - Possibilité de sauvegarder/Restaurer les 3 environnements + gidev pour le DEV.
+      Création d'un 7z du répertoire demandé dans d:\Svg_Versions.
+      La sauvegarde/restauration implique d'avoir les serveurs sur les bases libellés fermés, ainsi que menudev2.
+      C'est pourquoi, menudev2 se fermera au début du traitement et se rouvrira en fin de traitement. Sinon, des
+      fichiers reste bloqués par menudev2 et ne sont ni sauvegardés, ni restaurés.
+      
+      Le nom du fichier de sauvegarde est pré-formaté, mais il peux avoir n'importe quel nom, à condition tout
+      de même de commencer par gi_[Type de version] (où type de version est DEV, PREC,SUIV,CLI), cela afin de
+      pouvoir gerer les fichiers de sauvegarde par menudev2.
+
+      Les actions possibles sont accessibles sur le clic droit des boutons de version ainsi que du bouton gidev.
+
+
+- Général : 
+
+    - Ajout d'une préférence pour voir les fenetres DOS durant leur execution.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 016 du 20/03/2015 
+-----------------------------------------------------------------------------------------------------------------
+- Versions :
+    - Mise en place de la nouvelle gestion des versions refaite en Progress. Nouveaux boutons 
+      "New gestion versions" et "Création fichier version".
+      (En doublon avec l'ancienne pour le moment (Tests)   
+
+- Général :
+    - Corrections de bugs.
+    - Regroupement de la base menudev2 et versions (utilisée par la nouvelle gestion des versions de 
+      l'application) en une seule base gidata
+
+- Bases :
+    - Nouvelle liste des bases utilisateurs. Un lien hypertext permet de lancer l'explorateur sur le répertoire
+      ou se trouve la base. (En test : Excel produit un message de compatibilité que je tente de supprimer, et
+      en attendant de trouver une solution d'accès réseau, il faut s'être connecté au préalable sur la machine
+      de destination car il faut avoir le mot de passe de l'utilisateur).
+
+- Journal : 
+    - Le clic sur le bouton "Journal" sauvegarde de nouveau correctement le journal en cours.
+
+- A Faire :
+    - Le fait de topper une action "Fait" ne sauvegardait pas le journal avant d'inserer l'action faite.
+    - Le message d'avertissement est remplacé par un affichage bref d'une fenetre d'information.
+
+------------------------------------------------------------------------------------------------------------------
+                    Version 015 du 20/03/2015
+------------------------------------------------------------------------------------------------------------------
+
+Correction bug dans la gestion des bases
+
+------------------------------------------------------------------------------------------------------------------
+                    Version 014 du 10/03/2015
+------------------------------------------------------------------------------------------------------------------
+
+Modification du fichier services pour regroupement de la base menudev2 et versions en une seule : gidata
+
+------------------------------------------------------------------------------------------------------------------
+                    Version 013 du 09/03/2015
+------------------------------------------------------------------------------------------------------------------
+
+MODIFICATION DU FICHIER ASVARENV.I pour modification du propath PMEPATH.
+Problèmes de compilation de certains programmes.
+
+------------------------------------------------------------------------------------------------------------------
+                    Version 009,010, 011et 012 du 26/01/2015 et du 27/01/2015
+------------------------------------------------------------------------------------------------------------------
+
+MODIFICATION DU FICHIER ASVARENV.I pour modification du propath ADBPATH et CDBPATH.
+Problèmes de compilation de certains programmes.
+
+------------------------------------------------------------------------------------------------------------------
+                    Version 008 du 26/01/2015 
+------------------------------------------------------------------------------------------------------------------
+
+MODIFICATION DU FICHIER ASVARENV.I pour modification du propath ADBPATH.
+Le propath est modifié pour chaque répertoire pour aller en premier sur le disque local
+PUIS sur le disque réseau, et ce à chaque ligne.
+
+- Bloc-notes :
+    - Interdiction de créer une note avec un nom qui existe déjà
+    - Interdiction de partager/départager une note si le futur nom partagé/départagé existe déjà
+    - Avertissement lors de la création d'une note portant le même nom qu'une note partagée, que le partage/départage de la note
+      sera impossible.
+    - La 1ère note ne se chargeait pas au lancement de menudev2
+    - Ajout de la recherche dans une note
+
+- Journal :
+    - L'enregistrement manuel du journal via le bouton "modifier" (bouton avec l'éclair) ne fonctionnait pas.
+
+- Général :
+    - Le changement de module actif ne repositionnait pas la liste des modules sur le bon module.
+    - Correction du bug qui permettait de lancer plusieurs fois menudev2 pour les utilisateurs HL et Consultants.
+    - CTRL-F lance la recherche dans le module en cours.
+
+- Mot de passe :
+    - Ajout de la recherche.
+
+- ByPass :
+    - Ajout de la recherche.
+
+- Fichiers :
+    - Ajout de la recherche
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 007 du 06/01/2015 
+-----------------------------------------------------------------------------------------------------------------
+
+INTEGRATION DES FICHIERS DE PARAMETRAGE DANS LA BASE menudev2
+IDEM POUR LES BLOC-NOTES
+
+- Général :
+    - Ajout d'un bouton de lancement de l'application (3 au total) paramètrable comme les autres
+    - Gestion des jours fériés pour ne pas polluer la base et les utilisateurs de message administrateurs
+      ces jours là.
+    - Gestion correcte de la position de la fenêtre des messages temporaires.
+    - Ajout d'un ecran de modification des fichiers utilisés par menudev2 (issus maintenant de la base 
+      de données)
+      
+- Brouillon :
+    - Gestion correcte de la position de la fenêtre.
+    - Correction du bug qui permettait de lancer plusieurs fois le brouillon
+    - Nombre de brouillons paramètrable dans les préférences (1 à 5)
+    
+- A Faire :
+    - Lors du passage d'une action à "Fait", on ne met plus la date (juste l'heure) dans l'entrée ajoutée 
+      au journal.
+    - Ajout d'un popup sur la liste des actions pour deplacer une action sur une autre liste.      
+
+- Journal :
+    - Ajout de l'index sur la date de journal (oublié...)    
+    - Les journaux inexistants sont créés automatiquement lors de la connexion, depuis la date de première
+      connexion au journal.
+    - Augmentation de la hauteur de la liste des journaux
+    - Les journaux vides sont identifiés dans la liste des journaux. Décalage vers la droite dans la liste.
+    - Changement de méthode pour identifier si le journal est modifié car l'indicateur Progress 'Modified'
+      ne fonctionne pas correctement sur un éditeur. Il retourne vrai dès que l'on rentre dans l'éditeur
+      avec la souris.
+
+- Bloc notes :
+    - Refonte de l'écran
+    - Fusion du bloc notes partagé et du bloc notes
+    - Choix de partage d'une note ajouté en bas d'écran
+    - Les notes partagées ont le nom de leur créateur entre [ ]
+    - Interdiction de modifier une note partagée (Sauf par son créateur)
+
+- Correction de bugs divers
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 006 du 04/11/2014 
+-----------------------------------------------------------------------------------------------------------------
+- Nouveau module "Journal" :
+    - Permet de saisir et suivre son travail quotidien (Saisie libre)
+    
+- Général :    
+    - Corrections de bugs de positionnement des fenêtres de saisie depuis la mise en place du Brouillon 
+      (Version 005). La current-window devenait celle du brouillon et non plus celle de menudev2, d'où des
+      positionnements hors-écran.
+
+- 'A Faire' :
+    - CTRL-A ne fonctionnait pas dans la zone de saisie de l'action à faire.
+
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 005 du 28/10/2014 
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - Les modules 'Administration' et 'Préférences' sont déplacés dans le menu de la fenetre de Menudev2.
+      Ceci pour faire de la place dans la liste des modules, et eviter le scroll en cas d'ajout de nouveau
+      module.
+
+- Brouillon :
+    - Ajout d'une fenetre de 'brouillon' pour saisir à la volée. Cette fenêtre peut être configurée pour
+      se mettre par dessus toutes les autres fenêtres.
+    - Le lancement automatique de cette fenêtre de brouillon lors du démarrage de Menudev2 est paramètré 
+      dans les préférences.
+    - Vous pouvez aussi lancer le brouillon manuellement via le menu de la fenêtre de Menudev2.
+    - Le dev du brouillon n'est pas terminé. La recherche ne fonctionne pas encore.
+    
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 004 du 22/10/2014 
+-----------------------------------------------------------------------------------------------------------------
+- A Faire : 
+    - Correction de bugs de replacement.
+    - Les actions "Faites" sont déplacées après la dernière action "A Faire".
+    
+- Messages :
+    - Les messages entre utilisateurs fonctionnent de nouveau.
+    
+- Général :
+    - Ajout d'un 2ème bouton de lancement d'application dans la partie "Clients" paramètrable.
+    - Ajout d'un 2ème bouton perso paramètrable.
+    - Les rappels horaires ne sont plus déclenchés si l'agenda est désactivé dans les préférences.
+    - Les tooltips des boutons paramètrables affichent la valeur du paramètrage.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version 003 du 11/09/2014 
+-----------------------------------------------------------------------------------------------------------------
+- Dictionnaire :
+    - Ajout de la description des champs en fin de browse.
+    
+-----------------------------------------------------------------------------------------------------------------
+                    Version 002 du 10/09/2014 
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - Gestion de la réplication des fichiers partagés importants entre neptune et barbade (Utilisateurs HL et 
+      Consultants) suite à la suppression de l'accès à barbade pour ces utilisateurs.
+    
+-----------------------------------------------------------------------------------------------------------------
+                    Version du 24/12/2013 
+-----------------------------------------------------------------------------------------------------------------
+- Agenda :
+    - Le déclenchement manuel des actions ne tient plus compte des restrictions au jour ni au week-end. L'action 
+    est déclenchée dans tous les cas.
+
+- Bases : 
+    - Ajout d'une option dans le menu pop-up, pour lancer directement le truncate/repair. Plus besoin de passer 
+    par le module "Développement" ou "Outils".
+
+- Outils de passage de version :
+    - Plus besoin de saisir ".pf" lors de la saisie du cnx. L'extension est ajoutée automatiquement.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version du 07/12/2011 
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - Ajout du lancement d'un script à l'entrée et à la sortie de menudev2. Ce lancement est conditionné à 
+    l'activation dans l'écran des préférences. Le contenu du script peut aussi être consulté/modifié via les 
+    préférences.
+
+- Développement : 
+    - Ajout d'un bouton en dernière colonne pour avoir la liste des bases disponible sur les machines des autres 
+    utilisateurs.
+    Ce principe est valable si chacun à renseigné le répertoire de stockage de ses propres bases dans les 
+    préférences.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version du 03/10/2011 
+-----------------------------------------------------------------------------------------------------------------
+- Bases :
+    - Ajout de la place restante sur le disque en bas à droite.
+    - Lors du lancement de la restauration d'une base, contrôle de la place restante et de la place nécessaire.
+        
+- Bloc-Notes :
+    - Ajout de la possiblilité de saisir plusieurs notes (boutons +/- en haut à droite en attendant de trouver un 
+    moyen de gérer l'ajout/suppression via les boutons du bandeau).
+    - Navigation dans les notes via une barre d'onglet.
+
+- Ajout nouveau module : "Mes Raccourcis"
+    - Possibilité de stocker des raccourcis par copier coller ou glisser, déplacer etc...
+    - Ces raccourcis sont sauvegardés en temps réel.
+    Pour ce module, il se peut que windows vous demande de confirmer le lancement des raccourcis. Pour ne plus
+    avoir de confirmation, il faut mettre le niveau de sécurité "Intranet" au plus bas dans les options internet 
+    de windows.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version du 26/07/2011 
+-----------------------------------------------------------------------------------------------------------------
+- Bases :
+    - Ajout dans le popup de la liste de l'option "Calcul du CRC" :
+      Calcule le CRC de la base et en déduit la version qui se trouve stockée dans le fichier "_version.txt" du 
+      répertoire de la base.
+    - Lors du lancement du module "Bases", celui-ci lance le calcul du CRC si le fichier "_version.txt" est 
+    absent, et cela, base par base.
+        
+    Pour by-passer ce calcul, il suffit de créer le fichier _version.txt à la main.
+
+-----------------------------------------------------------------------------------------------------------------
+                    Version du 20/07/2011 
+-----------------------------------------------------------------------------------------------------------------
+- Général :
+    - La saisie du masterGI est revue pour se lancer en local (plus rapide)
+
+    - On peut maintenant lancer menudev2 sans se connecter aux bases de l'application.
+                La base Menudev2 reste, elle, obligatoire.
+                Du coup les onglets nécessitant une des bases de l'application ne sont plus visibles.
+    
+    - Ajout d'une zone d'information en bas du menudev2. Cette zone sera utilisée pour prévenir les utilisateurs
+        d'une évolution, d'une intervention ou autre information ne nécessitant pas l'envoi d'un message.
+      Les outils commencent à utiliser cette zone information, pour vous prévenir d'un traitement en cours ou de 
+      la fin d'un traitement (exemple : la sauvegarde et la restauration vous préviendront de la fin du traitement 
+      via la zone d'information).
+
+- Bases :
+    - Ajout dans le popup de la liste des options suivantes :
+        - Sauvegarde
+        - Restauration
+        - Suppression de la sauvegarde
+        - Suppression de la base.
+      Les bases sont sauvegardées dans le répertoire "svg" de la référence choisie.
+      Il s'agit d'un fichier compressé au format 7Zip.
+
+    - Ajout dans la liste de 2 colonnes pour savoir si la base est présente, et si la sauvegarde est présente.
+
+    - Ouverture/fermeture des base de manière asynchrone. Message d'information quand l'action est terminée.
+
+- Bypass :
+    - Ajout d'un nouveau fichier bypass pour permettre d'avoir une grande liste pour les références dans le 
+    frontal.
+
+- Outils :
+    - Ajout d'un bouton permettant de lancer le dump-load automatique d'une base située sur barbade ou neptune.
+      (Tout neuf...donc peut avoir des soucis...)
+
+- Informations :
+    - Ajout de la liste des utilisateurs déstinataires du message.
+    - Vous pouvez envoyer des messages d'information via ce module.
+      Si une personne n'utilise pas le menudev2 au moment ou vous envoyez le message, elle l'aura lors du prochain 
+      lancement du menudev2.
+
+- Favoris : 
+    - Posibilité de changer un bouton de colonne par drag & drop
+

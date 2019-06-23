@@ -1,0 +1,7 @@
+Environnement :
+---------------
+    VERSION = 067
+    DEVUSR = PSP
+    TEMP = C:\Users\devsp\AppData\Local\Temp
+    TMP = C:\Users\devsp\AppData\Local\Temp
+    DISQUE = d:\

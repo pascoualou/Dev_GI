@@ -1,0 +1,27 @@
+UPDATE FIELD "noimm" OF "clemi" AS int64
+  DESCRIPTION "no immeuble OU 10000 + no mandat gérance"
+
+ADD INDEX "ix-clemi04" ON "clemi"
+  AREA "Index Area"
+  DESCRIPTION "Cle du mandat"
+  INDEX-FIELD "tpcon" ASCENDING
+  INDEX-FIELD "nocon" ASCENDING
+  INDEX-FIELD "cdcle" ASCENDING
+
+ADD INDEX "ix-clemi05" ON "clemi"
+  AREA "Index Area"
+  DESCRIPTION "Clé de l'immeuble (avec ou sans mandat de syndic)"
+  INDEX-FIELD "noimm" ASCENDING
+  INDEX-FIELD "cdcle" ASCENDING
+
+ADD INDEX "ix-clemi06" ON "clemi"
+  AREA "Index Area"
+  DESCRIPTION "Libellé par type de clé"
+  INDEX-FIELD "tpcle" ASCENDING
+  INDEX-FIELD "lbcle" ASCENDING
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000000649

@@ -1,0 +1,12 @@
+-db d:\gidev\baselib\lcompta
+-db d:\gidev\baselib\ltrans
+-db d:\gidev\baselib\ladb
+-db d:\gidev\baselib\wadb
+-db d:\gidev\base\compta
+-db d:\gidev\base\inter
+-db d:\gidev\base\sadb
+-db d:\gidev\base\cadb
+-db d:\gidev\base\transfer
+#-db d:\gidev\base\dwh
+
+#-h 11

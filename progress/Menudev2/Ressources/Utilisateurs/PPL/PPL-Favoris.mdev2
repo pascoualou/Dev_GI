@@ -1,0 +1,12 @@
+FAV,1,Truncate/Repair de bases,%reseau%dev\outils\repair.exe,,,,
+FAV,4,Installation .r d'un patch,#BAT#%reseau%dev\outils\installrPatch.bat %1 %2 %3,Version;Patch;Répertoire version,O,102900;01;d:\gi,
+FAV,4,Coder proprement,g:\Doc\coder-proprement.pdf,,,,
+FAV,3,Voir le suivi des traitements,#BAT#%reseau%dev\outils\vrapcomp.bat,,,,
+FAV,2,Widgets(attributs/méthodes),%dlc%\bin\%prowin% -p %dlc%\src\protools\widattrs.w -ininame %windir%\outilsgi.ini -T %disque%tmp,,,,
+FAV,1,Bases LINUX > DOS,%dlc%\bin\%prowin% -p %reseau%dev\outils\_dmpload-Serveur.w -ininame %windir%\outilsgi.ini -T %disque%tmp,,O,,
+FAV,2,Liste des Champs de fusion,\\barbade\nfsdosg\doc\adb\Evenementiel\Liste_des_champs_de_fusion.pdf,,,,
+FAV,1,PCL Viewer + autres,%dlc%\bin\%prowin% -ininame %windir%\outilsgi.ini -pf %reseau%dev\outils\connex.pf -param %reseau%dev\outils\pclviewer2.w -T %disque%tmp,,,,
+FAV,1,Documents,explorer.exe \\barbade\nfsdosg\doc,,,,
+FAV,1,Paramètres des taches,explorer.exe \\barbade\nfsdosg\doc\adb\param,,,,DEV
+FAV,1,Gestion versions (Nouvelle),%DLC%\bin\%prowin% -pf %reseau%Dev\outils\progress\versions\Connexion.pf -p %reseau%dev\outils\progress\versions\sources\versions.w  -ininame %reseau%dev\outils\progress\developpementGI.ini,,,,
+FAV,1,Passage de version,%dlc%\BIN\%prowin% -pf c:\pfgi\%1 -p %reseau%gi/maj/routines/exe/maj.r -T %disque%dev\tmp -h 11 -param %2,Nom du fichier de connexion (cnx...);Nom du fichier de version,O,cnxtests.pf;version,

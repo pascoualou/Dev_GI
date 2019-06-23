@@ -1,0 +1,12 @@
+# Paramètres utilisés par le programme TicketAuto.p
+
+# les lignes commençant par # sont en commentaire
+# Les valeurs entre [] seront remplacées dans le programme
+# Les lignes blanches sont ignorées
+
+# PARAMETRAGE GENERAL
+TicketAuto_Repertoire_Surveillance=D:\tmp
+TicketAuto_Verbose=
+
+
+

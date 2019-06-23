@@ -1,0 +1,99 @@
+[19/06/05@19:34:00.375+0200] P-008248 T-013628 1 4GL -- Logging level set to = 2
+[19/06/05@19:34:00.375+0200] P-008248 T-013628 1 4GL -- No entry types are activated
+[19/06/05@19:34:00.375+0200] P-008248 T-013628 1 4GL -- Log entry types activated: 4GLMessages
+[19/06/05@19:34:00.378+0200] P-008248 T-013628 1 4GL PROCGENE.P glDeveloppeur = yes
+[19/06/05@19:34:00.378+0200] P-008248 T-013628 1 4GL PROCGENE.P lUedit = yes
+[19/06/05@19:34:00.378+0200] P-008248 T-013628 1 4GL PROCGENE.P cUedit = C:\Program Files\IDM Computer Solutions\UltraEdit\Uedit64.exe
+[19/06/05@19:34:00.392+0200] P-008248 T-013628 1 4GL PROCGENE.P FOP_GI : DYNAMIQUE
+[19/06/05@19:34:00.392+0200] P-008248 T-013628 1 4GL PROCGENE.P i64Totale = 8310040
+[19/06/05@19:34:00.392+0200] P-008248 T-013628 1 4GL PROCGENE.P iMemoire = 8
+[19/06/05@19:34:00.396+0200] P-008248 T-013628 1 4GL PROCGENE.P iMemoireFop (Calculée) = 8192
+[19/06/05@19:34:00.435+0200] P-008248 T-013628 1 4GL PROCGENE.P FOP_GI : Copie du fichier fop_gi_dyn.bat en fop_gi.bat : OK
+[19/06/05@19:34:00.436+0200] P-008248 T-013628 1 4GL PROCGENE.P Version Windows 64 bits
+[19/06/05@19:34:02.110+0200] P-008248 T-013628 1 4GL PROCGENE.P Version Java 32 bits
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE Problème lors du test de génération des fichier PDF. Version Windows 64 bits et version Java 32 bits incompatibles
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE Les éditions PDF ne fonctionneront pas.
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE Contactez la Gestion Intégrale !
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE ** ABL Debug-Alert Stack Trace **
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE --> TestVersionJava64 d:\gidev\EXE\ProcGene.p (d:\gidev\EXE\ProcGene.r) at line 520
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\EXE\ProcGene.p (d:\gidev\EXE\ProcGene.r) at line 897
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancgi2a.p (d:\gidev\EXE\lancgi2a.r) at line 1914
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancegi2.p (d:\gidev\EXE\lancegi2.r) at line 899
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     validUtil class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 6791
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     newmenu_Load class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 7028
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\exe\Lancegi1.p (d:\gidev\exe\Lancegi1.r) at line 2918
+[19/06/05@19:34:02.111+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\exe\lancegi0.p (d:\gidev\exe\lancegi0.r) at line 262
+[19/06/05@19:34:07.648+0200] P-008248 T-013628 1 4GL PROCGENE.P Test FOP : !!! ECHOUE !!! - Voir les fichiers :
+[19/06/05@19:34:07.648+0200] P-008248 T-013628 1 4GL PROCGENE.P     cFicCommande = H:\dev\outils\progress\Menudev2\Sources.dev\testfop-INS-20190605-193406.bat
+[19/06/05@19:34:07.648+0200] P-008248 T-013628 1 4GL PROCGENE.P     cFicErreur1 = H:\dev\outils\progress\Menudev2\Sources.dev\testfop-ErrXML1-INS-20190605-193406.txt
+[19/06/05@19:34:07.648+0200] P-008248 T-013628 1 4GL PROCGENE.P     cFicErreur2 = H:\dev\outils\progress\Menudev2\Sources.dev\testfop-ErrXML2-INS-20190605-193406.txt
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE Problème lors du test de génération des fichier PDF. Le fichier de sortie n'a pas été généré
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE Les éditions PDF ne fonctionneront pas.
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE Contactez la Gestion Intégrale !
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE ** ABL Debug-Alert Stack Trace **
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE --> d:\gidev\EXE\ProcGene.p (d:\gidev\EXE\ProcGene.r) at line 905
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancgi2a.p (d:\gidev\EXE\lancgi2a.r) at line 1914
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancegi2.p (d:\gidev\EXE\lancegi2.r) at line 899
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     validUtil class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 6791
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     newmenu_Load class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 7028
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\exe\Lancegi1.p (d:\gidev\exe\Lancegi1.r) at line 2918
+[19/06/05@19:34:07.693+0200] P-008248 T-013628 2 4GL 4GLMESSAGE     d:\gidev\exe\lancegi0.p (d:\gidev\exe\lancegi0.r) at line 262
+[19/06/05@19:34:11.087+0200] P-008248 T-013628 1 4GL VALIDUTIL  Lancement de l'application par INS
+[19/06/05@19:34:18.914+0200] P-008248 T-013628 1 4GL SHOWMDI CL Ouverture Sélection d'un tiers - d:\gidev\ADB\EXE\OBJET\listobg2.p / hWndL4G = 3117 - Variables: giCodeEtab=8000,giCodeSoc=3141,gcGestCle=01,NmUsrUse=INS,gcMotCle=,GiCodeNorme=0,gcLibNorme=,RpVerSpe=CADB\
+[19/06/05@19:34:19.294+0200] P-008248 T-013628 1 4GL -- Version non valide, 908 (1005 attendue) dans le fichier objet d:\gidev\ADB\EXE\OBJET\rchtieob_srv.r. (2888)
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL -- ** ABL Debug-Alert Stack Trace **
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL -- --> runProc cartu/supClt.p (d:\gidev\EXE\cartu\supClt.r) at line 638
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     action cartu/clt/clt.p (d:\gidev\EXE\cartu\clt\clt.r) at line 693
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     EnaWinRch d:\gidev\ADB\EXE\OBJET\RchTieOb.p (d:\gidev\ADB\EXE\OBJET\RchTieOb.r) at line 6833
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\ADB\EXE\OBJET\RchTieOb.p (d:\gidev\ADB\EXE\OBJET\RchTieOb.r) at line 6765
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\ADB\EXE\OBJET\SelTieOb.p (d:\gidev\ADB\EXE\OBJET\SelTieOb.r) at line 8041
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\ADB\EXE\OBJET\listobg2.p (d:\gidev\ADB\EXE\OBJET\listobg2.r) at line 6763
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\ADB\EXE\ENVT\GestieRn (d:\gidev\ADB\EXE\ENVT\GestieRn.r) at line 4184
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\EXE\lprogv1a.p (d:\gidev\EXE\lprogv1a.r) at line 2106
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\EXE\lprogv10.p (d:\gidev\EXE\lprogv10.r) at line 899
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     LanceProg class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 5250
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     UltraExplorerBarMenuNiv2_ItemClick class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 8784
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\exe\Lancegi1.p (d:\gidev\exe\Lancegi1.r) at line 2918
+[19/06/05@19:34:19.295+0200] P-008248 T-013628 1 4GL --     d:\gidev\exe\lancegi0.p (d:\gidev\exe\lancegi0.r) at line 262
+[19/06/05@19:34:57.980+0200] P-008016 T-004644 1 4GL -- Logging level set to = 2
+[19/06/05@19:34:57.980+0200] P-008016 T-004644 1 4GL -- No entry types are activated
+[19/06/05@19:34:57.980+0200] P-008016 T-004644 1 4GL -- Log entry types activated: 4GLMessages
+[19/06/05@19:34:57.981+0200] P-008016 T-004644 1 4GL PROCGENE.P glDeveloppeur = yes
+[19/06/05@19:34:57.981+0200] P-008016 T-004644 1 4GL PROCGENE.P lUedit = yes
+[19/06/05@19:34:57.981+0200] P-008016 T-004644 1 4GL PROCGENE.P cUedit = C:\Program Files\IDM Computer Solutions\UltraEdit\Uedit64.exe
+[19/06/05@19:34:57.981+0200] P-008016 T-004644 1 4GL PROCGENE.P FOP_GI : DYNAMIQUE
+[19/06/05@19:34:57.981+0200] P-008016 T-004644 1 4GL PROCGENE.P i64Totale = 8310040
+[19/06/05@19:34:57.981+0200] P-008016 T-004644 1 4GL PROCGENE.P iMemoire = 8
+[19/06/05@19:34:57.983+0200] P-008016 T-004644 1 4GL PROCGENE.P iMemoireFop (Calculée) = 8192
+[19/06/05@19:34:57.987+0200] P-008016 T-004644 1 4GL PROCGENE.P FOP_GI : Copie du fichier fop_gi_dyn.bat en fop_gi.bat : OK
+[19/06/05@19:34:57.987+0200] P-008016 T-004644 1 4GL PROCGENE.P Version Windows 64 bits
+[19/06/05@19:34:58.300+0200] P-008016 T-004644 1 4GL PROCGENE.P Version Java 32 bits
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE Problème lors du test de génération des fichier PDF. Version Windows 64 bits et version Java 32 bits incompatibles
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE Les éditions PDF ne fonctionneront pas.
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE Contactez la Gestion Intégrale !
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE ** ABL Debug-Alert Stack Trace **
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE --> TestVersionJava64 d:\gidev\EXE\ProcGene.p (d:\gidev\EXE\ProcGene.r) at line 520
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\EXE\ProcGene.p (d:\gidev\EXE\ProcGene.r) at line 897
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancgi2a.p (d:\gidev\EXE\lancgi2a.r) at line 1914
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancegi2.p (d:\gidev\EXE\lancegi2.r) at line 899
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     validUtil class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 6791
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     newmenu_Load class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 7028
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\exe\Lancegi1.p (d:\gidev\exe\Lancegi1.r) at line 2918
+[19/06/05@19:34:58.301+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\exe\lancegi0.p (d:\gidev\exe\lancegi0.r) at line 262
+[19/06/05@19:35:02.895+0200] P-008016 T-004644 1 4GL PROCGENE.P Test FOP : !!! ECHOUE !!! - Voir les fichiers :
+[19/06/05@19:35:02.895+0200] P-008016 T-004644 1 4GL PROCGENE.P     cFicCommande = H:\dev\outils\progress\Menudev2\Sources.dev\testfop-INS-20190605-193501.bat
+[19/06/05@19:35:02.895+0200] P-008016 T-004644 1 4GL PROCGENE.P     cFicErreur1 = H:\dev\outils\progress\Menudev2\Sources.dev\testfop-ErrXML1-INS-20190605-193501.txt
+[19/06/05@19:35:02.896+0200] P-008016 T-004644 1 4GL PROCGENE.P     cFicErreur2 = H:\dev\outils\progress\Menudev2\Sources.dev\testfop-ErrXML2-INS-20190605-193501.txt
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE Problème lors du test de génération des fichier PDF. Le fichier de sortie n'a pas été généré
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE Les éditions PDF ne fonctionneront pas.
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE Contactez la Gestion Intégrale !
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE ** ABL Debug-Alert Stack Trace **
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE --> d:\gidev\EXE\ProcGene.p (d:\gidev\EXE\ProcGene.r) at line 905
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancgi2a.p (d:\gidev\EXE\lancgi2a.r) at line 1914
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\EXE\lancegi2.p (d:\gidev\EXE\lancegi2.r) at line 899
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     validUtil class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 6791
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     newmenu_Load class.newmenu (d:\gidev\EXE\class\newmenu.r) at line 7028
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\exe\Lancegi1.p (d:\gidev\exe\Lancegi1.r) at line 2918
+[19/06/05@19:35:02.897+0200] P-008016 T-004644 2 4GL 4GLMESSAGE     d:\gidev\exe\lancegi0.p (d:\gidev\exe\lancegi0.r) at line 262
+[19/06/05@19:35:04.571+0200] P-008016 T-004644 1 4GL VALIDUTIL  Lancement de l'application par INS
+[19/06/05@19:35:39.401+0200] P-008016 T-004644 1 4GL WINDSUP3.P windsup3.p suppression des OCX/PRC pour fermeture appli

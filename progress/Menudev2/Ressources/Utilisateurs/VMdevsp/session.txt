@@ -1,0 +1,7 @@
+Environnement :
+---------------
+    VERSION = 063
+    DEVUSR = VMdevsp
+    TEMP = C:\Users\devweb1\AppData\Local\Temp
+    TMP = C:\Users\devweb1\AppData\Local\Temp
+    DISQUE = d:\magi\

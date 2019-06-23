@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_critere2Recherche" path="/critere2Recherche" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/recherches/recherche/beCritere2Recherche.pidl::com.progress.openedge.pdt.bpmbindings" name="recherches.recherche.beCritere2Recherche..readbeCritere2Recherche" produces="application/json" verb="GET">
+      <prgs:param name="pcCritere" type="QUERY"/>
+    </prgs:operation>
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/recherches/recherche/beCritere2Recherche.pidl::com.progress.openedge.pdt.bpmbindings" name="recherches.recherche.beCritere2Recherche..updatebeCritere2Recherche" produces="application/json" verb="PUT">
+      <prgs:param name="pcCritere" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+  <prgs:resource consumes="application/json" name="_rechercheEtendue" path="/rechercheEtendue" produces="application/json">
+    <prgs:operation consumes="application/json" idls="magiController/.services/src/AppServer/recherches/recherche/recherche.pidl::com.progress.openedge.pdt.bpmbindings" name="recherches.recherche.recherche..rechercheEtendue" produces="application/json" verb="GET">
+      <prgs:param name="pcCritere" type="QUERY"/>
+      <prgs:param name="filter" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>

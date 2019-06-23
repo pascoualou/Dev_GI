@@ -1,0 +1,17 @@
+Environnement :
+---------------
+    VERSION = 063
+    DEVUSR = COMPIL
+    DISQUE = E:\
+    RESEAU = H:\
+    RESEAUBIS = 
+    PROVERSION = 10.2B
+    DLC = C:\Progress\OpenEdge
+    PROPATH = C:\Progress\OpenEdge\PROBUILD\EUCAPP,C:\Progress\OpenEdge\PROBUILD\EUCAPP\EUC.PL,h:\dev\outils\prog
+    ress,C:\Progress\OpenEdge,C:\Progress\OpenEdge\bin,C:\Progress\OpenEdge\src
+    REPGI = gidev
+    PATH = C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows
+    \System32\WindowsPowerShell\v1.0\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windo
+    ws\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Progress\OpenEdge;C:\Progress\OpenEdge\bin;h:
+    \dev\outils;C:\Program Files\IDM Computer Solutions\UltraEdit\
+    PROFILE_BLAT = Compil

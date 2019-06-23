@@ -1,0 +1,2 @@
+FOR EACH prefs WHERE cCode = "DERNIER-MODULE":
+DELETE prefs.

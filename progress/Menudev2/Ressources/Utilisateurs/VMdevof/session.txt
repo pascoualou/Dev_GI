@@ -1,0 +1,19 @@
+Environnement :
+---------------
+    VERSION = 053
+    DEVUSR = VMdevof
+    DISQUE = d:\magi\
+    RESEAU = h:\
+    RESEAUBIS = h:\
+    PROVERSION = 11.7
+    DLC = C:\dlc\oe117
+    PROPATH = .,h:\dev\outils\progress
+    REPGI = gi
+    PATH = ;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel
+    \iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v
+    1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) M
+    anagement Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Pro
+    gram Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;
+    C:\Program Files\TortoiseGit\bin;C:\Users\devweb1\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Cod
+    e\bin;C:\dlc\oe117\bin;h:\dev\outils
+    PROFILE_BLAT = SDEVWEB-T

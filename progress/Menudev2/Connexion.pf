@@ -1,0 +1,7 @@
+-h 11
+
+#-pf H:\dev\outils\progress\Menudev2\cnxGImndev.pf
+#-pf H:\dev\outils\progress\Menudev2\cnxGImndev-bases.pf
+
+-db gidata -N tcp -H barbade -S gidata
+
